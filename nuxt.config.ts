@@ -8,7 +8,10 @@ const locales = fs.readdirSync('locales')
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  "ssr": false,
+
   app: {
+    
     head: {
       title: 'Nightrunner',
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, { rel: 'preload', href: '/fonts/picoopic-Regular.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }, { rel: 'preload', href: '/fonts/picoopic-Bold.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }, { rel: 'preload', href: '/fonts/picoopic-ExtraBold.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }, { rel: 'preload', href: '/fonts/picoopic-Light.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }, { rel: 'preload', href: '/fonts/picoopic-Medium.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }, { rel: 'preload', href: '/fonts/picoopic-Thin.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }],
