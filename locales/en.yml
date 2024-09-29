@@ -6,7 +6,7 @@ main:
 about:
   title: About Nightrunner
   summary: >-
-    Nightrunner is a simple, fast, and ready to use starter template for Nuxt 3.
+    Nightrunner is a simple, fast, and ready-to-use starter template for Nuxt 3.
     It features the necessary tools to get you started immediately on your next project.
   features: 'Nightrunner uses the following technologies:'
   config: >-
@@ -15,3 +15,74 @@ about:
 theme:
   dark: Dark
   light: Light
+index:
+  roadmap:
+    title: Roadmap
+    description: A detailed guide to the biosensor development roadmap.
+    phase1:
+      title: "Phase 1 - Research"
+      description: "Conduct comprehensive research on biosensor technologies."
+    phase2:
+      title: "Phase 2 - Design"
+      description: "Develop initial designs for the biosensor system."
+    phase3:
+      title: "Phase 3 - Development"
+      description: "Begin full-scale development of the biosensor prototype."
+    phase4:
+      title: "Phase 4 - Testing"
+      description: "Perform rigorous testing on the biosensor to ensure functionality."
+  resources:
+    title: "Resources"
+    description: "Access key resources to help you stay ahead in biosensor technology."
+    items:
+      documentation:
+        title: "Documentation"
+        description: "Comprehensive docs on biosensor technology."
+      tutorials:
+        title: "Tutorials"
+        description: "Step-by-step guides on using biosensors."
+      api:
+        title: "APIs"
+        description: "Access to biosensor-related APIs and tools."
+      datasets:
+        title: "Data Sets"
+        description: "Download biosensor data for analysis."
+    table:
+      columns:
+        name: "Resource Name"
+        type: "Type"
+        link: "Link"
+      rows:
+        nuxtGuide:
+          name: "Nuxt 3 Guide"
+          type: "Documentation"
+          link: "Visit"
+        biosensorApi:
+          name: "Biosensor API"
+          type: "API"
+          link: "Access"
+  news:
+    title: "News"
+    description: "Stay updated with the latest news and breakthroughs."
+    items:
+      breakthrough:
+        title: "New Breakthrough in Biosensor Technology"
+        description: "Scientists have discovered a faster way to enhance biosensor sensitivity..."
+        link: "Read More"
+      newSensor:
+        title: "Next Generation Biosensors"
+        description: "A new generation of biosensors is on the horizon, offering higher sensitivity..."
+        link: "Learn More"
+
+  grants:
+    title: "Grants"
+    description: "Find out about the latest grant opportunities for research."
+    items:
+      researchGrant:
+        title: "Research Grant"
+        description: "This grant supports scientific research on biosensor technology."
+        link: "Apply Now"
+      innovationGrant:
+        title: "Innovation Grant"
+        description: "This grant supports innovative startups in the biosensor field."
+        link: "Learn More"

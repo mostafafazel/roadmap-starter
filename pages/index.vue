@@ -1,17 +1,52 @@
-<script lang="ts" setup>
-const { t } = useCustomI18n()
-</script>
-
 <template>
-  <h1 class="title">
-    {{ t('main.title') }}
-  </h1>
-  <span class="flex-center flex-row gap-5">
-    <NuxtLinkLocale to="/about" class="btn">
-      {{ t('global.about') }}
-    </NuxtLinkLocale>
-    <NuxtLinkLocale to="/sample" class="btn">
-      {{ t('global.sample') }}
-    </NuxtLinkLocale>
-  </span>
+  <div class="container top-[10vh] relative">
+    <h1 class="title my-8 mx-2 text-align-center text-2xl md:text-6xl">
+      {{ t('main.title') }}
+    </h1>
+
+    <!-- Responsive 2x2 grid layout -->
+    <div class="mx-8 grid grid-cols-1 md:grid-cols-2 gap-8 top-28">
+      <NuxtLink :to="localizedPath('/roadmap')">
+        <Hero
+          icon="i-carbon-roadmap"
+          :title="t('index.roadmap.title')"
+          :description="t('index.roadmap.description')"
+        />
+      </NuxtLink>
+
+      <NuxtLink :to="localizedPath('/resources')">
+        <Hero
+          icon="i-solar-book-bookmark-outline"
+          :title="t('index.resources.title')"
+          :description="t('index.resources.description')"
+        />
+      </NuxtLink>
+
+      <NuxtLink :to="localizedPath('/news')">
+        <Hero
+          icon="i-solar-bill-list-bold"
+          :title="t('index.news.title')"
+          :description="t('index.news.description')"
+        />
+      </NuxtLink>
+
+      <NuxtLink :to="localizedPath('/grants')">
+        <Hero
+          icon="i-solar-wallet-money-bold"
+          :title="t('index.grants.title')"
+          :description="t('index.grants.description')"
+        />
+      </NuxtLink>
+    </div>
+  </div>
 </template>
+
+<script lang="ts" setup>
+const { t, locale } = useCustomI18n()
+const route = useRoute()
+
+// Helper function to generate the localized path
+const localizedPath = (path: string) => {
+  return locale.value === 'fa' ? path : `/${locale.value}${path}`
+}
+</script>

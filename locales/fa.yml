@@ -1,0 +1,34 @@
+global:
+  about: درباره
+  sample: نمونه
+main:
+  title: خوش آمدید، نایت‌رانر
+about:
+  title: درباره نایت‌رانر
+  summary: >-
+    نایت‌رانر یک قالب آماده و سریع برای شروع پروژه‌های شما در Nuxt 3 است.
+    این قالب ابزارهای مورد نیاز برای شروع سریع پروژه شما را فراهم می‌کند.
+  features: 'نایت‌رانر از تکنولوژی‌های زیر استفاده می‌کند:'
+  config: >-
+    علاوه بر این، شامل راهکارهای کمکی برای محلی‌سازی،
+    طرح‌های رنگی، و همچنین پیکربندی مناسب برای ESLint و VSCode می‌باشد.
+theme:
+  dark: تاریک
+  light: روشن
+index:
+  roadmap:
+    title: نقشه راه
+    description: یک راهنمای جامع برای توسعه نقشه راه بیوسنسور.
+    icon: i-carbon-roadmap
+  resources:
+    title: منابع
+    description: دسترسی به منابع کلیدی برای پیشرفت در تکنولوژی بیوسنسور.
+    icon: i-solar-book-bookmark-outline
+  news:
+    title: اخبار
+    description: به‌روز باشید با آخرین اخبار و پیشرفت‌ها.
+    icon: i-solar-bill-list-bold
+  grants:
+    title: کمک‌های مالی
+    description: از آخرین فرصت‌های مالی برای تحقیقات مطلع شوید.
+    icon: i-solar-wallet-money-bold

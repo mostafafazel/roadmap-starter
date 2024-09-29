@@ -11,23 +11,29 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'Nightrunner',
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, { rel: 'preload', href: '/fonts/picoopic-Regular.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }, { rel: 'preload', href: '/fonts/picoopic-Bold.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }, { rel: 'preload', href: '/fonts/picoopic-ExtraBold.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }, { rel: 'preload', href: '/fonts/picoopic-Light.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }, { rel: 'preload', href: '/fonts/picoopic-Medium.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }, { rel: 'preload', href: '/fonts/picoopic-Thin.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }],
+
     },
   },
+
   imports: { // add folders here to auto-import them in your application
     dirs: [
       'stores',
       'composables/**',
     ],
   },
+
   components: [{ path: '~/components', pathPrefix: false }],
+
   typescript: {
-    tsConfig: {
-      compilerOptions: {
-        moduleResolution: 'bundler',
-      },
-    },
+    strict: false,
+    // tsConfig: {
+    //   compilerOptions: {
+    //     moduleResolution: 'bundler',
+    //   },
+    // },
   },
+
   vite: {
     vue: {
       script: {
@@ -36,6 +42,7 @@ export default defineNuxtConfig({
       },
     },
   },
+
   experimental: {
     typedPages: true,
   },
@@ -50,19 +57,21 @@ export default defineNuxtConfig({
   ],
 
   // plugin configurations
-  modules: [
-    '@nuxtjs/i18n',
-    '@vueuse/nuxt',
-    '@unocss/nuxt',
-    '@nuxtjs/critters',
-    '@nuxtjs/color-mode',
-    '@pinia/nuxt',
-  ],
+  modules: ['@nuxtjs/i18n', '@vueuse/nuxt', '@unocss/nuxt', '@nuxtjs/critters', '@nuxtjs/color-mode', '@pinia/nuxt', '@nuxt/fonts', 'nuxt-swiper', '@vite-pwa/nuxt'],
+  // swiper: {
+  //   // Swiper options
+  //   //----------------------
+  //   // prefix: 'Swiper',
+  //   // styleLang: 'css',
+  //   // modules: ['navigation', 'pagination'], // all modules are imported by default
+  // },
+
   i18n: {
     langDir: 'locales',
-    defaultLocale: 'en',
+    defaultLocale: 'fa',
     locales,
   },
+
   colorMode: {
     preference: 'system',
     fallback: 'light',
@@ -70,4 +79,29 @@ export default defineNuxtConfig({
     classSuffix: '',
     storageKey: 'color-scheme',
   },
+
+  // compatibilityDate: '2024-09-06',
+
+  fonts: {
+    families: [
+      {
+        name: 'Picoopic',
+        src: [
+          { url: '/fonts/picoopic-Regular.woff2', weight: '400', style: 'normal' },
+          { url: '/fonts/picoopic-Bold.woff2', weight: '700', style: 'normal' },
+          { url: '/fonts/picoopic-ExtraBold.woff2', weight: '800', style: 'normal' },
+          { url: '/fonts/picoopic-Light.woff2', weight: '300', style: 'normal' },
+          { url: '/fonts/picoopic-Medium.woff2', weight: '500', style: 'normal' },
+          { url: '/fonts/picoopic-Thin.woff2', weight: '100', style: 'normal' },
+        ],
+      },
+    ],
+  },
+
+  devtools: {
+    enabled: true,
+  },
+  // pwa:{
+
+  // }
 })
