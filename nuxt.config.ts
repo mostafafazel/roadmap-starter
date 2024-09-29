@@ -8,8 +8,6 @@ const locales = fs.readdirSync('locales')
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  "ssr": false,
-
   app: {
     
     head: {
@@ -104,7 +102,7 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
-  // pwa:{
+  pwa:{
 
-  // }
+  }
 })
