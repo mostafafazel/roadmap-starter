@@ -1,1 +1,18 @@
-export { default } from "file:///Users/mamthenebo/Me/Help/fuz/roadmap-starter/node_modules/.pnpm/@nuxt+vite-builder@3.11.2_@types+node@22.7.4_eslint@9.11.1_jiti@2.0.0__optionator@0.9.3_rollu_5cpilutpoqwl2zmx7msfkou5zy/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export default {
+  "@vite/client": {
+    "prefetch": true,
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/node_modules/.pnpm/nuxt@3.11.2_@parcel+watcher@2.4.1_@types+node@22.7.4_@unocss+reset@0.59.0_encoding@0.1.13_esl_45yngwq3z4zjbylya7fzh22pdy/node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "isEntry": true,
+    "file": "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/node_modules/.pnpm/nuxt@3.11.2_@parcel+watcher@2.4.1_@types+node@22.7.4_@unocss+reset@0.59.0_encoding@0.1.13_esl_45yngwq3z4zjbylya7fzh22pdy/node_modules/nuxt/dist/app/entry.js"
+  }
+}

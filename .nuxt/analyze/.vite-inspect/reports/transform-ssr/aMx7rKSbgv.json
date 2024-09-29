@@ -1,0 +1,364 @@
+{
+  "resolvedId": "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/roadmap.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script lang=\"ts\" setup>\nconst { t } = useI18n()\n\ndefinePageMeta({\n  layout: 'centercard',\n})\n\nuseHead({\n  title: `${t('index.roadmap.title')} • Nightrunner`,\n})\n</script>\n\n<template>\n  <div class=\"text-center mb-5\">\n    <h1 class=\"title text-4xl font-bold mb-8 dark:text-white\">\n      {{ t('index.roadmap.title') }}\n    </h1>\n  </div>\n\n  <div>\n    <p class=\"text-lg mb-8 dark:text-gray-300\">\n      {{ t('index.roadmap.description') }}\n    </p>\n\n    <!-- Roadmap Timeline -->\n    <div class=\"roadmap relative border-l border-gray-200 dark:border-gray-700\">\n      <div class=\"mb-1 rounded-lg cursor-pointer cursor-pointer border-transparent border-[0.1px] hover:border-teal/50 ml-6 flex flex-row gap-4 bg-transparent hover:bg-gray/10 p-4\">\n        <span class=\"flex items-center justify-center w-12 h-12 bg-blue-100 rounded-lg p-1 -left-4 dark:bg-blue-800 \">\n          <i class=\"i-carbon-roadmap text-blue-500 text-2xl\"></i>\n        </span>\n        <div class=\"flex flex-col\">\n\n        <h3 class=\"text-lg font-semibold text-nowrap text-gray-900 dark:text-gray-100\">\n          {{ t('index.roadmap.phase1.title') }}\n        </h3>\n        <p class=\"text-base font-normal text-gray-500 dark:text-gray-400\">\n          {{ t('index.roadmap.phase1.description') }}\n        </p>\n        </div>\n      </div>\n      <div class=\"mb-1 rounded-lg cursor-pointer cursor-pointer border-transparent border-[0.1px] hover:border-teal/50 ml-6 flex flex-row gap-4 bg-transparent hover:bg-gray/10 p-4\">\n        <span class=\"flex items-center justify-center w-12 h-12 bg-yellow-100 rounded-lg p-1 -left-4 dark:bg-yellow-800\">\n          <i class=\"i-carbon-cics-sit-overrides text-yellow-500 text-2xl\"></i>\n        </span>\n        <div class=\"flex flex-col\">\n\n        <h3 class=\"text-lg font-semibold text-nowrap text-gray-900 dark:text-gray-100\">\n          {{ t('index.roadmap.phase2.title') }}\n        </h3>\n        <p class=\"text-base font-normal text-gray-500 dark:text-gray-400\">\n          {{ t('index.roadmap.phase2.description') }}\n        </p>\n        </div>\n      </div>\n      <div class=\"mb-1 rounded-lg cursor-pointer cursor-pointer border-transparent border-[0.1px] hover:border-teal/50 ml-6 flex flex-row gap-4 bg-transparent hover:bg-gray/10 p-4\">\n        <span class=\"flex items-center justify-center w-12 h-12 bg-green-100 rounded-lg p-1 -left-4 dark:bg-green-800\">\n          <i class=\"i-carbon-development text-green-500 text-2xl\"></i>\n        </span>\n        <div class=\"flex flex-col\">\n\n        <h3 class=\"text-lg font-semibold text-nowrap text-gray-900 dark:text-gray-100\">\n          {{ t('index.roadmap.phase3.title') }}\n        </h3>\n        <p class=\"text-base font-normal text-gray-500 dark:text-gray-400\">\n          {{ t('index.roadmap.phase3.description') }}\n        </p>\n        </div>\n      </div>\n      <div class=\"mb-1 rounded-lg cursor-pointer cursor-pointer border-transparent border-[0.1px] hover:border-teal/50 ml-6 flex flex-row gap-4 bg-transparent hover:bg-gray/10 p-4\">\n        <span class=\"flex items-center justify-center w-12 h-12 bg-red-100 rounded-lg p-1 -left-4 dark:bg-red-800\">\n          <i class=\"i-carbon-test-tool text-red-500 text-2xl\"></i>\n        </span>\n<div class=\"flex flex-col\">\n    <h3 class=\"text-lg font-semibold text-nowrap text-gray-900 dark:text-gray-100\">\n          {{ t('index.roadmap.phase4.title') }}\n        </h3>\n        <p class=\"text-base font-normal text-gray-500 dark:text-gray-400\">\n          {{ t('index.roadmap.phase4.description') }}\n        </p>\n\n</div>\n    </div>\n    </div>\n  </div>\n</template>\n",
+      "start": 1727610130430,
+      "end": 1727610130473,
+      "sourcemaps": null
+    },
+    {
+      "name": "unocss:transformers:pre",
+      "start": 1727610130473,
+      "end": 1727610130473,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:transformers:pre",
+      "start": 1727610130473,
+      "end": 1727610130473,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:global:build:scan",
+      "start": 1727610130473,
+      "end": 1727610130473,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:global:build:scan",
+      "start": 1727610130473,
+      "end": 1727610130474,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1727610130474,
+      "end": 1727610130474,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1727610130474,
+      "end": 1727610130474,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1727610130474,
+      "end": 1727610130474,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1727610130474,
+      "end": 1727610130474,
+      "order": "pre"
+    },
+    {
+      "name": "unplugin-vue-i18n",
+      "start": 1727610130474,
+      "end": 1727610130474,
+      "order": "pre"
+    },
+    {
+      "name": "unplugin-vue-i18n",
+      "start": 1727610130474,
+      "end": 1727610130474,
+      "order": "pre"
+    },
+    {
+      "name": "nuxtjs:i18n-macros-transform",
+      "start": 1727610130474,
+      "end": 1727610130474,
+      "order": "pre"
+    },
+    {
+      "name": "nuxtjs:i18n-macros-transform",
+      "start": 1727610130474,
+      "end": 1727610130474,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1727610130474,
+      "end": 1727610130474,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1727610130474,
+      "end": 1727610130474,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1727610130474,
+      "end": 1727610130474,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1727610130474,
+      "end": 1727610130474,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1727610130474,
+      "end": 1727610130474,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1727610130474,
+      "end": 1727610130474,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/roadmap.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/roadmap.vue?vue&type=script&setup=true&lang.ts\";\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"pages/roadmap.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nexport default _sfc_main;\n",
+      "start": 1727610130474,
+      "end": 1727610130676,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:undefined",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:undefined",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:post",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "post"
+    },
+    {
+      "name": "unocss:transformers:post",
+      "start": 1727610130676,
+      "end": 1727610130676,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1727610130677,
+      "end": 1727610130677,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1727610130677,
+      "end": 1727610130677,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-resource",
+      "start": 1727610130677,
+      "end": 1727610130677,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-resource",
+      "start": 1727610130677,
+      "end": 1727610130677,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-meta-deprecation",
+      "start": 1727610130677,
+      "end": 1727610130677,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-meta-deprecation",
+      "start": 1727610130677,
+      "end": 1727610130677,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1727610130677,
+      "end": 1727610130677,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1727610130677,
+      "end": 1727610130677,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1727610130677,
+      "end": 1727610130677,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1727610130677,
+      "end": 1727610130677,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1727610130678,
+      "end": 1727610130678,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1727610130678,
+      "end": 1727610130678,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1727610130678,
+      "end": 1727610130678,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1727610130678,
+      "end": 1727610130678,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1727610130678,
+      "end": 1727610130678,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1727610130678,
+      "end": 1727610130678,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1727610130678,
+      "end": 1727610130678,
+      "order": "normal"
+    }
+  ]
+}

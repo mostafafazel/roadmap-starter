@@ -1,0 +1,390 @@
+{
+  "resolvedId": "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/composables/locale/useCustomI18n.ts",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import type { UseI18nOptions } from 'vue-i18n'\n\nexport default function useCustomI18n(options?: UseI18nOptions) {\n  const router = useRouter()\n  const i18n = useI18n(options)\n  const switchLocalePath = useSwitchLocalePath()\n  const locale = useLocale()\n  syncRef(i18n.locale, locale)\n\n  watch(locale, (value, previous) => {\n    if (value === previous) return\n    const path = switchLocalePath(value)\n    router.replace(path)\n  })\n\n  return i18n\n}\n",
+      "start": 1727610130914,
+      "end": 1727610130914,
+      "sourcemaps": null
+    },
+    {
+      "name": "unocss:transformers:pre",
+      "start": 1727610130914,
+      "end": 1727610130914,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:transformers:pre",
+      "start": 1727610130914,
+      "end": 1727610130914,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:global:build:scan",
+      "start": 1727610130914,
+      "end": 1727610130914,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:global:build:scan",
+      "start": 1727610130914,
+      "end": 1727610130914,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1727610130914,
+      "end": 1727610130914,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1727610130914,
+      "end": 1727610130914,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1727610130914,
+      "end": 1727610130914,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1727610130914,
+      "end": 1727610130914,
+      "order": "pre"
+    },
+    {
+      "name": "unplugin-vue-i18n",
+      "start": 1727610130914,
+      "end": 1727610130914,
+      "order": "pre"
+    },
+    {
+      "name": "unplugin-vue-i18n",
+      "start": 1727610130914,
+      "end": 1727610130914,
+      "order": "pre"
+    },
+    {
+      "name": "nuxtjs:i18n-macros-transform",
+      "start": 1727610130914,
+      "end": 1727610130914,
+      "order": "pre"
+    },
+    {
+      "name": "nuxtjs:i18n-macros-transform",
+      "start": 1727610130914,
+      "end": 1727610130914,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1727610130914,
+      "end": 1727610130914,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1727610130914,
+      "end": 1727610130914,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1727610130914,
+      "end": 1727610130914,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "export default function useCustomI18n(options) {\n  const router = useRouter();\n  const i18n = useI18n(options);\n  const switchLocalePath = useSwitchLocalePath();\n  const locale = useLocale();\n  syncRef(i18n.locale, locale);\n  watch(locale, (value, previous) => {\n    if (value === previous)\n      return;\n    const path = switchLocalePath(value);\n    router.replace(path);\n  });\n  return i18n;\n}\n",
+      "start": 1727610130914,
+      "end": 1727610131231,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/composables/locale/useCustomI18n.ts"
+        ],
+        "sourcesContent": [
+          "import type { UseI18nOptions } from 'vue-i18n'\n\nexport default function useCustomI18n(options?: UseI18nOptions) {\n  const router = useRouter()\n  const i18n = useI18n(options)\n  const switchLocalePath = useSwitchLocalePath()\n  const locale = useLocale()\n  syncRef(i18n.locale, locale)\n\n  watch(locale, (value, previous) => {\n    if (value === previous) return\n    const path = switchLocalePath(value)\n    router.replace(path)\n  })\n\n  return i18n\n}\n"
+        ],
+        "mappings": "AAEA,wBAAwB,cAAc,SAA0B;AAC9D,QAAM,SAAS,UAAU;AACzB,QAAM,OAAO,QAAQ,OAAO;AAC5B,QAAM,mBAAmB,oBAAoB;AAC7C,QAAM,SAAS,UAAU;AACzB,UAAQ,KAAK,QAAQ,MAAM;AAE3B,QAAM,QAAQ,CAAC,OAAO,aAAa;AACjC,QAAI,UAAU;AAAU;AACxB,UAAM,OAAO,iBAAiB,KAAK;AACnC,WAAO,QAAQ,IAAI;AAAA,EACrB,CAAC;AAED,SAAO;AACT;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:undefined",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:undefined",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:post",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "post"
+    },
+    {
+      "name": "unocss:transformers:post",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1727610131231,
+      "end": 1727610131231,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-resource",
+      "start": 1727610131232,
+      "end": 1727610131232,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-resource",
+      "start": 1727610131232,
+      "end": 1727610131232,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-meta-deprecation",
+      "start": 1727610131232,
+      "end": 1727610131232,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-meta-deprecation",
+      "start": 1727610131232,
+      "end": 1727610131232,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "result": "import { useRouter } from '#app/composables/router';\nimport { useI18n } from '/Users/mamthenebo/Me/Help/fuz/roadmap-starter/node_modules/.pnpm/vue-i18n@9.9.1_vue@3.4.21_typescript@5.6.2_/node_modules/vue-i18n/dist/vue-i18n.mjs';\nimport { useSwitchLocalePath } from '/Users/mamthenebo/Me/Help/fuz/roadmap-starter/node_modules/.pnpm/@nuxtjs+i18n@8.3.0_rollup@4.14.1_vue@3.4.21_typescript@5.6.2_/node_modules/@nuxtjs/i18n/dist/runtime/composables/index';\nimport useLocale from '/Users/mamthenebo/Me/Help/fuz/roadmap-starter/composables/locale/useLocale.ts';\nimport { syncRef } from '@vueuse/core';\nimport { watch } from 'vue';\nexport default function useCustomI18n(options) {\n  const router = useRouter();\n  const i18n = useI18n(options);\n  const switchLocalePath = useSwitchLocalePath();\n  const locale = useLocale();\n  syncRef(i18n.locale, locale);\n  watch(locale, (value, previous) => {\n    if (value === previous)\n      return;\n    const path = switchLocalePath(value);\n    router.replace(path);\n  });\n  return i18n;\n}\n",
+      "start": 1727610131232,
+      "end": 1727610131232,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": ";;;;;;AAAA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzB,CAAC,CAAC,CAAC,CAAC,CAAC;AACL,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACd,CAAC;"
+      }
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "result": "import { useRouter } from '#app/composables/router';\nimport { useI18n } from '/Users/mamthenebo/Me/Help/fuz/roadmap-starter/node_modules/.pnpm/vue-i18n@9.9.1_vue@3.4.21_typescript@5.6.2_/node_modules/vue-i18n/dist/vue-i18n.mjs';\nimport { useSwitchLocalePath } from '/Users/mamthenebo/Me/Help/fuz/roadmap-starter/node_modules/.pnpm/@nuxtjs+i18n@8.3.0_rollup@4.14.1_vue@3.4.21_typescript@5.6.2_/node_modules/@nuxtjs/i18n/dist/runtime/composables/index';\nimport useLocale from '/Users/mamthenebo/Me/Help/fuz/roadmap-starter/composables/locale/useLocale.ts';\nimport { syncRef } from '@vueuse/core';\nimport { watch } from 'vue';\nexport default function useCustomI18n(options) {\n  const router = useRouter();\n  const i18n = useI18n(options);\n  const switchLocalePath = useSwitchLocalePath();\n  const locale = useLocale();\n  syncRef(i18n.locale, locale);\n  watch(locale, (value, previous) => {\n    if (value === previous)\n      return;\n    const path = switchLocalePath(value);\n    router.replace(path);\n  });\n  return i18n;\n}\n",
+      "start": 1727610131232,
+      "end": 1727610131232,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": ";;;;;;AAAA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzB,CAAC,CAAC,CAAC,CAAC,CAAC;AACL,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACd,CAAC;"
+      }
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1727610131232,
+      "end": 1727610131232,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1727610131232,
+      "end": 1727610131232,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1727610131232,
+      "end": 1727610131232,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1727610131232,
+      "end": 1727610131232,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1727610131232,
+      "end": 1727610131232,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1727610131232,
+      "end": 1727610131232,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1727610131232,
+      "end": 1727610131232,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1727610131232,
+      "end": 1727610131232,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1727610131232,
+      "end": 1727610131232,
+      "order": "normal"
+    }
+  ]
+}

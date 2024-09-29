@@ -1,0 +1,381 @@
+{
+  "resolvedId": "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/utils/locales.ts",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "const localesFolder = '../locales/'\nconst ymlLocales: [string, any][] = Object.entries(import.meta.glob('../locales/*.yml', { eager: true }))\nconst yamlLocales: [string, any][] = Object.entries(import.meta.glob('../locales/*.yaml', { eager: true }))\nconst jsonLocales: [string, any][] = Object.entries(import.meta.glob('../locales/*.json', { eager: true }))\n\nfunction getLocaleEntries(locales: [string, any][], extension: string): [string, any][] {\n  return locales.map(([key, value]) => {\n    return [key.slice(localesFolder.length, -`.${extension}`.length), value.default]\n  })\n}\n\nexport const messages = Object.fromEntries([\n  ...getLocaleEntries(ymlLocales, 'yml'),\n  ...getLocaleEntries(yamlLocales, 'yaml'),\n  ...getLocaleEntries(jsonLocales, 'json'),\n])\n\nexport const availableLocales = Object.keys(messages)\n",
+      "start": 1727610130966,
+      "end": 1727610130982,
+      "sourcemaps": null
+    },
+    {
+      "name": "unocss:transformers:pre",
+      "start": 1727610130982,
+      "end": 1727610130982,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:transformers:pre",
+      "start": 1727610130982,
+      "end": 1727610130982,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:global:build:scan",
+      "start": 1727610130982,
+      "end": 1727610130982,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:global:build:scan",
+      "start": 1727610130982,
+      "end": 1727610130982,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1727610130982,
+      "end": 1727610130982,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1727610130982,
+      "end": 1727610130982,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1727610130982,
+      "end": 1727610130982,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1727610130982,
+      "end": 1727610130982,
+      "order": "pre"
+    },
+    {
+      "name": "unplugin-vue-i18n",
+      "start": 1727610130982,
+      "end": 1727610130982,
+      "order": "pre"
+    },
+    {
+      "name": "unplugin-vue-i18n",
+      "start": 1727610130982,
+      "end": 1727610130982,
+      "order": "pre"
+    },
+    {
+      "name": "nuxtjs:i18n-macros-transform",
+      "start": 1727610130982,
+      "end": 1727610130982,
+      "order": "pre"
+    },
+    {
+      "name": "nuxtjs:i18n-macros-transform",
+      "start": 1727610130982,
+      "end": 1727610130982,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1727610130982,
+      "end": 1727610130982,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1727610130982,
+      "end": 1727610130982,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1727610130982,
+      "end": 1727610130982,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "const localesFolder = \"../locales/\";\nconst ymlLocales = Object.entries(import.meta.glob(\"../locales/*.yml\", { eager: true }));\nconst yamlLocales = Object.entries(import.meta.glob(\"../locales/*.yaml\", { eager: true }));\nconst jsonLocales = Object.entries(import.meta.glob(\"../locales/*.json\", { eager: true }));\nfunction getLocaleEntries(locales, extension) {\n  return locales.map(([key, value]) => {\n    return [key.slice(localesFolder.length, -`.${extension}`.length), value.default];\n  });\n}\nexport const messages = Object.fromEntries([\n  ...getLocaleEntries(ymlLocales, \"yml\"),\n  ...getLocaleEntries(yamlLocales, \"yaml\"),\n  ...getLocaleEntries(jsonLocales, \"json\")\n]);\nexport const availableLocales = Object.keys(messages);\n",
+      "start": 1727610130982,
+      "end": 1727610131348,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/utils/locales.ts"
+        ],
+        "sourcesContent": [
+          "const localesFolder = '../locales/'\nconst ymlLocales: [string, any][] = Object.entries(import.meta.glob('../locales/*.yml', { eager: true }))\nconst yamlLocales: [string, any][] = Object.entries(import.meta.glob('../locales/*.yaml', { eager: true }))\nconst jsonLocales: [string, any][] = Object.entries(import.meta.glob('../locales/*.json', { eager: true }))\n\nfunction getLocaleEntries(locales: [string, any][], extension: string): [string, any][] {\n  return locales.map(([key, value]) => {\n    return [key.slice(localesFolder.length, -`.${extension}`.length), value.default]\n  })\n}\n\nexport const messages = Object.fromEntries([\n  ...getLocaleEntries(ymlLocales, 'yml'),\n  ...getLocaleEntries(yamlLocales, 'yaml'),\n  ...getLocaleEntries(jsonLocales, 'json'),\n])\n\nexport const availableLocales = Object.keys(messages)\n"
+        ],
+        "mappings": "AAAA,MAAM,gBAAgB;AACtB,MAAM,aAA8B,OAAO,QAAQ,YAAY,KAAK,oBAAoB,EAAE,OAAO,KAAK,CAAC,CAAC;AACxG,MAAM,cAA+B,OAAO,QAAQ,YAAY,KAAK,qBAAqB,EAAE,OAAO,KAAK,CAAC,CAAC;AAC1G,MAAM,cAA+B,OAAO,QAAQ,YAAY,KAAK,qBAAqB,EAAE,OAAO,KAAK,CAAC,CAAC;AAE1G,SAAS,iBAAiB,SAA0B,WAAoC;AACtF,SAAO,QAAQ,IAAI,CAAC,CAAC,KAAK,KAAK,MAAM;AACnC,WAAO,CAAC,IAAI,MAAM,cAAc,QAAQ,CAAC,IAAI,SAAS,GAAG,MAAM,GAAG,MAAM,OAAO;AAAA,EACjF,CAAC;AACH;AAEO,aAAM,WAAW,OAAO,YAAY;AAAA,EACzC,GAAG,iBAAiB,YAAY,KAAK;AAAA,EACrC,GAAG,iBAAiB,aAAa,MAAM;AAAA,EACvC,GAAG,iBAAiB,aAAa,MAAM;AACzC,CAAC;AAEM,aAAM,mBAAmB,OAAO,KAAK,QAAQ;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:undefined",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:undefined",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1727610131348,
+      "end": 1727610131348,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "result": "import * as __vite_glob_0_0 from \"../locales/en.yml\";import * as __vite_glob_0_1 from \"../locales/fa.yml\";import * as __vite_glob_0_2 from \"../locales/fr.yml\";import * as __vite_glob_0_3 from \"../locales/jp.yml\";const localesFolder = \"../locales/\";\nconst ymlLocales = Object.entries(/* #__PURE__ */ Object.assign({\"../locales/en.yml\": __vite_glob_0_0,\"../locales/fa.yml\": __vite_glob_0_1,\"../locales/fr.yml\": __vite_glob_0_2,\"../locales/jp.yml\": __vite_glob_0_3}));\nconst yamlLocales = Object.entries(/* #__PURE__ */ Object.assign({}));\nconst jsonLocales = Object.entries(/* #__PURE__ */ Object.assign({}));\nfunction getLocaleEntries(locales, extension) {\n  return locales.map(([key, value]) => {\n    return [key.slice(localesFolder.length, -`.${extension}`.length), value.default];\n  });\n}\nexport const messages = Object.fromEntries([\n  ...getLocaleEntries(ymlLocales, \"yml\"),\n  ...getLocaleEntries(yamlLocales, \"yaml\"),\n  ...getLocaleEntries(jsonLocales, \"json\")\n]);\nexport const availableLocales = Object.keys(messages);\n",
+      "start": 1727610131348,
+      "end": 1727610131364,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/utils/locales.ts"
+        ],
+        "names": [],
+        "mappings": "oNAAA,KAAK,CAAC,aAAa,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,OAAO,CAAC,CAAC,CAAC;AACpC,KAAK,CAAC,UAAU,CAAC,CAAC,CAAC,MAAM,CAAC,OAAO,CAAC,oLAAqD,CAAC,CAAC;AACzF,KAAK,CAAC,WAAW,CAAC,CAAC,CAAC,MAAM,CAAC,OAAO,CAAC,iCAAsD,CAAC,CAAC;AAC3F,KAAK,CAAC,WAAW,CAAC,CAAC,CAAC,MAAM,CAAC,OAAO,CAAC,iCAAsD,CAAC,CAAC;AAC3F,QAAQ,CAAC,gBAAgB,CAAC,OAAO,CAAC,CAAC,SAAS,CAAC,CAAC,CAAC;AAC/C,CAAC,CAAC,MAAM,CAAC,OAAO,CAAC,GAAG,CAAC,CAAC,CAAC,GAAG,CAAC,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACxC,CAAC,CAAC,CAAC,CAAC,MAAM,CAAC,CAAC,GAAG,CAAC,KAAK,CAAC,aAAa,CAAC,MAAM,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,SAAS,CAAC,CAAC,CAAC,MAAM,CAAC,CAAC,CAAC,KAAK,CAAC,OAAO,CAAC,CAAC;AACrF,CAAC,CAAC,CAAC,CAAC,CAAC;AACL,CAAC;AACD,MAAM,CAAC,KAAK,CAAC,QAAQ,CAAC,CAAC,CAAC,MAAM,CAAC,WAAW,CAAC,CAAC;AAC5C,CAAC,CAAC,CAAC,CAAC,CAAC,gBAAgB,CAAC,UAAU,CAAC,CAAC,CAAC,GAAG,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,gBAAgB,CAAC,WAAW,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC;AAC3C,CAAC,CAAC,CAAC,CAAC,CAAC,gBAAgB,CAAC,WAAW,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC;AAC1C,CAAC,CAAC,CAAC;AACH,MAAM,CAAC,KAAK,CAAC,gBAAgB,CAAC,CAAC,CAAC,MAAM,CAAC,IAAI,CAAC,QAAQ,CAAC,CAAC;"
+      }
+    },
+    {
+      "name": "unocss:transformers:post",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "unocss:transformers:post",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-resource",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-resource",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-meta-deprecation",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-meta-deprecation",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1727610131364,
+      "end": 1727610131364,
+      "order": "normal"
+    }
+  ]
+}

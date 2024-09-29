@@ -1,0 +1,377 @@
+{
+  "resolvedId": "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/node_modules/.pnpm/swiper@10.3.1/node_modules/swiper/modules/scrollbar.css",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": ":root {\n  /*\n  --swiper-scrollbar-border-radius: 10px;\n  --swiper-scrollbar-top: auto;\n  --swiper-scrollbar-bottom: 4px;\n  --swiper-scrollbar-left: auto;\n  --swiper-scrollbar-right: 4px;\n  --swiper-scrollbar-sides-offset: 1%;\n  --swiper-scrollbar-bg-color: rgba(0, 0, 0, 0.1);\n  --swiper-scrollbar-drag-bg-color: rgba(0, 0, 0, 0.5);\n  --swiper-scrollbar-size: 4px;\n  */\n}\n.swiper-scrollbar {\n  border-radius: var(--swiper-scrollbar-border-radius, 10px);\n  position: relative;\n  touch-action: none;\n  background: var(--swiper-scrollbar-bg-color, rgba(0, 0, 0, 0.1));\n}\n.swiper-scrollbar-disabled > .swiper-scrollbar,\n.swiper-scrollbar.swiper-scrollbar-disabled {\n  display: none !important;\n}\n.swiper-horizontal > .swiper-scrollbar,\n.swiper-scrollbar.swiper-scrollbar-horizontal {\n  position: absolute;\n  left: var(--swiper-scrollbar-sides-offset, 1%);\n  bottom: var(--swiper-scrollbar-bottom, 4px);\n  top: var(--swiper-scrollbar-top, auto);\n  z-index: 50;\n  height: var(--swiper-scrollbar-size, 4px);\n  width: calc(100% - 2 * var(--swiper-scrollbar-sides-offset, 1%));\n}\n.swiper-vertical > .swiper-scrollbar,\n.swiper-scrollbar.swiper-scrollbar-vertical {\n  position: absolute;\n  left: var(--swiper-scrollbar-left, auto);\n  right: var(--swiper-scrollbar-right, 4px);\n  top: var(--swiper-scrollbar-sides-offset, 1%);\n  z-index: 50;\n  width: var(--swiper-scrollbar-size, 4px);\n  height: calc(100% - 2 * var(--swiper-scrollbar-sides-offset, 1%));\n}\n.swiper-scrollbar-drag {\n  height: 100%;\n  width: 100%;\n  position: relative;\n  background: var(--swiper-scrollbar-drag-bg-color, rgba(0, 0, 0, 0.5));\n  border-radius: var(--swiper-scrollbar-border-radius, 10px);\n  left: 0;\n  top: 0;\n}\n.swiper-scrollbar-cursor-drag {\n  cursor: move;\n}\n.swiper-scrollbar-lock {\n  display: none;\n}\n",
+      "start": 1727610130252,
+      "end": 1727610130321,
+      "sourcemaps": null
+    },
+    {
+      "name": "unocss:transformers:pre",
+      "start": 1727610130321,
+      "end": 1727610130321,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:transformers:pre",
+      "start": 1727610130321,
+      "end": 1727610130321,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:global:build:scan",
+      "start": 1727610130321,
+      "end": 1727610130321,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:global:build:scan",
+      "start": 1727610130321,
+      "end": 1727610130321,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1727610130321,
+      "end": 1727610130321,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1727610130321,
+      "end": 1727610130321,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1727610130321,
+      "end": 1727610130321,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1727610130321,
+      "end": 1727610130321,
+      "order": "pre"
+    },
+    {
+      "name": "unplugin-vue-i18n",
+      "start": 1727610130321,
+      "end": 1727610130321,
+      "order": "pre"
+    },
+    {
+      "name": "unplugin-vue-i18n",
+      "start": 1727610130321,
+      "end": 1727610130321,
+      "order": "pre"
+    },
+    {
+      "name": "nuxtjs:i18n-macros-transform",
+      "start": 1727610130321,
+      "end": 1727610130321,
+      "order": "pre"
+    },
+    {
+      "name": "nuxtjs:i18n-macros-transform",
+      "start": 1727610130321,
+      "end": 1727610130321,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1727610130321,
+      "end": 1727610130321,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1727610130321,
+      "end": 1727610130321,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ":root {\n  /*\n  --swiper-scrollbar-border-radius: 10px;\n  --swiper-scrollbar-top: auto;\n  --swiper-scrollbar-bottom: 4px;\n  --swiper-scrollbar-left: auto;\n  --swiper-scrollbar-right: 4px;\n  --swiper-scrollbar-sides-offset: 1%;\n  --swiper-scrollbar-bg-color: rgba(0, 0, 0, 0.1);\n  --swiper-scrollbar-drag-bg-color: rgba(0, 0, 0, 0.5);\n  --swiper-scrollbar-size: 4px;\n  */\n}\n.swiper-scrollbar {\n  background: var(--swiper-scrollbar-bg-color, rgba(0,0,0,.1));\n  border-radius: var(--swiper-scrollbar-border-radius, 10px);\n  position: relative;\n  touch-action: none;\n}\n.swiper-scrollbar-disabled>.swiper-scrollbar,.swiper-scrollbar.swiper-scrollbar-disabled {\n  display: none !important;\n}\n.swiper-horizontal>.swiper-scrollbar,.swiper-scrollbar.swiper-scrollbar-horizontal {\n  bottom: var(--swiper-scrollbar-bottom, 4px);\n  height: var(--swiper-scrollbar-size, 4px);\n  left: var(--swiper-scrollbar-sides-offset, 1%);\n  position: absolute;\n  top: var(--swiper-scrollbar-top, auto);\n  width: calc(100% - var(--swiper-scrollbar-sides-offset, 1%)*2);\n  z-index: 50;\n}\n.swiper-scrollbar.swiper-scrollbar-vertical,.swiper-vertical>.swiper-scrollbar {\n  height: calc(100% - var(--swiper-scrollbar-sides-offset, 1%)*2);\n  left: var(--swiper-scrollbar-left, auto);\n  position: absolute;\n  right: var(--swiper-scrollbar-right, 4px);\n  top: var(--swiper-scrollbar-sides-offset, 1%);\n  width: var(--swiper-scrollbar-size, 4px);\n  z-index: 50;\n}\n.swiper-scrollbar-drag {\n  background: var(--swiper-scrollbar-drag-bg-color, rgba(0,0,0,.5));\n  border-radius: var(--swiper-scrollbar-border-radius, 10px);\n  height: 100%;\n  left: 0;\n  position: relative;\n  top: 0;\n  width: 100%;\n}\n.swiper-scrollbar-cursor-drag {\n  cursor: move;\n}\n.swiper-scrollbar-lock {\n  display: none;\n}\n",
+      "start": 1727610130321,
+      "end": 1727610130324,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/node_modules/.pnpm/swiper@10.3.1/node_modules/swiper/modules/scrollbar.css",
+        "mappings": "AAAA;EACE;;;;;;;;;;GAUC;AACH;AACA;EAIE,4DAAgE;EAHhE,0DAA0D;EAC1D,kBAAkB;EAClB,kBAAkB;AAEpB;AACA;EAEE,wBAAwB;AAC1B;AACA;EAIE,2CAA2C;EAG3C,yCAAyC;EAJzC,8CAA8C;EAD9C,kBAAkB;EAGlB,sCAAsC;EAGtC,8DAAgE;EAFhE,WAAW;AAGb;AACA;EAQE,+DAAiE;EALjE,wCAAwC;EADxC,kBAAkB;EAElB,yCAAyC;EACzC,6CAA6C;EAE7C,wCAAwC;EADxC,WAAW;AAGb;AACA;EAIE,iEAAqE;EACrE,0DAA0D;EAJ1D,YAAY;EAKZ,OAAO;EAHP,kBAAkB;EAIlB,MAAM;EALN,WAAW;AAMb;AACA;EACE,YAAY;AACd;AACA;EACE,aAAa;AACf",
+        "names": [],
+        "sources": [
+          "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/node_modules/.pnpm/swiper@10.3.1/node_modules/swiper/modules/scrollbar.css"
+        ],
+        "sourcesContent": [
+          ":root {\n  /*\n  --swiper-scrollbar-border-radius: 10px;\n  --swiper-scrollbar-top: auto;\n  --swiper-scrollbar-bottom: 4px;\n  --swiper-scrollbar-left: auto;\n  --swiper-scrollbar-right: 4px;\n  --swiper-scrollbar-sides-offset: 1%;\n  --swiper-scrollbar-bg-color: rgba(0, 0, 0, 0.1);\n  --swiper-scrollbar-drag-bg-color: rgba(0, 0, 0, 0.5);\n  --swiper-scrollbar-size: 4px;\n  */\n}\n.swiper-scrollbar {\n  border-radius: var(--swiper-scrollbar-border-radius, 10px);\n  position: relative;\n  touch-action: none;\n  background: var(--swiper-scrollbar-bg-color, rgba(0, 0, 0, 0.1));\n}\n.swiper-scrollbar-disabled > .swiper-scrollbar,\n.swiper-scrollbar.swiper-scrollbar-disabled {\n  display: none !important;\n}\n.swiper-horizontal > .swiper-scrollbar,\n.swiper-scrollbar.swiper-scrollbar-horizontal {\n  position: absolute;\n  left: var(--swiper-scrollbar-sides-offset, 1%);\n  bottom: var(--swiper-scrollbar-bottom, 4px);\n  top: var(--swiper-scrollbar-top, auto);\n  z-index: 50;\n  height: var(--swiper-scrollbar-size, 4px);\n  width: calc(100% - 2 * var(--swiper-scrollbar-sides-offset, 1%));\n}\n.swiper-vertical > .swiper-scrollbar,\n.swiper-scrollbar.swiper-scrollbar-vertical {\n  position: absolute;\n  left: var(--swiper-scrollbar-left, auto);\n  right: var(--swiper-scrollbar-right, 4px);\n  top: var(--swiper-scrollbar-sides-offset, 1%);\n  z-index: 50;\n  width: var(--swiper-scrollbar-size, 4px);\n  height: calc(100% - 2 * var(--swiper-scrollbar-sides-offset, 1%));\n}\n.swiper-scrollbar-drag {\n  height: 100%;\n  width: 100%;\n  position: relative;\n  background: var(--swiper-scrollbar-drag-bg-color, rgba(0, 0, 0, 0.5));\n  border-radius: var(--swiper-scrollbar-border-radius, 10px);\n  left: 0;\n  top: 0;\n}\n.swiper-scrollbar-cursor-drag {\n  cursor: move;\n}\n.swiper-scrollbar-lock {\n  display: none;\n}\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:undefined",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:undefined",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:post",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "unocss:transformers:post",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-resource",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-resource",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-meta-deprecation",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-meta-deprecation",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1727610130324,
+      "end": 1727610130324,
+      "order": "normal"
+    }
+  ]
+}

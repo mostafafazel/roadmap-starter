@@ -2,6 +2,7 @@
   "name": "nightrunner",
   "type": "module",
   "private": true,
+  "ssr": false,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",

@@ -1,0 +1,266 @@
+{
+  "resolvedId": "/@vite-plugin-pwa/virtual:pwa-register/vue",
+  "transforms": [
+    {
+      "name": "vite-plugin-pwa",
+      "result": "// src/client/build/vue.ts\nimport { ref } from \"vue\";\n\n// src/client/build/register.ts\nvar autoUpdateMode = \"false\";\nvar selfDestroying = \"false\";\nvar auto = autoUpdateMode === \"true\";\nvar autoDestroy = selfDestroying === \"true\";\nfunction registerSW(options = {}) {\n  const {\n    immediate = false,\n    onNeedRefresh,\n    onOfflineReady,\n    onRegistered,\n    onRegisteredSW,\n    onRegisterError\n  } = options;\n  let wb;\n  let registerPromise;\n  let sendSkipWaitingMessage;\n  const updateServiceWorker = async (_reloadPage = true) => {\n    await registerPromise;\n    if (!auto) {\n      await sendSkipWaitingMessage?.();\n    }\n  };\n  async function register() {\n    if (\"serviceWorker\" in navigator) {\n      wb = await import(\"workbox-window\").then(({ Workbox }) => {\n        return new Workbox(\"/sw.js\", { scope: \"/\", type: \"classic\" });\n      }).catch((e) => {\n        onRegisterError?.(e);\n        return void 0;\n      });\n      if (!wb)\n        return;\n      sendSkipWaitingMessage = async () => {\n        await wb?.messageSkipWaiting();\n      };\n      if (!autoDestroy) {\n        if (auto) {\n          wb.addEventListener(\"activated\", (event) => {\n            if (event.isUpdate || event.isExternal)\n              window.location.reload();\n          });\n          wb.addEventListener(\"installed\", (event) => {\n            if (!event.isUpdate) {\n              onOfflineReady?.();\n            }\n          });\n        } else {\n          let onNeedRefreshCalled = false;\n          const showSkipWaitingPrompt = () => {\n            onNeedRefreshCalled = true;\n            wb?.addEventListener(\"controlling\", (event) => {\n              if (event.isUpdate)\n                window.location.reload();\n            });\n            onNeedRefresh?.();\n          };\n          wb.addEventListener(\"installed\", (event) => {\n            if (typeof event.isUpdate === \"undefined\") {\n              if (typeof event.isExternal !== \"undefined\") {\n                if (event.isExternal)\n                  showSkipWaitingPrompt();\n                else\n                  !onNeedRefreshCalled && onOfflineReady?.();\n              } else {\n                if (event.isExternal)\n                  window.location.reload();\n                else\n                  !onNeedRefreshCalled && onOfflineReady?.();\n              }\n            } else if (!event.isUpdate) {\n              onOfflineReady?.();\n            }\n          });\n          wb.addEventListener(\"waiting\", showSkipWaitingPrompt);\n          wb.addEventListener(\"externalwaiting\", showSkipWaitingPrompt);\n        }\n      }\n      wb.register({ immediate }).then((r) => {\n        if (onRegisteredSW)\n          onRegisteredSW(\"/sw.js\", r);\n        else\n          onRegistered?.(r);\n      }).catch((e) => {\n        onRegisterError?.(e);\n      });\n    }\n  }\n  registerPromise = register();\n  return updateServiceWorker;\n}\n\n// src/client/build/vue.ts\nfunction useRegisterSW(options = {}) {\n  const {\n    immediate = true,\n    onNeedRefresh,\n    onOfflineReady,\n    onRegistered,\n    onRegisteredSW,\n    onRegisterError\n  } = options;\n  const needRefresh = ref(false);\n  const offlineReady = ref(false);\n  const updateServiceWorker = registerSW({\n    immediate,\n    onNeedRefresh() {\n      needRefresh.value = true;\n      onNeedRefresh?.();\n    },\n    onOfflineReady() {\n      offlineReady.value = true;\n      onOfflineReady?.();\n    },\n    onRegistered,\n    onRegisteredSW,\n    onRegisterError\n  });\n  return {\n    updateServiceWorker,\n    offlineReady,\n    needRefresh\n  };\n}\nexport {\n  useRegisterSW\n};\n",
+      "start": 1727610127650,
+      "end": 1727610127714,
+      "sourcemaps": null
+    },
+    {
+      "name": "unocss:transformers:pre",
+      "start": 1727610127714,
+      "end": 1727610127714,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:global:build:scan",
+      "start": 1727610127714,
+      "end": 1727610127714,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1727610127714,
+      "end": 1727610127714,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1727610127714,
+      "end": 1727610127714,
+      "order": "pre"
+    },
+    {
+      "name": "unplugin-vue-i18n",
+      "start": 1727610127714,
+      "end": 1727610127714,
+      "order": "pre"
+    },
+    {
+      "name": "nuxtjs:i18n-macros-transform",
+      "start": 1727610127714,
+      "end": 1727610127714,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1727610127714,
+      "end": 1727610127714,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1727610127714,
+      "end": 1727610127714,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1727610127714,
+      "end": 1727610127714,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1727610127714,
+      "end": 1727610127714,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1727610127714,
+      "end": 1727610127714,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1727610127714,
+      "end": 1727610127714,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1727610127714,
+      "end": 1727610127714,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:undefined",
+      "start": 1727610127714,
+      "end": 1727610127714,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610127714,
+      "end": 1727610127715,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:post",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-resource",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-meta-deprecation",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";// src/client/build/vue.ts\nimport { ref } from \"vue\";\n\n// src/client/build/register.ts\nvar autoUpdateMode = \"false\";\nvar selfDestroying = \"false\";\nvar auto = autoUpdateMode === \"true\";\nvar autoDestroy = selfDestroying === \"true\";\nfunction registerSW(options = {}) {\n  const {\n    immediate = false,\n    onNeedRefresh,\n    onOfflineReady,\n    onRegistered,\n    onRegisteredSW,\n    onRegisterError\n  } = options;\n  let wb;\n  let registerPromise;\n  let sendSkipWaitingMessage;\n  const updateServiceWorker = async (_reloadPage = true) => {\n    await registerPromise;\n    if (!auto) {\n      await sendSkipWaitingMessage?.();\n    }\n  };\n  async function register() {\n    if (\"serviceWorker\" in navigator) {\n      wb = await __vitePreload(() => import(\"workbox-window\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(({ Workbox }) => {\n        return new Workbox(\"/sw.js\", { scope: \"/\", type: \"classic\" });\n      }).catch((e) => {\n        onRegisterError?.(e);\n        return void 0;\n      });\n      if (!wb)\n        return;\n      sendSkipWaitingMessage = async () => {\n        await wb?.messageSkipWaiting();\n      };\n      if (!autoDestroy) {\n        if (auto) {\n          wb.addEventListener(\"activated\", (event) => {\n            if (event.isUpdate || event.isExternal)\n              window.location.reload();\n          });\n          wb.addEventListener(\"installed\", (event) => {\n            if (!event.isUpdate) {\n              onOfflineReady?.();\n            }\n          });\n        } else {\n          let onNeedRefreshCalled = false;\n          const showSkipWaitingPrompt = () => {\n            onNeedRefreshCalled = true;\n            wb?.addEventListener(\"controlling\", (event) => {\n              if (event.isUpdate)\n                window.location.reload();\n            });\n            onNeedRefresh?.();\n          };\n          wb.addEventListener(\"installed\", (event) => {\n            if (typeof event.isUpdate === \"undefined\") {\n              if (typeof event.isExternal !== \"undefined\") {\n                if (event.isExternal)\n                  showSkipWaitingPrompt();\n                else\n                  !onNeedRefreshCalled && onOfflineReady?.();\n              } else {\n                if (event.isExternal)\n                  window.location.reload();\n                else\n                  !onNeedRefreshCalled && onOfflineReady?.();\n              }\n            } else if (!event.isUpdate) {\n              onOfflineReady?.();\n            }\n          });\n          wb.addEventListener(\"waiting\", showSkipWaitingPrompt);\n          wb.addEventListener(\"externalwaiting\", showSkipWaitingPrompt);\n        }\n      }\n      wb.register({ immediate }).then((r) => {\n        if (onRegisteredSW)\n          onRegisteredSW(\"/sw.js\", r);\n        else\n          onRegistered?.(r);\n      }).catch((e) => {\n        onRegisterError?.(e);\n      });\n    }\n  }\n  registerPromise = register();\n  return updateServiceWorker;\n}\n\n// src/client/build/vue.ts\nfunction useRegisterSW(options = {}) {\n  const {\n    immediate = true,\n    onNeedRefresh,\n    onOfflineReady,\n    onRegistered,\n    onRegisteredSW,\n    onRegisterError\n  } = options;\n  const needRefresh = ref(false);\n  const offlineReady = ref(false);\n  const updateServiceWorker = registerSW({\n    immediate,\n    onNeedRefresh() {\n      needRefresh.value = true;\n      onNeedRefresh?.();\n    },\n    onOfflineReady() {\n      offlineReady.value = true;\n      onOfflineReady?.();\n    },\n    onRegistered,\n    onRegisteredSW,\n    onRegisterError\n  });\n  return {\n    updateServiceWorker,\n    offlineReady,\n    needRefresh\n  };\n}\nexport {\n  useRegisterSW\n};\n",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1727610127715,
+      "end": 1727610127715,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "resolvedId": "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/components/Hero.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { normalizeClass as _normalizeClass, createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-33341cb1\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"group hero max-h-64 md:h-28 bg-gray/10 hover:bg-gray/25 transition-scale duration-100 hover:border-teal border-1 border-transparent scale-95 hover:scale-100 cursor-pointer rounded-lg p-4\" }\nconst _hoisted_2 = { class: \"hero-icon\" }\nconst _hoisted_3 = { class: \"hero-content mx-2\" }\nconst _hoisted_4 = { class: \"hero-title mb-2\" }\nconst _hoisted_5 = { class: \"hero-description group-hover:text-teal\" }\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Hero',\n  props: {\n    icon: {\n      type: String,\n      required: true\n    },\n    title: {\n      type: String,\n      required: true\n    },\n    description: {\n      type: String,\n      required: true\n    }\n  },\n  setup(__props) {\n\n  \n  \nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", {\n        class: _normalizeClass([__props.icon, \"icon\"])\n      }, null, 2)\n    ]),\n    _createElementVNode(\"div\", _hoisted_3, [\n      _createElementVNode(\"h2\", _hoisted_4, _toDisplayString(__props.title), 1),\n      _createElementVNode(\"p\", _hoisted_5, _toDisplayString(__props.description), 1)\n    ])\n  ]))\n}\n}\n\n})",
+      "start": 1727610128296,
+      "end": 1727610128296
+    },
+    {
+      "name": "unocss:transformers:pre",
+      "start": 1727610128296,
+      "end": 1727610128296,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:global:build:scan",
+      "start": 1727610128296,
+      "end": 1727610128296,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1727610128296,
+      "end": 1727610128296,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1727610128296,
+      "end": 1727610128296,
+      "order": "pre"
+    },
+    {
+      "name": "unplugin-vue-i18n",
+      "start": 1727610128296,
+      "end": 1727610128296,
+      "order": "pre"
+    },
+    {
+      "name": "nuxtjs:i18n-macros-transform",
+      "start": 1727610128296,
+      "end": 1727610128296,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1727610128296,
+      "end": 1727610128296,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1727610128299,
+      "end": 1727610128299,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { normalizeClass as _normalizeClass, createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-33341cb1\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"group hero max-h-64 md:h-28 bg-gray/10 hover:bg-gray/25 transition-scale duration-100 hover:border-teal border-1 border-transparent scale-95 hover:scale-100 cursor-pointer rounded-lg p-4\" };\nconst _hoisted_2 = { class: \"hero-icon\" };\nconst _hoisted_3 = { class: \"hero-content mx-2\" };\nconst _hoisted_4 = { class: \"hero-title mb-2\" };\nconst _hoisted_5 = { class: \"hero-description group-hover:text-teal\" };\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Hero\",\n  props: {\n    icon: {\n      type: String,\n      required: true\n    },\n    title: {\n      type: String,\n      required: true\n    },\n    description: {\n      type: String,\n      required: true\n    }\n  },\n  setup(__props) {\n    return (_ctx, _cache) => {\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _createElementVNode(\"div\", _hoisted_2, [\n          _createElementVNode(\"div\", {\n            class: _normalizeClass([__props.icon, \"icon\"])\n          }, null, 2)\n        ]),\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createElementVNode(\"h2\", _hoisted_4, _toDisplayString(__props.title), 1),\n          _createElementVNode(\"p\", _hoisted_5, _toDisplayString(__props.description), 1)\n        ])\n      ]);\n    };\n  }\n});\n",
+      "start": 1727610128301,
+      "end": 1727610128319,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/components/Hero.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { normalizeClass as _normalizeClass, createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-33341cb1\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"group hero max-h-64 md:h-28 bg-gray/10 hover:bg-gray/25 transition-scale duration-100 hover:border-teal border-1 border-transparent scale-95 hover:scale-100 cursor-pointer rounded-lg p-4\" }\nconst _hoisted_2 = { class: \"hero-icon\" }\nconst _hoisted_3 = { class: \"hero-content mx-2\" }\nconst _hoisted_4 = { class: \"hero-title mb-2\" }\nconst _hoisted_5 = { class: \"hero-description group-hover:text-teal\" }\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Hero',\n  props: {\n    icon: {\n      type: String,\n      required: true\n    },\n    title: {\n      type: String,\n      required: true\n    },\n    description: {\n      type: String,\n      required: true\n    }\n  },\n  setup(__props) {\n\n  \n  \nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", {\n        class: _normalizeClass([__props.icon, \"icon\"])\n      }, null, 2)\n    ]),\n    _createElementVNode(\"div\", _hoisted_3, [\n      _createElementVNode(\"h2\", _hoisted_4, _toDisplayString(__props.title), 1),\n      _createElementVNode(\"p\", _hoisted_5, _toDisplayString(__props.description), 1)\n    ])\n  ]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,kBAAkB,iBAAiB,sBAAsB,qBAAqB,mBAAmB,kBAAkB,aAAa,YAAY,sBAAsB,qBAAqB,eAAe,cAAc,cAAc,mBAAmB;AAE9P,MAAM,eAAe,QAAM,aAAa,iBAAiB,GAAE,IAAE,EAAE,GAAE,YAAY,GAAE;AAC/E,MAAM,aAAa,EAAE,OAAO,6LAA6L;AACzN,MAAM,aAAa,EAAE,OAAO,YAAY;AACxC,MAAM,aAAa,EAAE,OAAO,oBAAoB;AAChD,MAAM,aAAa,EAAE,OAAO,kBAAkB;AAC9C,MAAM,aAAa,EAAE,OAAO,yCAAyC;AAGrE,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,OAAO;AAAA,IACL,MAAM;AAAA,MACJ,MAAM;AAAA,MACN,UAAU;AAAA,IACZ;AAAA,IACA,OAAO;AAAA,MACL,MAAM;AAAA,MACN,UAAU;AAAA,IACZ;AAAA,IACA,aAAa;AAAA,MACX,MAAM;AAAA,MACN,UAAU;AAAA,IACZ;AAAA,EACF;AAAA,EACA,MAAM,SAAS;AAIjB,WAAO,CAAC,MAAU,WAAgB;AAChC,aAAQ,WAAW,GAAG,oBAAoB,OAAO,YAAY;AAAA,QAC3D,oBAAoB,OAAO,YAAY;AAAA,UACrC,oBAAoB,OAAO;AAAA,YACzB,OAAO,gBAAgB,CAAC,QAAQ,MAAM,MAAM,CAAC;AAAA,UAC/C,GAAG,MAAM,CAAC;AAAA,QACZ,CAAC;AAAA,QACD,oBAAoB,OAAO,YAAY;AAAA,UACrC,oBAAoB,MAAM,YAAY,iBAAiB,QAAQ,KAAK,GAAG,CAAC;AAAA,UACxE,oBAAoB,KAAK,YAAY,iBAAiB,QAAQ,WAAW,GAAG,CAAC;AAAA,QAC/E,CAAC;AAAA,MACH,CAAC;AAAA,IACH;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:undefined",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:post",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-resource",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-meta-deprecation",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1727610128319,
+      "end": 1727610128319,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1727610128320,
+      "end": 1727610128320,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1727610128320,
+      "end": 1727610128320,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1727610128320,
+      "end": 1727610128320,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1727610128320,
+      "end": 1727610128320,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1727610128320,
+      "end": 1727610128320,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1727610128320,
+      "end": 1727610128320,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1727610128320,
+      "end": 1727610128320,
+      "order": "normal"
+    }
+  ]
+}

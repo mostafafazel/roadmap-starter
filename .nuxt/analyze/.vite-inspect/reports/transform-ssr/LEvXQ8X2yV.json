@@ -1,0 +1,360 @@
+{
+  "resolvedId": "virtual:nuxt:/Users/mamthenebo/Me/Help/fuz/roadmap-starter/.nuxt/routes.mjs",
+  "transforms": [
+    {
+      "name": "virtual",
+      "result": "import { default as about1mc874CJhxMeta } from \"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/about.vue?macro=true\";\nimport { default as grantsPzHyubp3TyMeta } from \"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/grants.vue?macro=true\";\nimport { default as indexjWwdRXhQwzMeta } from \"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/index.vue?macro=true\";\nimport { default as newsusAnYOBoJRMeta } from \"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/news.vue?macro=true\";\nimport { default as resources8bZpc03HqUMeta } from \"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/resources.vue?macro=true\";\nimport { default as roadmapaMx7rKSbgvMeta } from \"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/roadmap.vue?macro=true\";\nimport { default as samplefQdF70s6XtMeta } from \"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/sample.vue?macro=true\";\nexport default [\n  {\n    name: about1mc874CJhxMeta?.name ?? \"about___en\",\n    path: about1mc874CJhxMeta?.path ?? \"/en/about\",\n    meta: about1mc874CJhxMeta || {},\n    alias: about1mc874CJhxMeta?.alias || [],\n    redirect: about1mc874CJhxMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/about.vue\").then(m => m.default || m)\n  },\n  {\n    name: about1mc874CJhxMeta?.name ?? \"about___fa\",\n    path: about1mc874CJhxMeta?.path ?? \"/about\",\n    meta: about1mc874CJhxMeta || {},\n    alias: about1mc874CJhxMeta?.alias || [],\n    redirect: about1mc874CJhxMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/about.vue\").then(m => m.default || m)\n  },\n  {\n    name: about1mc874CJhxMeta?.name ?? \"about___fr\",\n    path: about1mc874CJhxMeta?.path ?? \"/fr/about\",\n    meta: about1mc874CJhxMeta || {},\n    alias: about1mc874CJhxMeta?.alias || [],\n    redirect: about1mc874CJhxMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/about.vue\").then(m => m.default || m)\n  },\n  {\n    name: about1mc874CJhxMeta?.name ?? \"about___jp\",\n    path: about1mc874CJhxMeta?.path ?? \"/jp/about\",\n    meta: about1mc874CJhxMeta || {},\n    alias: about1mc874CJhxMeta?.alias || [],\n    redirect: about1mc874CJhxMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/about.vue\").then(m => m.default || m)\n  },\n  {\n    name: grantsPzHyubp3TyMeta?.name ?? \"grants___en\",\n    path: grantsPzHyubp3TyMeta?.path ?? \"/en/grants\",\n    meta: grantsPzHyubp3TyMeta || {},\n    alias: grantsPzHyubp3TyMeta?.alias || [],\n    redirect: grantsPzHyubp3TyMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/grants.vue\").then(m => m.default || m)\n  },\n  {\n    name: grantsPzHyubp3TyMeta?.name ?? \"grants___fa\",\n    path: grantsPzHyubp3TyMeta?.path ?? \"/grants\",\n    meta: grantsPzHyubp3TyMeta || {},\n    alias: grantsPzHyubp3TyMeta?.alias || [],\n    redirect: grantsPzHyubp3TyMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/grants.vue\").then(m => m.default || m)\n  },\n  {\n    name: grantsPzHyubp3TyMeta?.name ?? \"grants___fr\",\n    path: grantsPzHyubp3TyMeta?.path ?? \"/fr/grants\",\n    meta: grantsPzHyubp3TyMeta || {},\n    alias: grantsPzHyubp3TyMeta?.alias || [],\n    redirect: grantsPzHyubp3TyMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/grants.vue\").then(m => m.default || m)\n  },\n  {\n    name: grantsPzHyubp3TyMeta?.name ?? \"grants___jp\",\n    path: grantsPzHyubp3TyMeta?.path ?? \"/jp/grants\",\n    meta: grantsPzHyubp3TyMeta || {},\n    alias: grantsPzHyubp3TyMeta?.alias || [],\n    redirect: grantsPzHyubp3TyMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/grants.vue\").then(m => m.default || m)\n  },\n  {\n    name: indexjWwdRXhQwzMeta?.name ?? \"index___en\",\n    path: indexjWwdRXhQwzMeta?.path ?? \"/en\",\n    meta: indexjWwdRXhQwzMeta || {},\n    alias: indexjWwdRXhQwzMeta?.alias || [],\n    redirect: indexjWwdRXhQwzMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: indexjWwdRXhQwzMeta?.name ?? \"index___fa\",\n    path: indexjWwdRXhQwzMeta?.path ?? \"/\",\n    meta: indexjWwdRXhQwzMeta || {},\n    alias: indexjWwdRXhQwzMeta?.alias || [],\n    redirect: indexjWwdRXhQwzMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: indexjWwdRXhQwzMeta?.name ?? \"index___fr\",\n    path: indexjWwdRXhQwzMeta?.path ?? \"/fr\",\n    meta: indexjWwdRXhQwzMeta || {},\n    alias: indexjWwdRXhQwzMeta?.alias || [],\n    redirect: indexjWwdRXhQwzMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: indexjWwdRXhQwzMeta?.name ?? \"index___jp\",\n    path: indexjWwdRXhQwzMeta?.path ?? \"/jp\",\n    meta: indexjWwdRXhQwzMeta || {},\n    alias: indexjWwdRXhQwzMeta?.alias || [],\n    redirect: indexjWwdRXhQwzMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: newsusAnYOBoJRMeta?.name ?? \"news___en\",\n    path: newsusAnYOBoJRMeta?.path ?? \"/en/news\",\n    meta: newsusAnYOBoJRMeta || {},\n    alias: newsusAnYOBoJRMeta?.alias || [],\n    redirect: newsusAnYOBoJRMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/news.vue\").then(m => m.default || m)\n  },\n  {\n    name: newsusAnYOBoJRMeta?.name ?? \"news___fa\",\n    path: newsusAnYOBoJRMeta?.path ?? \"/news\",\n    meta: newsusAnYOBoJRMeta || {},\n    alias: newsusAnYOBoJRMeta?.alias || [],\n    redirect: newsusAnYOBoJRMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/news.vue\").then(m => m.default || m)\n  },\n  {\n    name: newsusAnYOBoJRMeta?.name ?? \"news___fr\",\n    path: newsusAnYOBoJRMeta?.path ?? \"/fr/news\",\n    meta: newsusAnYOBoJRMeta || {},\n    alias: newsusAnYOBoJRMeta?.alias || [],\n    redirect: newsusAnYOBoJRMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/news.vue\").then(m => m.default || m)\n  },\n  {\n    name: newsusAnYOBoJRMeta?.name ?? \"news___jp\",\n    path: newsusAnYOBoJRMeta?.path ?? \"/jp/news\",\n    meta: newsusAnYOBoJRMeta || {},\n    alias: newsusAnYOBoJRMeta?.alias || [],\n    redirect: newsusAnYOBoJRMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/news.vue\").then(m => m.default || m)\n  },\n  {\n    name: resources8bZpc03HqUMeta?.name ?? \"resources___en\",\n    path: resources8bZpc03HqUMeta?.path ?? \"/en/resources\",\n    meta: resources8bZpc03HqUMeta || {},\n    alias: resources8bZpc03HqUMeta?.alias || [],\n    redirect: resources8bZpc03HqUMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/resources.vue\").then(m => m.default || m)\n  },\n  {\n    name: resources8bZpc03HqUMeta?.name ?? \"resources___fa\",\n    path: resources8bZpc03HqUMeta?.path ?? \"/resources\",\n    meta: resources8bZpc03HqUMeta || {},\n    alias: resources8bZpc03HqUMeta?.alias || [],\n    redirect: resources8bZpc03HqUMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/resources.vue\").then(m => m.default || m)\n  },\n  {\n    name: resources8bZpc03HqUMeta?.name ?? \"resources___fr\",\n    path: resources8bZpc03HqUMeta?.path ?? \"/fr/resources\",\n    meta: resources8bZpc03HqUMeta || {},\n    alias: resources8bZpc03HqUMeta?.alias || [],\n    redirect: resources8bZpc03HqUMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/resources.vue\").then(m => m.default || m)\n  },\n  {\n    name: resources8bZpc03HqUMeta?.name ?? \"resources___jp\",\n    path: resources8bZpc03HqUMeta?.path ?? \"/jp/resources\",\n    meta: resources8bZpc03HqUMeta || {},\n    alias: resources8bZpc03HqUMeta?.alias || [],\n    redirect: resources8bZpc03HqUMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/resources.vue\").then(m => m.default || m)\n  },\n  {\n    name: roadmapaMx7rKSbgvMeta?.name ?? \"roadmap___en\",\n    path: roadmapaMx7rKSbgvMeta?.path ?? \"/en/roadmap\",\n    meta: roadmapaMx7rKSbgvMeta || {},\n    alias: roadmapaMx7rKSbgvMeta?.alias || [],\n    redirect: roadmapaMx7rKSbgvMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/roadmap.vue\").then(m => m.default || m)\n  },\n  {\n    name: roadmapaMx7rKSbgvMeta?.name ?? \"roadmap___fa\",\n    path: roadmapaMx7rKSbgvMeta?.path ?? \"/roadmap\",\n    meta: roadmapaMx7rKSbgvMeta || {},\n    alias: roadmapaMx7rKSbgvMeta?.alias || [],\n    redirect: roadmapaMx7rKSbgvMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/roadmap.vue\").then(m => m.default || m)\n  },\n  {\n    name: roadmapaMx7rKSbgvMeta?.name ?? \"roadmap___fr\",\n    path: roadmapaMx7rKSbgvMeta?.path ?? \"/fr/roadmap\",\n    meta: roadmapaMx7rKSbgvMeta || {},\n    alias: roadmapaMx7rKSbgvMeta?.alias || [],\n    redirect: roadmapaMx7rKSbgvMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/roadmap.vue\").then(m => m.default || m)\n  },\n  {\n    name: roadmapaMx7rKSbgvMeta?.name ?? \"roadmap___jp\",\n    path: roadmapaMx7rKSbgvMeta?.path ?? \"/jp/roadmap\",\n    meta: roadmapaMx7rKSbgvMeta || {},\n    alias: roadmapaMx7rKSbgvMeta?.alias || [],\n    redirect: roadmapaMx7rKSbgvMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/roadmap.vue\").then(m => m.default || m)\n  },\n  {\n    name: samplefQdF70s6XtMeta?.name ?? \"sample___en\",\n    path: samplefQdF70s6XtMeta?.path ?? \"/en/sample\",\n    meta: samplefQdF70s6XtMeta || {},\n    alias: samplefQdF70s6XtMeta?.alias || [],\n    redirect: samplefQdF70s6XtMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/sample.vue\").then(m => m.default || m)\n  },\n  {\n    name: samplefQdF70s6XtMeta?.name ?? \"sample___fa\",\n    path: samplefQdF70s6XtMeta?.path ?? \"/sample\",\n    meta: samplefQdF70s6XtMeta || {},\n    alias: samplefQdF70s6XtMeta?.alias || [],\n    redirect: samplefQdF70s6XtMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/sample.vue\").then(m => m.default || m)\n  },\n  {\n    name: samplefQdF70s6XtMeta?.name ?? \"sample___fr\",\n    path: samplefQdF70s6XtMeta?.path ?? \"/fr/sample\",\n    meta: samplefQdF70s6XtMeta || {},\n    alias: samplefQdF70s6XtMeta?.alias || [],\n    redirect: samplefQdF70s6XtMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/sample.vue\").then(m => m.default || m)\n  },\n  {\n    name: samplefQdF70s6XtMeta?.name ?? \"sample___jp\",\n    path: samplefQdF70s6XtMeta?.path ?? \"/jp/sample\",\n    meta: samplefQdF70s6XtMeta || {},\n    alias: samplefQdF70s6XtMeta?.alias || [],\n    redirect: samplefQdF70s6XtMeta?.redirect,\n    component: () => import(\"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/pages/sample.vue\").then(m => m.default || m)\n  }\n]",
+      "start": 1727610130390,
+      "end": 1727610130390,
+      "sourcemaps": null
+    },
+    {
+      "name": "unocss:transformers:pre",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:transformers:pre",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:global:build:scan",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:global:build:scan",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "pre"
+    },
+    {
+      "name": "unplugin-vue-i18n",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "pre"
+    },
+    {
+      "name": "unplugin-vue-i18n",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "pre"
+    },
+    {
+      "name": "nuxtjs:i18n-macros-transform",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "pre"
+    },
+    {
+      "name": "nuxtjs:i18n-macros-transform",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:undefined",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:undefined",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1727610130391,
+      "end": 1727610130391,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610130391,
+      "end": 1727610130392,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:post",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "post"
+    },
+    {
+      "name": "unocss:transformers:post",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-resource",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-resource",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-meta-deprecation",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-meta-deprecation",
+      "start": 1727610130392,
+      "end": 1727610130392,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1727610130392,
+      "end": 1727610130395,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1727610130392,
+      "end": 1727610130395,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1727610130395,
+      "end": 1727610130395,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1727610130395,
+      "end": 1727610130395,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1727610130395,
+      "end": 1727610130395,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1727610130395,
+      "end": 1727610130395,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1727610130395,
+      "end": 1727610130395,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1727610130395,
+      "end": 1727610130395,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1727610130395,
+      "end": 1727610130395,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1727610130395,
+      "end": 1727610130396,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1727610130396,
+      "end": 1727610130396,
+      "order": "normal"
+    }
+  ]
+}

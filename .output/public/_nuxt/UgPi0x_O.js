@@ -1,0 +1,1 @@
+import{P as r,u as l,Q as h,E as i,R as f,m}from"./BQGvpeRB.js";function w(o){const a=r(),s=l(o),c=h(),t=i();return f(s.locale,t),m(t,(e,n)=>{if(e===n)return;const u=c(e);a.replace(u)}),s}export{w as u};

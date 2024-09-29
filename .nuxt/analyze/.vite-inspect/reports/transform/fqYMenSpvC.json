@@ -1,0 +1,268 @@
+{
+  "resolvedId": "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/locales/jp.yml",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "global:\n  about: 詳細\n  sample: サンプル\nmain:\n  title: ようこそ、Nightrunner\nabout:\n  title: Nightrunnerについて\n  summary: >-\n    Nightrunnerは、Nuxt 3用のシンプルで高速、そしてすぐに使えるスターター・テンプレートです。\n    次のプロジェクトをすぐに始めるために必要なツールを備えています。\n  features: 'Nightrunnerでは、以下の技術を使用しています:'\n  config: >-\n    さらに、ローカライズに役立つ小さなヘルパーや配色、そしてESLintやVSCodeに適した設定も含まれています。\ntheme:\n  dark: ダークテーマ\n  light: ライトテーマ\n",
+      "start": 1727610127873,
+      "end": 1727610127990,
+      "sourcemaps": null
+    },
+    {
+      "name": "unocss:transformers:pre",
+      "start": 1727610127990,
+      "end": 1727610127990,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:global:build:scan",
+      "start": 1727610127990,
+      "end": 1727610127990,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1727610127990,
+      "end": 1727610127990,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1727610127990,
+      "end": 1727610127990,
+      "order": "pre"
+    },
+    {
+      "name": "unplugin-vue-i18n",
+      "result": "const resource = {\n  \"global\": {\n    \"about\": {\"t\":0,\"b\":{\"t\":2,\"i\":[{\"t\":3}],\"s\":\"詳細\"}},\n    \"sample\": {\"t\":0,\"b\":{\"t\":2,\"i\":[{\"t\":3}],\"s\":\"サンプル\"}}\n  },\n  \"main\": {\n    \"title\": {\"t\":0,\"b\":{\"t\":2,\"i\":[{\"t\":3}],\"s\":\"ようこそ、Nightrunner\"}}\n  },\n  \"about\": {\n    \"title\": {\"t\":0,\"b\":{\"t\":2,\"i\":[{\"t\":3}],\"s\":\"Nightrunnerについて\"}},\n    \"summary\": {\"t\":0,\"b\":{\"t\":2,\"i\":[{\"t\":3}],\"s\":\"Nightrunnerは、Nuxt 3用のシンプルで高速、そしてすぐに使えるスターター・テンプレートです。 次のプロジェクトをすぐに始めるために必要なツールを備えています。\"}},\n    \"features\": {\"t\":0,\"b\":{\"t\":2,\"i\":[{\"t\":3}],\"s\":\"Nightrunnerでは、以下の技術を使用しています:\"}},\n    \"config\": {\"t\":0,\"b\":{\"t\":2,\"i\":[{\"t\":3}],\"s\":\"さらに、ローカライズに役立つ小さなヘルパーや配色、そしてESLintやVSCodeに適した設定も含まれています。\"}}\n  },\n  \"theme\": {\n    \"dark\": {\"t\":0,\"b\":{\"t\":2,\"i\":[{\"t\":3}],\"s\":\"ダークテーマ\"}},\n    \"light\": {\"t\":0,\"b\":{\"t\":2,\"i\":[{\"t\":3}],\"s\":\"ライトテーマ\"}}\n  }\n}\nexport default resource",
+      "start": 1727610127990,
+      "end": 1727610127991,
+      "order": "pre",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "nuxtjs:i18n-macros-transform",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:undefined",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:post",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-resource",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-meta-deprecation",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1727610127991,
+      "end": 1727610127991,
+      "order": "normal"
+    }
+  ]
+}

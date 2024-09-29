@@ -1,0 +1,382 @@
+{
+  "resolvedId": "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/components/Hero.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderClass as _ssrRenderClass, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\"\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Hero',\n  __ssrInlineRender: true,\n  props: {\n    icon: {\n      type: String,\n      required: true\n    },\n    title: {\n      type: String,\n      required: true\n    },\n    description: {\n      type: String,\n      required: true\n    }\n  },\n  setup(__props) {\n\n  \n  \nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  _push(`<div${\n    _ssrRenderAttrs(_mergeProps({ class: \"group hero max-h-64 md:h-28 bg-gray/10 hover:bg-gray/25 transition-scale duration-100 hover:border-teal border-1 border-transparent scale-95 hover:scale-100 cursor-pointer rounded-lg p-4\" }, _attrs))\n  } data-v-33341cb1><div class=\"hero-icon\" data-v-33341cb1><div class=\"${\n    _ssrRenderClass([__props.icon, \"icon\"])\n  }\" data-v-33341cb1></div></div><div class=\"hero-content mx-2\" data-v-33341cb1><h2 class=\"hero-title mb-2\" data-v-33341cb1>${\n    _ssrInterpolate(__props.title)\n  }</h2><p class=\"hero-description group-hover:text-teal\" data-v-33341cb1>${\n    _ssrInterpolate(__props.description)\n  }</p></div></div>`)\n}\n}\n\n})",
+      "start": 1727610131310,
+      "end": 1727610131310,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/components/Hero.vue"
+        ],
+        "sourcesContent": [
+          "<template>\n    <div class=\"group hero max-h-64 md:h-28  bg-gray/10 hover:bg-gray/25 transition-scale duration-100 hover:border-teal border-1 border-transparent scale-95 hover:scale-100 cursor-pointer rounded-lg p-4\">\n      <div class=\"hero-icon\">\n        <!-- Use dynamic icon class with the `i` directive -->\n        <div :class=\"icon\" class=\"icon\"></div>\n      </div>\n      <div class=\"hero-content mx-2\">\n        <h2 class=\"hero-title mb-2\">{{ title }}</h2>\n        <p class=\"hero-description group-hover:text-teal\">{{ description }}</p>\n      </div>\n    </div>\n  </template>\n  \n  <script lang=\"ts\" setup>\n  defineProps({\n    icon: {\n      type: String,\n      required: true\n    },\n    title: {\n      type: String,\n      required: true\n    },\n    description: {\n      type: String,\n      required: true\n    }\n  })\n  </script>\n  \n  <style scoped>\n  .hero {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n  }\n  \n  .icon {\n    font-size: 40px;\n  }\n  \n  .hero-title {\n    font-size: 1.5rem;\n    font-weight: bold;\n  }\n  \n  .hero-description {\n    font-size: 1rem;\n    color: #666;\n  }\n  </style>\n  "
+        ],
+        "names": [],
+        "mappings": ";;;;;;;;;;;;;;;;;;;;;;;AAa0B;AAC1B,CAAC,CAaG;AACJ,CAAC;;;;;;;;;;;;;;"
+      }
+    },
+    {
+      "name": "unocss:transformers:pre",
+      "start": 1727610131311,
+      "end": 1727610131311,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:transformers:pre",
+      "start": 1727610131311,
+      "end": 1727610131311,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:global:build:scan",
+      "start": 1727610131311,
+      "end": 1727610131311,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:global:build:scan",
+      "start": 1727610131311,
+      "end": 1727610131311,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1727610131311,
+      "end": 1727610131311,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1727610131311,
+      "end": 1727610131311,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1727610131311,
+      "end": 1727610131311,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1727610131311,
+      "end": 1727610131311,
+      "order": "pre"
+    },
+    {
+      "name": "unplugin-vue-i18n",
+      "start": 1727610131311,
+      "end": 1727610131311,
+      "order": "pre"
+    },
+    {
+      "name": "unplugin-vue-i18n",
+      "start": 1727610131311,
+      "end": 1727610131311,
+      "order": "pre"
+    },
+    {
+      "name": "nuxtjs:i18n-macros-transform",
+      "start": 1727610131311,
+      "end": 1727610131311,
+      "order": "pre"
+    },
+    {
+      "name": "nuxtjs:i18n-macros-transform",
+      "start": 1727610131311,
+      "end": 1727610131311,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1727610131311,
+      "end": 1727610131311,
+      "order": "pre"
+    },
+    {
+      "name": "server-only-component-transform",
+      "start": 1727610131311,
+      "end": 1727610131311,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1727610131311,
+      "end": 1727610131311,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderClass as _ssrRenderClass, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Hero\",\n  __ssrInlineRender: true,\n  props: {\n    icon: {\n      type: String,\n      required: true\n    },\n    title: {\n      type: String,\n      required: true\n    },\n    description: {\n      type: String,\n      required: true\n    }\n  },\n  setup(__props) {\n    return (_ctx, _push, _parent, _attrs) => {\n      _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"group hero max-h-64 md:h-28 bg-gray/10 hover:bg-gray/25 transition-scale duration-100 hover:border-teal border-1 border-transparent scale-95 hover:scale-100 cursor-pointer rounded-lg p-4\" }, _attrs))} data-v-33341cb1><div class=\"hero-icon\" data-v-33341cb1><div class=\"${_ssrRenderClass([__props.icon, \"icon\"])}\" data-v-33341cb1></div></div><div class=\"hero-content mx-2\" data-v-33341cb1><h2 class=\"hero-title mb-2\" data-v-33341cb1>${_ssrInterpolate(__props.title)}</h2><p class=\"hero-description group-hover:text-teal\" data-v-33341cb1>${_ssrInterpolate(__props.description)}</p></div></div>`);\n    };\n  }\n});\n",
+      "start": 1727610131313,
+      "end": 1727610131568,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/components/Hero.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderClass as _ssrRenderClass, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\"\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Hero',\n  __ssrInlineRender: true,\n  props: {\n    icon: {\n      type: String,\n      required: true\n    },\n    title: {\n      type: String,\n      required: true\n    },\n    description: {\n      type: String,\n      required: true\n    }\n  },\n  setup(__props) {\n\n  \n  \nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  _push(`<div${\n    _ssrRenderAttrs(_mergeProps({ class: \"group hero max-h-64 md:h-28 bg-gray/10 hover:bg-gray/25 transition-scale duration-100 hover:border-teal border-1 border-transparent scale-95 hover:scale-100 cursor-pointer rounded-lg p-4\" }, _attrs))\n  } data-v-33341cb1><div class=\"hero-icon\" data-v-33341cb1><div class=\"${\n    _ssrRenderClass([__props.icon, \"icon\"])\n  }\" data-v-33341cb1></div></div><div class=\"hero-content mx-2\" data-v-33341cb1><h2 class=\"hero-title mb-2\" data-v-33341cb1>${\n    _ssrInterpolate(__props.title)\n  }</h2><p class=\"hero-description group-hover:text-teal\" data-v-33341cb1>${\n    _ssrInterpolate(__props.description)\n  }</p></div></div>`)\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,cAAc,mBAAmB;AAC1C,SAAS,kBAAkB,iBAAiB,kBAAkB,iBAAiB,kBAAkB,uBAAuB;AAGxH,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,mBAAmB;AAAA,EACnB,OAAO;AAAA,IACL,MAAM;AAAA,MACJ,MAAM;AAAA,MACN,UAAU;AAAA,IACZ;AAAA,IACA,OAAO;AAAA,MACL,MAAM;AAAA,MACN,UAAU;AAAA,IACZ;AAAA,IACA,aAAa;AAAA,MACX,MAAM;AAAA,MACN,UAAU;AAAA,IACZ;AAAA,EACF;AAAA,EACA,MAAM,SAAS;AAIjB,WAAO,CAAC,MAAU,OAAW,SAAa,WAAgB;AACxD,YAAM,OACJ,gBAAgB,YAAY,EAAE,OAAO,6LAA6L,GAAG,MAAM,CAAC,CAC9O,uEACE,gBAAgB,CAAC,QAAQ,MAAM,MAAM,CAAC,CACxC,4HACE,gBAAgB,QAAQ,KAAK,CAC/B,0EACE,gBAAgB,QAAQ,WAAW,CACrC,kBAAkB;AAAA,IACpB;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1727610131568,
+      "end": 1727610131568,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1727610131568,
+      "end": 1727610131568,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1727610131568,
+      "end": 1727610131568,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1727610131568,
+      "end": 1727610131568,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:undefined",
+      "start": 1727610131568,
+      "end": 1727610131568,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:undefined",
+      "start": 1727610131568,
+      "end": 1727610131568,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610131568,
+      "end": 1727610131568,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610131568,
+      "end": 1727610131568,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1727610131568,
+      "end": 1727610131568,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1727610131568,
+      "end": 1727610131568,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1727610131568,
+      "end": 1727610131568,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1727610131568,
+      "end": 1727610131568,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1727610131568,
+      "end": 1727610131568,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610131568,
+      "end": 1727610131568,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:post",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "post"
+    },
+    {
+      "name": "unocss:transformers:post",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-resource",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-resource",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-meta-deprecation",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-meta-deprecation",
+      "start": 1727610131569,
+      "end": 1727610131569,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1727610131569,
+      "end": 1727610131570,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1727610131569,
+      "end": 1727610131570,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1727610131570,
+      "end": 1727610131570,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1727610131570,
+      "end": 1727610131570,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1727610131570,
+      "end": 1727610131570,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1727610131570,
+      "end": 1727610131570,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1727610131570,
+      "end": 1727610131570,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1727610131570,
+      "end": 1727610131570,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1727610131570,
+      "end": 1727610131570,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1727610131570,
+      "end": 1727610131570,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1727610131570,
+      "end": 1727610131570,
+      "order": "normal"
+    }
+  ]
+}

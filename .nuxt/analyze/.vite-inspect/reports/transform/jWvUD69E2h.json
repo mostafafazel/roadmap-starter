@@ -1,0 +1,285 @@
+{
+  "resolvedId": "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/components/NHeader.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"p-5 w-full flex-center flex-row justify-between absolute\" }\nconst _hoisted_2 = { class: \"text-8 font-text\" }\nconst _hoisted_3 = { class: \"flex flex-row gap-2\" }\nconst _hoisted_4 = /*#__PURE__*/_createElementVNode(\"div\", { i: \"tabler-sun dark:tabler-moon\" }, null, -1)\nconst _hoisted_5 = [\n  _hoisted_4\n]\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'NHeader',\n  setup(__props) {\n\nconst { isDark, toggle } = useDark()\nconst { t, locale } = useCustomI18n() // assuming locale is accessible here\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_ClientOnly = _resolveComponent(\"ClientOnly\")!\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")!\n  const _component_LocaleSwitch = _resolveComponent(\"LocaleSwitch\")!\n\n  return (_openBlock(), _createElementBlock(\"header\", _hoisted_1, [\n    _createVNode(_component_NuxtLink, {\n      to: _unref(locale) === 'fa' ? '/' : `/${_unref(locale)}`,\n      class: \"text-8 font-text\"\n    }, {\n      default: _withCtx(() => [\n        _createElementVNode(\"p\", _hoisted_2, [\n          _createVNode(_component_ClientOnly, null, {\n            fallback: _withCtx(() => [\n              _createTextVNode(\" ... \")\n            ]),\n            default: _withCtx(() => [\n              _createTextVNode(_toDisplayString(_unref(isDark) ? _unref(t)('theme.dark') : _unref(t)('theme.light')) + \" \", 1)\n            ]),\n            _: 1\n          })\n        ])\n      ]),\n      _: 1\n    }, 8, [\"to\"]),\n    _createElementVNode(\"div\", _hoisted_3, [\n      _createVNode(_component_LocaleSwitch),\n      _createElementVNode(\"button\", {\n        class: \"icon-btn text-5\",\n        onClick: _cache[0] || (_cache[0] = ($event: any) => (_unref(toggle)()))\n      }, _hoisted_5)\n    ])\n  ]))\n}\n}\n\n})",
+      "start": 1727610128065,
+      "end": 1727610128065
+    },
+    {
+      "name": "unocss:transformers:pre",
+      "start": 1727610128065,
+      "end": 1727610128065,
+      "order": "pre"
+    },
+    {
+      "name": "unocss:global:build:scan",
+      "start": 1727610128065,
+      "end": 1727610128065,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1727610128065,
+      "end": 1727610128065,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1727610128065,
+      "end": 1727610128065,
+      "order": "pre"
+    },
+    {
+      "name": "unplugin-vue-i18n",
+      "start": 1727610128065,
+      "end": 1727610128065,
+      "order": "pre"
+    },
+    {
+      "name": "nuxtjs:i18n-macros-transform",
+      "start": 1727610128065,
+      "end": 1727610128067,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1727610128067,
+      "end": 1727610128067,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1727610128067,
+      "end": 1727610128067,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\";\nconst _hoisted_1 = { class: \"p-5 w-full flex-center flex-row justify-between absolute\" };\nconst _hoisted_2 = { class: \"text-8 font-text\" };\nconst _hoisted_3 = { class: \"flex flex-row gap-2\" };\nconst _hoisted_4 = /* @__PURE__ */ _createElementVNode(\"div\", { i: \"tabler-sun dark:tabler-moon\" }, null, -1);\nconst _hoisted_5 = [\n  _hoisted_4\n];\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"NHeader\",\n  setup(__props) {\n    const { isDark, toggle } = useDark();\n    const { t, locale } = useCustomI18n();\n    return (_ctx, _cache) => {\n      const _component_ClientOnly = _resolveComponent(\"ClientOnly\");\n      const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n      const _component_LocaleSwitch = _resolveComponent(\"LocaleSwitch\");\n      return _openBlock(), _createElementBlock(\"header\", _hoisted_1, [\n        _createVNode(_component_NuxtLink, {\n          to: _unref(locale) === \"fa\" ? \"/\" : `/${_unref(locale)}`,\n          class: \"text-8 font-text\"\n        }, {\n          default: _withCtx(() => [\n            _createElementVNode(\"p\", _hoisted_2, [\n              _createVNode(_component_ClientOnly, null, {\n                fallback: _withCtx(() => [\n                  _createTextVNode(\" ... \")\n                ]),\n                default: _withCtx(() => [\n                  _createTextVNode(_toDisplayString(_unref(isDark) ? _unref(t)(\"theme.dark\") : _unref(t)(\"theme.light\")) + \" \", 1)\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _: 1\n        }, 8, [\"to\"]),\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createVNode(_component_LocaleSwitch),\n          _createElementVNode(\"button\", {\n            class: \"icon-btn text-5\",\n            onClick: _cache[0] || (_cache[0] = ($event) => _unref(toggle)())\n          }, _hoisted_5)\n        ])\n      ]);\n    };\n  }\n});\n",
+      "start": 1727610128067,
+      "end": 1727610128205,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/components/NHeader.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { unref as _unref, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"p-5 w-full flex-center flex-row justify-between absolute\" }\nconst _hoisted_2 = { class: \"text-8 font-text\" }\nconst _hoisted_3 = { class: \"flex flex-row gap-2\" }\nconst _hoisted_4 = /*#__PURE__*/_createElementVNode(\"div\", { i: \"tabler-sun dark:tabler-moon\" }, null, -1)\nconst _hoisted_5 = [\n  _hoisted_4\n]\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'NHeader',\n  setup(__props) {\n\nconst { isDark, toggle } = useDark()\nconst { t, locale } = useCustomI18n() // assuming locale is accessible here\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_ClientOnly = _resolveComponent(\"ClientOnly\")!\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")!\n  const _component_LocaleSwitch = _resolveComponent(\"LocaleSwitch\")!\n\n  return (_openBlock(), _createElementBlock(\"header\", _hoisted_1, [\n    _createVNode(_component_NuxtLink, {\n      to: _unref(locale) === 'fa' ? '/' : `/${_unref(locale)}`,\n      class: \"text-8 font-text\"\n    }, {\n      default: _withCtx(() => [\n        _createElementVNode(\"p\", _hoisted_2, [\n          _createVNode(_component_ClientOnly, null, {\n            fallback: _withCtx(() => [\n              _createTextVNode(\" ... \")\n            ]),\n            default: _withCtx(() => [\n              _createTextVNode(_toDisplayString(_unref(isDark) ? _unref(t)('theme.dark') : _unref(t)('theme.light')) + \" \", 1)\n            ]),\n            _: 1\n          })\n        ])\n      ]),\n      _: 1\n    }, 8, [\"to\"]),\n    _createElementVNode(\"div\", _hoisted_3, [\n      _createVNode(_component_LocaleSwitch),\n      _createElementVNode(\"button\", {\n        class: \"icon-btn text-5\",\n        onClick: _cache[0] || (_cache[0] = ($event: any) => (_unref(toggle)()))\n      }, _hoisted_5)\n    ])\n  ]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,SAAS,QAAQ,mBAAmB,kBAAkB,mBAAmB,kBAAkB,oBAAoB,mBAAmB,WAAW,UAAU,eAAe,cAAc,sBAAsB,qBAAqB,aAAa,YAAY,sBAAsB,2BAA2B;AAElT,MAAM,aAAa,EAAE,OAAO,2DAA2D;AACvF,MAAM,aAAa,EAAE,OAAO,mBAAmB;AAC/C,MAAM,aAAa,EAAE,OAAO,sBAAsB;AAClD,MAAM,aAA0B,oCAAoB,OAAO,EAAE,GAAG,8BAA8B,GAAG,MAAM,EAAE;AACzG,MAAM,aAAa;AAAA,EACjB;AACF;AAGA,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,MAAM,SAAS;AAEjB,UAAM,EAAE,QAAQ,OAAO,IAAI,QAAQ;AACnC,UAAM,EAAE,GAAG,OAAO,IAAI,cAAc;AAEpC,WAAO,CAAC,MAAU,WAAgB;AAChC,YAAM,wBAAwB,kBAAkB,YAAY;AAC5D,YAAM,sBAAsB,kBAAkB,UAAU;AACxD,YAAM,0BAA0B,kBAAkB,cAAc;AAEhE,aAAQ,WAAW,GAAG,oBAAoB,UAAU,YAAY;AAAA,QAC9D,aAAa,qBAAqB;AAAA,UAChC,IAAI,OAAO,MAAM,MAAM,OAAO,MAAM,IAAI,OAAO,MAAM,CAAC;AAAA,UACtD,OAAO;AAAA,QACT,GAAG;AAAA,UACD,SAAS,SAAS,MAAM;AAAA,YACtB,oBAAoB,KAAK,YAAY;AAAA,cACnC,aAAa,uBAAuB,MAAM;AAAA,gBACxC,UAAU,SAAS,MAAM;AAAA,kBACvB,iBAAiB,OAAO;AAAA,gBAC1B,CAAC;AAAA,gBACD,SAAS,SAAS,MAAM;AAAA,kBACtB,iBAAiB,iBAAiB,OAAO,MAAM,IAAI,OAAO,CAAC,EAAE,YAAY,IAAI,OAAO,CAAC,EAAE,aAAa,CAAC,IAAI,KAAK,CAAC;AAAA,gBACjH,CAAC;AAAA,gBACD,GAAG;AAAA,cACL,CAAC;AAAA,YACH,CAAC;AAAA,UACH,CAAC;AAAA,UACD,GAAG;AAAA,QACL,GAAG,GAAG,CAAC,IAAI,CAAC;AAAA,QACZ,oBAAoB,OAAO,YAAY;AAAA,UACrC,aAAa,uBAAuB;AAAA,UACpC,oBAAoB,UAAU;AAAA,YAC5B,OAAO;AAAA,YACP,SAAS,OAAO,CAAC,MAAM,OAAO,CAAC,IAAI,CAAC,WAAiB,OAAO,MAAM,EAAE;AAAA,UACtE,GAAG,UAAU;AAAA,QACf,CAAC;AAAA,MACH,CAAC;AAAA,IACH;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:undefined",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:fonts:font-family-injection",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "normal"
+    },
+    {
+      "name": "unocss:transformers:post",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-resource",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "post"
+    },
+    {
+      "name": "nuxtjs:i18n-meta-deprecation",
+      "start": 1727610128205,
+      "end": 1727610128205,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "result": "import useDark from '/Users/mamthenebo/Me/Help/fuz/roadmap-starter/composables/useDark.ts';\nimport useCustomI18n from '/Users/mamthenebo/Me/Help/fuz/roadmap-starter/composables/locale/useCustomI18n.ts';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\";\nconst _hoisted_1 = { class: \"p-5 w-full flex-center flex-row justify-between absolute\" };\nconst _hoisted_2 = { class: \"text-8 font-text\" };\nconst _hoisted_3 = { class: \"flex flex-row gap-2\" };\nconst _hoisted_4 = /* @__PURE__ */ _createElementVNode(\"div\", { i: \"tabler-sun dark:tabler-moon\" }, null, -1);\nconst _hoisted_5 = [\n  _hoisted_4\n];\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"NHeader\",\n  setup(__props) {\n    const { isDark, toggle } = useDark();\n    const { t, locale } = useCustomI18n();\n    return (_ctx, _cache) => {\n      const _component_ClientOnly = _resolveComponent(\"ClientOnly\");\n      const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n      const _component_LocaleSwitch = _resolveComponent(\"LocaleSwitch\");\n      return _openBlock(), _createElementBlock(\"header\", _hoisted_1, [\n        _createVNode(_component_NuxtLink, {\n          to: _unref(locale) === \"fa\" ? \"/\" : `/${_unref(locale)}`,\n          class: \"text-8 font-text\"\n        }, {\n          default: _withCtx(() => [\n            _createElementVNode(\"p\", _hoisted_2, [\n              _createVNode(_component_ClientOnly, null, {\n                fallback: _withCtx(() => [\n                  _createTextVNode(\" ... \")\n                ]),\n                default: _withCtx(() => [\n                  _createTextVNode(_toDisplayString(_unref(isDark) ? _unref(t)(\"theme.dark\") : _unref(t)(\"theme.light\")) + \" \", 1)\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _: 1\n        }, 8, [\"to\"]),\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createVNode(_component_LocaleSwitch),\n          _createElementVNode(\"button\", {\n            class: \"icon-btn text-5\",\n            onClick: _cache[0] || (_cache[0] = ($event) => _unref(toggle)())\n          }, _hoisted_5)\n        ])\n      ]);\n    };\n  }\n});\n",
+      "start": 1727610128205,
+      "end": 1727610128206,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": ";;AAAA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1D,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACxT,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzF,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9G,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACZ,CAAC,CAAC;AACF,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACxE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClI,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACd,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACd,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACrC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC5E,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACxB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACT,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACN,CAAC,CAAC,CAAC;AACH,CAAC,CAAC,CAAC;"
+      }
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1727610128206,
+      "end": 1727610128206,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1727610128206,
+      "end": 1727610128206,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1727610128206,
+      "end": 1727610128206,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1727610128206,
+      "end": 1727610128206,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/node_modules/.pnpm/nuxt@3.11.2_@parcel+watcher@2.4.1_@types+node@22.7.4_@unocss+reset@0.59.0_encoding@0.1.13_esl_45yngwq3z4zjbylya7fzh22pdy/node_modules/nuxt/dist/app/components/client-only\";\nimport { default as __nuxt_component_1 } from \"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/node_modules/.pnpm/nuxt@3.11.2_@parcel+watcher@2.4.1_@types+node@22.7.4_@unocss+reset@0.59.0_encoding@0.1.13_esl_45yngwq3z4zjbylya7fzh22pdy/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { default as __nuxt_component_2 } from \"/Users/mamthenebo/Me/Help/fuz/roadmap-starter/components/locale/LocaleSwitch.vue\";\nimport useDark from '/Users/mamthenebo/Me/Help/fuz/roadmap-starter/composables/useDark.ts';\nimport useCustomI18n from '/Users/mamthenebo/Me/Help/fuz/roadmap-starter/composables/locale/useCustomI18n.ts';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { unref as _unref, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\";\nconst _hoisted_1 = { class: \"p-5 w-full flex-center flex-row justify-between absolute\" };\nconst _hoisted_2 = { class: \"text-8 font-text\" };\nconst _hoisted_3 = { class: \"flex flex-row gap-2\" };\nconst _hoisted_4 = /* @__PURE__ */ _createElementVNode(\"div\", { i: \"tabler-sun dark:tabler-moon\" }, null, -1);\nconst _hoisted_5 = [\n  _hoisted_4\n];\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"NHeader\",\n  setup(__props) {\n    const { isDark, toggle } = useDark();\n    const { t, locale } = useCustomI18n();\n    return (_ctx, _cache) => {\n      const _component_ClientOnly = __nuxt_component_0;\n      const _component_NuxtLink = __nuxt_component_1;\n      const _component_LocaleSwitch = __nuxt_component_2;\n      return _openBlock(), _createElementBlock(\"header\", _hoisted_1, [\n        _createVNode(_component_NuxtLink, {\n          to: _unref(locale) === \"fa\" ? \"/\" : `/${_unref(locale)}`,\n          class: \"text-8 font-text\"\n        }, {\n          default: _withCtx(() => [\n            _createElementVNode(\"p\", _hoisted_2, [\n              _createVNode(_component_ClientOnly, null, {\n                fallback: _withCtx(() => [\n                  _createTextVNode(\" ... \")\n                ]),\n                default: _withCtx(() => [\n                  _createTextVNode(_toDisplayString(_unref(isDark) ? _unref(t)(\"theme.dark\") : _unref(t)(\"theme.light\")) + \" \", 1)\n                ]),\n                _: 1\n              })\n            ])\n          ]),\n          _: 1\n        }, 8, [\"to\"]),\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createVNode(_component_LocaleSwitch),\n          _createElementVNode(\"button\", {\n            class: \"icon-btn text-5\",\n            onClick: _cache[0] || (_cache[0] = ($event) => _unref(toggle)())\n          }, _hoisted_5)\n        ])\n      ]);\n    };\n  }\n});\n",
+      "start": 1727610128206,
+      "end": 1727610128206,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1727610128206,
+      "end": 1727610128206,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1727610128206,
+      "end": 1727610128206,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1727610128206,
+      "end": 1727610128206,
+      "order": "normal"
+    }
+  ]
+}
