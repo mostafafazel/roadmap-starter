@@ -34,12 +34,12 @@ export default defineConfig({
   theme: {
     colors: {
       // Primary and secondary colors for light mode
-      primary: '#FF6B6B', // Coral for primary elements
-      secondary: '#4ECDC4', // Mint green for secondary elements
-      accent: '#FFB400', // Bright yellow for accents like buttons or highlights
-      background: '#FFFFFF', // White background for light mode
-      text: '#333333', // Dark gray text for light mode
-      muted: '#F0F0F0', // Muted light gray for disabled elements or secondary backgrounds
+      'primary': '#FF6B6B', // Coral for primary elements
+      'secondary': '#4ECDC4', // Mint green for secondary elements
+      'accent': '#FFB400', // Bright yellow for accents like buttons or highlights
+      'background': '#FFFFFF', // White background for light mode
+      'text': '#333333', // Dark gray text for light mode
+      'muted': '#F0F0F0', // Muted light gray for disabled elements or secondary backgrounds
 
       // Primary and secondary colors for dark mode
       'dark-primary': '#8B0000', // Same coral for primary elements in dark mode
@@ -55,4 +55,4 @@ export default defineConfig({
       text: ['Picoopic', 'sans-serif'],
     },
   },
-});
+})

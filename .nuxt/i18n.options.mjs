@@ -1,9 +1,9 @@
 
 // @ts-nocheck
-import locale__Users_mostafa_Me_projects_roadmap_starter_locales_en_yml from "../locales/en.yml";
-import locale__Users_mostafa_Me_projects_roadmap_starter_locales_fa_yml from "../locales/fa.yml";
-import locale__Users_mostafa_Me_projects_roadmap_starter_locales_fr_yml from "../locales/fr.yml";
-import locale__Users_mostafa_Me_projects_roadmap_starter_locales_jp_yml from "../locales/jp.yml";
+import locale__Users_mamthenebo_Me_Help_fuz_roadmap_starter_locales_en_yml from "../locales/en.yml";
+import locale__Users_mamthenebo_Me_Help_fuz_roadmap_starter_locales_fa_yml from "../locales/fa.yml";
+import locale__Users_mamthenebo_Me_Help_fuz_roadmap_starter_locales_fr_yml from "../locales/fr.yml";
+import locale__Users_mamthenebo_Me_Help_fuz_roadmap_starter_locales_jp_yml from "../locales/jp.yml";
 
 
 export const localeCodes =  [
@@ -14,10 +14,10 @@ export const localeCodes =  [
 ]
 
 export const localeLoaders = {
-  "en": [{ key: "../locales/en.yml", load: () => Promise.resolve(locale__Users_mostafa_Me_projects_roadmap_starter_locales_en_yml), cache: true }],
-  "fa": [{ key: "../locales/fa.yml", load: () => Promise.resolve(locale__Users_mostafa_Me_projects_roadmap_starter_locales_fa_yml), cache: true }],
-  "fr": [{ key: "../locales/fr.yml", load: () => Promise.resolve(locale__Users_mostafa_Me_projects_roadmap_starter_locales_fr_yml), cache: true }],
-  "jp": [{ key: "../locales/jp.yml", load: () => Promise.resolve(locale__Users_mostafa_Me_projects_roadmap_starter_locales_jp_yml), cache: true }]
+  "en": [{ key: "../locales/en.yml", load: () => Promise.resolve(locale__Users_mamthenebo_Me_Help_fuz_roadmap_starter_locales_en_yml), cache: true }],
+  "fa": [{ key: "../locales/fa.yml", load: () => Promise.resolve(locale__Users_mamthenebo_Me_Help_fuz_roadmap_starter_locales_fa_yml), cache: true }],
+  "fr": [{ key: "../locales/fr.yml", load: () => Promise.resolve(locale__Users_mamthenebo_Me_Help_fuz_roadmap_starter_locales_fr_yml), cache: true }],
+  "jp": [{ key: "../locales/jp.yml", load: () => Promise.resolve(locale__Users_mamthenebo_Me_Help_fuz_roadmap_starter_locales_jp_yml), cache: true }]
 }
 
 export const vueI18nConfigs = [
@@ -50,25 +50,25 @@ export const nuxtI18nOptions = {
     {
       "code": "en",
       "files": [
-        "locales/en.yml"
+        "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/locales/en.yml"
       ]
     },
     {
       "code": "fa",
       "files": [
-        "locales/fa.yml"
+        "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/locales/fa.yml"
       ]
     },
     {
       "code": "fr",
       "files": [
-        "locales/fr.yml"
+        "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/locales/fr.yml"
       ]
     },
     {
       "code": "jp",
       "files": [
-        "locales/jp.yml"
+        "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/locales/jp.yml"
       ]
     }
   ],
@@ -99,6 +99,7 @@ export const nuxtI18nOptions = {
   "types": "composition",
   "debug": false,
   "parallelPlugin": false,
+  "multiDomainLocales": false,
   "i18nModules": []
 }
 
@@ -107,7 +108,7 @@ export const normalizedLocales = [
     "code": "en",
     "files": [
       {
-        "path": "locales/en.yml"
+        "path": "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/locales/en.yml"
       }
     ]
   },
@@ -115,7 +116,7 @@ export const normalizedLocales = [
     "code": "fa",
     "files": [
       {
-        "path": "locales/fa.yml"
+        "path": "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/locales/fa.yml"
       }
     ]
   },
@@ -123,7 +124,7 @@ export const normalizedLocales = [
     "code": "fr",
     "files": [
       {
-        "path": "locales/fr.yml"
+        "path": "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/locales/fr.yml"
       }
     ]
   },
@@ -131,7 +132,7 @@ export const normalizedLocales = [
     "code": "jp",
     "files": [
       {
-        "path": "locales/jp.yml"
+        "path": "/Users/mamthenebo/Me/Help/fuz/roadmap-starter/locales/jp.yml"
       }
     ]
   }

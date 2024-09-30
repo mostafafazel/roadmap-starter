@@ -25,8 +25,10 @@ useHead({
     <!-- News Cards -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <div class="p-4 bg-white rounded-lg shadow-lg hover:shadow-xl dark:bg-gray-800">
-        <i class="i-solar-news-bold text-6xl text-blue-500 mb-4"></i>
-        <h3 class="font-semibold text-lg mb-2 dark:text-white">{{ t('index.news.items.breakthrough.title') }}</h3>
+        <i class="tabler-news text-6xl text-blue-500 mb-4" />
+        <h3 class="font-semibold text-lg mb-2 dark:text-white">
+          {{ t('index.news.items.breakthrough.title') }}
+        </h3>
         <p class="text-gray-500 text-sm dark:text-gray-400">
           {{ t('index.news.items.breakthrough.description') }}
         </p>
@@ -34,8 +36,10 @@ useHead({
       </div>
 
       <div class="p-4 bg-white rounded-lg shadow-lg hover:shadow-xl dark:bg-gray-800">
-        <i class="i-solar-cube-bold text-6xl text-green-500 mb-4"></i>
-        <h3 class="font-semibold text-lg mb-2 dark:text-white">{{ t('index.news.items.newSensor.title') }}</h3>
+        <i class="tabler-cube text-6xl text-green-500 mb-4" />
+        <h3 class="font-semibold text-lg mb-2 dark:text-white">
+          {{ t('index.news.items.newSensor.title') }}
+        </h3>
         <p class="text-gray-500 text-sm dark:text-gray-400">
           {{ t('index.news.items.newSensor.description') }}
         </p>

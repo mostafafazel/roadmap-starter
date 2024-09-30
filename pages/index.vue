@@ -1,11 +1,21 @@
+<script lang="ts" setup>
+const { t, locale } = useCustomI18n()
+// const route = useRoute()
+
+// Helper function to generate the localized path
+function localizedPath(path: string) {
+  return locale.value === 'fa' ? path : `/${locale.value}${path}`
+}
+</script>
+
 <template>
-  <div class="container top-[10vh] relative">
+  <div class="container top-[30vh] md:top-[0vh]  relative">
     <h1 class="title my-8 mx-2 text-align-center text-2xl md:text-6xl">
       {{ t('main.title') }}
     </h1>
 
     <!-- Responsive 2x2 grid layout -->
-    <div class="mx-8 grid grid-cols-1 md:grid-cols-2 gap-8 top-28">
+    <div class="mx-8 grid grid-cols-1 md:grid-cols-2 gap-8 top-28 mb-28">
       <NuxtLink :to="localizedPath('/roadmap')">
         <Hero
           icon="i-carbon-roadmap"
@@ -16,14 +26,12 @@
 
       <NuxtLink :to="localizedPath('/Data')">
         <Hero
-          icon="i-carbon:db2-database"
+          icon="i-carbon-db2-database"
           :title="t('index.Data.title')"
           :description="t('index.Data.description')"
         />
       </NuxtLink>
 
-
- 
       <NuxtLink :to="localizedPath('/news')">
         <Hero
           icon="i-solar-bill-list-bold"
@@ -42,12 +50,11 @@
 
       <NuxtLink :to="localizedPath('/Legal')">
         <Hero
-          icon="i-carbon:document-multiple-01"
+          icon="i-tabler-scale"
           :title="t('index.Legal.title')"
           :description="t('index.Legal.description')"
         />
       </NuxtLink>
-
 
       <NuxtLink :to="localizedPath('/resources')">
         <Hero
@@ -55,20 +62,7 @@
           :title="t('index.resources.title')"
           :description="t('index.resources.description')"
         />
-       </NuxtLink>
-
-
-      
+      </NuxtLink>
     </div>
   </div>
 </template>
-
-<script lang="ts" setup>
-const { t, locale } = useCustomI18n()
-const route = useRoute()
-
-// Helper function to generate the localized path
-const localizedPath = (path: string) => {
-  return locale.value === 'fa' ? path : `/${locale.value}${path}`
-}
-</script>

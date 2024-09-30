@@ -1,3 +1,7 @@
+<script setup>
+const locale = useLocale()
+</script>
+
 <template>
   <div :dir="locale === 'fa' ? 'rtl' : 'ltr'" class="h-screen">
     <NHeader />
@@ -7,16 +11,9 @@
       </div>
     </div>
   </div>
-  <div class="absolute bottom-10 right-10">
+  <div class="absolute bottom-10 left-10 bg-slate/25 rounded-full hover:-translate-y-1">
     <NuxtLinkLocale to="/" class="icon-btn text-4xl">
       <div i="tabler-arrow-left" />
     </NuxtLinkLocale>
   </div>
 </template>
-
-
-<script setup>
-
-const locale = useLocale();
-
-</script>

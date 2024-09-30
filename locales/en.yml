@@ -20,135 +20,135 @@ index:
     title: Visual Roadmap
     description: A detailed guide to the biosensor development roadmap.
     phase1:
-      title: "Phase 1 - Research"
-      description: "Conduct comprehensive research on biosensor technologies."
+      title: Phase 1 - Research
+      description: Conduct comprehensive research on biosensor technologies.
     phase2:
-      title: "Phase 2 - Design"
-      description: "Develop initial designs for the biosensor system."
+      title: Phase 2 - Design
+      description: Develop initial designs for the biosensor system.
     phase3:
-      title: "Phase 3 - Development"
-      description: "Begin full-scale development of the biosensor prototype."
+      title: Phase 3 - Development
+      description: Begin full-scale development of the biosensor prototype.
     phase4:
-      title: "Phase 4 - Testing"
-      description: "Perform rigorous testing on the biosensor to ensure functionality."
+      title: Phase 4 - Testing
+      description: Perform rigorous testing on the biosensor to ensure functionality.
   resources:
-    title: "Resources"
-    description: "Access key resources to help you stay ahead in biosensor technology."
+    title: Resources
+    description: Access key resources to help you stay ahead in biosensor technology.
     items:
       documentation:
-        title: "Documentation"
-        description: "Comprehensive docs on biosensor technology."
+        title: Documentation
+        description: Comprehensive docs on biosensor technology.
       tutorials:
-        title: "Tutorials"
-        description: "Step-by-step guides on using biosensors."
+        title: Tutorials
+        description: Step-by-step guides on using biosensors.
       api:
-        title: "APIs"
-        description: "Access to biosensor-related APIs and tools."
+        title: APIs
+        description: Access to biosensor-related APIs and tools.
       datasets:
-        title: "Data Sets"
-        description: "Download biosensor data for analysis."
+        title: Data Sets
+        description: Download biosensor data for analysis.
     table:
       columns:
-        name: "Resource Name"
-        type: "Type"
-        link: "Link"
+        name: Resource Name
+        type: Type
+        link: Link
       rows:
         nuxtGuide:
-          name: "Nuxt 3 Guide"
-          type: "Documentation"
-          link: "Visit"
+          name: Nuxt 3 Guide
+          type: Documentation
+          link: Visit
         biosensorApi:
-          name: "Biosensor API"
-          type: "API"
-          link: "Access"
+          name: Biosensor API
+          type: API
+          link: Access
   news:
-    title: "News"
-    description: "Stay updated with the latest news and breakthroughs."
+    title: News
+    description: Stay updated with the latest news and breakthroughs.
     items:
       breakthrough:
-        title: "New Breakthrough in Biosensor Technology"
-        description: "Scientists have discovered a faster way to enhance biosensor sensitivity..."
-        link: "Read More"
+        title: New Breakthrough in Biosensor Technology
+        description: Scientists have discovered a faster way to enhance biosensor sensitivity...
+        link: Read More
       newSensor:
-        title: "Next Generation Biosensors"
-        description: "A new generation of biosensors is on the horizon, offering higher sensitivity..."
-        link: "Learn More"
+        title: Next Generation Biosensors
+        description: 'A new generation of biosensors is on the horizon, offering higher sensitivity...'
+        link: Learn More
 
   grants:
-    title: "Grants"
-    description: "Find out about the latest grant opportunities for research."
+    title: Grants
+    description: Find out about the latest grant opportunities for research.
     items:
       researchGrant:
-        title: "Research Grant"
-        description: "This grant supports scientific research on biosensor technology."
-        link: "Apply Now"
+        title: Research Grant
+        description: This grant supports scientific research on biosensor technology.
+        link: Apply Now
       innovationGrant:
-        title: "Innovation Grant"
-        description: "This grant supports innovative startups in the biosensor field."
-        link: "Learn More"
+        title: Innovation Grant
+        description: This grant supports innovative startups in the biosensor field.
+        link: Learn More
 
   Data:
-    title: "Data"
-    description: "Explore resources for handling, analyzing, and protecting data."
+    title: Data
+    description: 'Explore resources for handling, analyzing, and protecting data.'
     items:
       dataAnalytics:
-        title: "Data Analytics"
-        description: "Tools and methods for gathering insights and making data-driven decisions."
-        icon: "carbon:chart-bar"
-        style: "card"
-        color: "#1A73E8"
-        link: "Discover Analytics"
+        title: Data Analytics
+        description: Tools and methods for gathering insights and making data-driven decisions.
+        icon: 'carbon:chart-bar'
+        style: card
+        color: '#1A73E8'
+        link: Discover Analytics
       dataPrivacy:
-        title: "Data Privacy"
-        description: "Understand our policies and best practices for safeguarding user data."
-        icon: "carbon:data-encryption"
-        style: "icon-card"
-        color: "#34A853"
-        link: "Learn About Privacy"
+        title: Data Privacy
+        description: Understand our policies and best practices for safeguarding user data.
+        icon: 'carbon:data-encryption'
+        style: icon-card
+        color: '#34A853'
+        link: Learn About Privacy
       dataStorage:
-        title: "Data Storage"
-        description: "How we securely store and manage large volumes of data."
-        icon: "carbon:cloud-storage"
-        style: "box"
-        color: "#FBBC05"
-        link: "Explore Storage Solutions"
+        title: Data Storage
+        description: How we securely store and manage large volumes of data.
+        icon: 'carbon:cloud-storage'
+        style: box
+        color: '#FBBC05'
+        link: Explore Storage Solutions
       dataCompliance:
-        title: "Data Compliance"
-        description: "Ensure your data handling processes are compliant with regulations."
-        icon: "carbon:document-checked"
-        style: "border-box"
-        color: "#EA4335"
-        link: "Check Compliance"
+        title: Data Compliance
+        description: Ensure your data handling processes are compliant with regulations.
+        icon: 'carbon:document-checked'
+        style: border-box
+        color: '#EA4335'
+        link: Check Compliance
 
   Legal:
-    title: "Legal"
-    description: "Navigate key legal documents and compliance essentials with ease."
+    title: Legal
+    description: Navigate key legal documents and compliance essentials with ease.
     items:
       legalOverview:
-        title: "Legal Overview"
-        description: "A quick summary of our legal obligations and your rights as a user."
-        icon: "carbon:document"
-        style: "card"
-        color: "#1A73E8"
-        link: "Get Started"
+        title: Legal Overview
+        description: A quick summary of our legal obligations and your rights as a user.
+        icon: 'carbon:document'
+        style: card
+        color: '#1A73E8'
+        link: Get Started
       dataProtection:
-        title: "Data Protection"
-        description: "How we secure and handle your data under GDPR and other regulations."
-        icon: "carbon:locked"
-        style: "icon-card"
-        color: "#34A853"
-        link: "Explore Protection"
+        title: Data Protection
+        description: How we secure and handle your data under GDPR and other regulations.
+        icon: 'carbon:locked'
+        style: icon-card
+        color: '#34A853'
+        link: Explore Protection
       userRights:
-        title: "Your Rights"
-        description: "Understand your legal rights and how to exercise them with ease."
-        icon: "carbon:scale"
-        style: "box"
-        color: "#FBBC05"
-        link: "Learn Your Rights"
+        title: Your Rights
+        description: Understand your legal rights and how to exercise them with ease.
+        icon: 'carbon:scale'
+        style: box
+        color: '#FBBC05'
+        link: Learn Your Rights
       complianceGuidelines:
-        title: "Compliance Guidelines"
-        description: "Stay informed about the legal frameworks we follow to ensure compliance."
-        icon: "carbon:checkmark-outline"
-        style: "border-box"
-        color: "#EA4335"
-        link: "Read Guidelines"
+        title: Compliance Guidelines
+        description: Stay informed about the legal frameworks we follow to ensure compliance.
+        icon: 'carbon:checkmark-outline'
+        style: border-box
+        color: '#EA4335'
+        link: Read Guidelines
