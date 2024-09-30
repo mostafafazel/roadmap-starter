@@ -2,7 +2,7 @@ global:
   about: About
   sample: Sample
 main:
-  title: Welcome, Nightrunner
+  title: Biosensor Roadmap
 about:
   title: About Nightrunner
   summary: >-
@@ -17,7 +17,7 @@ theme:
   light: Light
 index:
   roadmap:
-    title: Roadmap
+    title: Visual Roadmap
     description: A detailed guide to the biosensor development roadmap.
     phase1:
       title: "Phase 1 - Research"
@@ -86,3 +86,69 @@ index:
         title: "Innovation Grant"
         description: "This grant supports innovative startups in the biosensor field."
         link: "Learn More"
+
+  Data:
+    title: "Data"
+    description: "Explore resources for handling, analyzing, and protecting data."
+    items:
+      dataAnalytics:
+        title: "Data Analytics"
+        description: "Tools and methods for gathering insights and making data-driven decisions."
+        icon: "carbon:chart-bar"
+        style: "card"
+        color: "#1A73E8"
+        link: "Discover Analytics"
+      dataPrivacy:
+        title: "Data Privacy"
+        description: "Understand our policies and best practices for safeguarding user data."
+        icon: "carbon:data-encryption"
+        style: "icon-card"
+        color: "#34A853"
+        link: "Learn About Privacy"
+      dataStorage:
+        title: "Data Storage"
+        description: "How we securely store and manage large volumes of data."
+        icon: "carbon:cloud-storage"
+        style: "box"
+        color: "#FBBC05"
+        link: "Explore Storage Solutions"
+      dataCompliance:
+        title: "Data Compliance"
+        description: "Ensure your data handling processes are compliant with regulations."
+        icon: "carbon:document-checked"
+        style: "border-box"
+        color: "#EA4335"
+        link: "Check Compliance"
+
+  Legal:
+    title: "Legal"
+    description: "Navigate key legal documents and compliance essentials with ease."
+    items:
+      legalOverview:
+        title: "Legal Overview"
+        description: "A quick summary of our legal obligations and your rights as a user."
+        icon: "carbon:document"
+        style: "card"
+        color: "#1A73E8"
+        link: "Get Started"
+      dataProtection:
+        title: "Data Protection"
+        description: "How we secure and handle your data under GDPR and other regulations."
+        icon: "carbon:locked"
+        style: "icon-card"
+        color: "#34A853"
+        link: "Explore Protection"
+      userRights:
+        title: "Your Rights"
+        description: "Understand your legal rights and how to exercise them with ease."
+        icon: "carbon:scale"
+        style: "box"
+        color: "#FBBC05"
+        link: "Learn Your Rights"
+      complianceGuidelines:
+        title: "Compliance Guidelines"
+        description: "Stay informed about the legal frameworks we follow to ensure compliance."
+        icon: "carbon:checkmark-outline"
+        style: "border-box"
+        color: "#EA4335"
+        link: "Read Guidelines"

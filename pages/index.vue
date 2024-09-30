@@ -14,14 +14,16 @@
         />
       </NuxtLink>
 
-      <NuxtLink :to="localizedPath('/resources')">
+      <NuxtLink :to="localizedPath('/Data')">
         <Hero
-          icon="i-solar-book-bookmark-outline"
-          :title="t('index.resources.title')"
-          :description="t('index.resources.description')"
+          icon="i-carbon:db2-database"
+          :title="t('index.Data.title')"
+          :description="t('index.Data.description')"
         />
       </NuxtLink>
 
+
+ 
       <NuxtLink :to="localizedPath('/news')">
         <Hero
           icon="i-solar-bill-list-bold"
@@ -37,6 +39,26 @@
           :description="t('index.grants.description')"
         />
       </NuxtLink>
+
+      <NuxtLink :to="localizedPath('/Legal')">
+        <Hero
+          icon="i-carbon:document-multiple-01"
+          :title="t('index.Legal.title')"
+          :description="t('index.Legal.description')"
+        />
+      </NuxtLink>
+
+
+      <NuxtLink :to="localizedPath('/resources')">
+        <Hero
+          icon="i-solar-book-bookmark-outline"
+          :title="t('index.resources.title')"
+          :description="t('index.resources.description')"
+        />
+       </NuxtLink>
+
+
+      
     </div>
   </div>
 </template>
