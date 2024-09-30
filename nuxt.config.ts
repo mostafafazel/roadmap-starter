@@ -1,30 +1,69 @@
-import fs from 'node:fs'
+import fs from "node:fs";
 
-const locales = fs.readdirSync('locales')
-  .map(file => ({
-    code: file.replace(/\.(yml|yaml|json)$/, ''),
-    file,
-  }))
+const locales = fs.readdirSync("locales").map((file) => ({
+  code: file.replace(/\.(yml|yaml|json)$/, ""),
+  file,
+}));
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
-    
     head: {
-      title: 'Nightrunner',
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, { rel: 'preload', href: '/fonts/picoopic-Regular.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }, { rel: 'preload', href: '/fonts/picoopic-Bold.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }, { rel: 'preload', href: '/fonts/picoopic-ExtraBold.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }, { rel: 'preload', href: '/fonts/picoopic-Light.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }, { rel: 'preload', href: '/fonts/picoopic-Medium.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }, { rel: 'preload', href: '/fonts/picoopic-Thin.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }],
-
+      title: "Nightrunner",
+      link: [
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        {
+          rel: "preload",
+          href: "/fonts/picoopic-Regular.woff2",
+          as: "font",
+          type: "font/woff2",
+          crossorigin: "anonymous",
+        },
+        {
+          rel: "preload",
+          href: "/fonts/picoopic-Bold.woff2",
+          as: "font",
+          type: "font/woff2",
+          crossorigin: "anonymous",
+        },
+        {
+          rel: "preload",
+          href: "/fonts/picoopic-ExtraBold.woff2",
+          as: "font",
+          type: "font/woff2",
+          crossorigin: "anonymous",
+        },
+        {
+          rel: "preload",
+          href: "/fonts/picoopic-Light.woff2",
+          as: "font",
+          type: "font/woff2",
+          crossorigin: "anonymous",
+        },
+        {
+          rel: "preload",
+          href: "/fonts/picoopic-Medium.woff2",
+          as: "font",
+          type: "font/woff2",
+          crossorigin: "anonymous",
+        },
+        {
+          rel: "preload",
+          href: "/fonts/picoopic-Thin.woff2",
+          as: "font",
+          type: "font/woff2",
+          crossorigin: "anonymous",
+        },
+      ],
     },
   },
 
-  imports: { // add folders here to auto-import them in your application
-    dirs: [
-      'stores',
-      'composables/**',
-    ],
+  imports: {
+    // add folders here to auto-import them in your application
+    dirs: ["stores", "composables/**"],
   },
 
-  components: [{ path: '~/components', pathPrefix: false }],
+  components: [{ path: "~/components", pathPrefix: false }],
 
   typescript: {
     strict: false,
@@ -52,33 +91,45 @@ export default defineNuxtConfig({
   // ssr: false,
 
   // global CSS files
-  css: [
-    '@unocss/reset/tailwind.css',
-    '@/assets/css/reset.css',
-  ],
+  css: ["@unocss/reset/tailwind.css", "@/assets/css/reset.css"],
 
   // plugin configurations
-  modules: ['@nuxtjs/i18n', '@vueuse/nuxt', '@unocss/nuxt', '@nuxtjs/critters', '@nuxtjs/color-mode', '@pinia/nuxt', '@nuxt/fonts', 'nuxt-swiper', '@vite-pwa/nuxt'],
-  // swiper: {
-  //   // Swiper options
-  //   //----------------------
-  //   // prefix: 'Swiper',
-  //   // styleLang: 'css',
-  //   // modules: ['navigation', 'pagination'], // all modules are imported by default
-  // },
+  modules: [
+    "@nuxtjs/i18n",
+    "@vueuse/nuxt",
+    "@unocss/nuxt",
+    "@nuxtjs/critters",
+    "@nuxtjs/color-mode",
+    "@pinia/nuxt",
+    "@nuxt/fonts",
+    "nuxt-swiper",
+    "@vite-pwa/nuxt",
+    "@nuxt/content",
+  ],
+  content: {
+    // ... options
+  },
+
+  swiper: {
+    // Swiper options
+    //----------------------
+    // prefix: 'Swiper',
+    // styleLang: 'css',
+    // modules: ['navigation', 'pagination'], // all modules are imported by default
+  },
 
   i18n: {
-    langDir: 'locales',
-    defaultLocale: 'fa',
+    langDir: "locales",
+    defaultLocale: "fa",
     locales,
   },
 
   colorMode: {
-    preference: 'system',
-    fallback: 'light',
-    classPrefix: '',
-    classSuffix: '',
-    storageKey: 'color-scheme',
+    preference: "system",
+    fallback: "light",
+    classPrefix: "",
+    classSuffix: "",
+    storageKey: "color-scheme",
   },
 
   // compatibilityDate: '2024-09-06',
@@ -86,14 +137,30 @@ export default defineNuxtConfig({
   fonts: {
     families: [
       {
-        name: 'Picoopic',
+        name: "Picoopic",
         src: [
-          { url: '/fonts/picoopic-Regular.woff2', weight: '400', style: 'normal' },
-          { url: '/fonts/picoopic-Bold.woff2', weight: '700', style: 'normal' },
-          { url: '/fonts/picoopic-ExtraBold.woff2', weight: '800', style: 'normal' },
-          { url: '/fonts/picoopic-Light.woff2', weight: '300', style: 'normal' },
-          { url: '/fonts/picoopic-Medium.woff2', weight: '500', style: 'normal' },
-          { url: '/fonts/picoopic-Thin.woff2', weight: '100', style: 'normal' },
+          {
+            url: "/fonts/picoopic-Regular.woff2",
+            weight: "400",
+            style: "normal",
+          },
+          { url: "/fonts/picoopic-Bold.woff2", weight: "700", style: "normal" },
+          {
+            url: "/fonts/picoopic-ExtraBold.woff2",
+            weight: "800",
+            style: "normal",
+          },
+          {
+            url: "/fonts/picoopic-Light.woff2",
+            weight: "300",
+            style: "normal",
+          },
+          {
+            url: "/fonts/picoopic-Medium.woff2",
+            weight: "500",
+            style: "normal",
+          },
+          { url: "/fonts/picoopic-Thin.woff2", weight: "100", style: "normal" },
         ],
       },
     ],
@@ -102,7 +169,5 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
-  pwa:{
-
-  }
-})
+  pwa: {},
+});

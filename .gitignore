@@ -1,6 +1,64 @@
 .data
-node_modules
-.output
-.nuxt
-.vscode
-dist
+.nitro
+
+# Node.js
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Nuxt.js
+.nuxt/
+.output/
+dist/
+.cache/
+build/
+
+# Local environment files
+.env
+.env.*.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+.DS_Store
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+yarn-error.log
+pnpm-debug.log
+npm-debug.log
+
+# Lock files (if not using in the repository)
+# Uncomment if you don't want to track lock files
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Coverage directory used by tools like Jest or Cypress
+coverage/
+
+# OS specific files
+Thumbs.db
+.DS_Store
+
+# Typescript
+*.tsbuildinfo
+*.d.ts
+
+# Nuxt generated files
+static/
+public/_nuxt/
+public/*.js
+public/*.html
+
+# Build output
+dist/
+build/
+
+# Miscellaneous
+*.local
+*.env.local
