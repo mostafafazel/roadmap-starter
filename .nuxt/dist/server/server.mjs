@@ -1,1 +1,0 @@
-export { default } from "file:///Users/mamthenebo/Me/Help/fuz/roadmap-starter/node_modules/.pnpm/@nuxt+vite-builder@3.13.2_@types+node@22.7.4_eslint@9.11.1_jiti@2.0.0__magicast@0.3.5_optiona_7y32mzdqhyb7uc47c73dnqovdu/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
