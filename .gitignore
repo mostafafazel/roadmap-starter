@@ -8,6 +8,7 @@ pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+
 # Nuxt.js
 .nuxt/
 .output/
