@@ -2,8 +2,6 @@
 
 Welcome to **Roadmap Starter**, a robust starter template designed to jumpstart your project with **Nuxt 3**. This repository includes a foundational setup for building high-quality web applications, with localization support, modern styling, and essential configurations already in place.
 
-![Nuxt 3 Logo](https://nuxtjs.org/logos/nuxt.svg)
-
 ## 🌟 Features
 
 - **Nuxt 3**: Powered by the latest version of the Nuxt framework, providing lightning-fast performance and scalability.
