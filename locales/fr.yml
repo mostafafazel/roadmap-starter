@@ -1,19 +1,127 @@
 global:
   about: À propos
-  sample: Test
+  sample: Exemple
 main:
-  title: Bienvenue, Nightrunner
+  title: Feuille de route des biosenseurs
 about:
-  title: À propos de Nightrunner
+  title: À propos de notre projet de biosenseur
   summary: >-
-    Nightrunner est un starter template simple, rapide et prêt à l'emploi
-    pour Nuxt 3. Il contient les outils nécessaires pour vous permettre de
-    démarrer immédiatement votre prochain projet.
-  features: 'Nightrunner est basé sur les technologies suivantes :'
+    Notre site web sur les biosenseurs fournit des informations complètes et à jour sur le développement, la recherche et l'innovation des technologies de biosenseurs.
+    Il propose des feuilles de route visuelles, des guides détaillés et des ressources essentielles pour aider les chercheurs, innovateurs et passionnés à rester à la pointe du domaine des biosenseurs.
+  features: 'Notre plateforme offre les fonctionnalités clés suivantes :'
   config: >-
-    En plus de cela, il contient de petits assistants pour faciliter la
-    localisation, le thème et même une configuration logique
-    pour ESLint et VSCode.
+    De plus, notre plateforme prend en charge des outils facilitant la localisation, les schémas de couleurs et un accès convivial aux ressources des biosenseurs.
 theme:
   dark: Sombre
   light: Clair
+index:
+  roadmap:
+    title: Feuille de route visuelle
+    description: Un guide détaillé sur la feuille de route de développement des biosenseurs.
+    phase1:
+      title: Phase 1 - Recherche
+      description: Menez des recherches approfondies sur les technologies de biosenseurs.
+    phase2:
+      title: Phase 2 - Conception
+      description: Développez des conceptions initiales pour le système de biosenseurs.
+    phase3:
+      title: Phase 3 - Développement
+      description: Commencez le développement à grande échelle du prototype de biosenseur.
+    phase4:
+      title: Phase 4 - Test
+      description: Effectuez des tests rigoureux sur le biosenseur pour garantir sa fonctionnalité.
+  resources:
+    title: Ressources
+    description: Accédez à des ressources clés pour rester à la pointe de la technologie des biosenseurs.
+    items:
+      documentation:
+        title: Documentation
+        description: Documentation complète sur la technologie des biosenseurs.
+      tutorials:
+        title: Tutoriels
+        description: Guides étape par étape sur l'utilisation des biosenseurs.
+      api:
+        title: API
+        description: Accès aux API et outils liés aux biosenseurs.
+      datasets:
+        title: Jeux de données
+        description: Téléchargez les données des biosenseurs pour les analyser.
+    table:
+      columns:
+        name: Nom de la ressource
+        type: Type
+        link: Lien
+      rows:
+        nuxtGuide:
+          name: Guide de développement des biosenseurs
+          type: Documentation
+          link: Visitez
+        biosensorApi:
+          name: API des biosenseurs
+          type: API
+          link: Accéder
+  news:
+    title: Actualités
+    description: Restez informé des dernières nouvelles et percées dans la technologie des biosenseurs.
+    items:
+      breakthrough:
+        title: Nouvelle percée dans la technologie des biosenseurs
+        description: Les scientifiques ont découvert un moyen plus rapide d'améliorer la sensibilité des biosenseurs...
+        link: Lire la suite
+      newSensor:
+        title: La prochaine génération de biosenseurs
+        description: 'Une nouvelle génération de biosenseurs est en préparation, offrant une sensibilité accrue...'
+        link: En savoir plus
+  grants:
+    title: Subventions
+    description: Découvrez les dernières opportunités de subventions pour la recherche et l'innovation en biosenseurs.
+    items:
+      researchGrant:
+        title: Subvention de recherche
+        description: Cette subvention soutient la recherche scientifique sur la technologie des biosenseurs.
+        link: Postulez maintenant
+      innovationGrant:
+        title: Subvention d'innovation
+        description: Cette subvention soutient les startups innovantes dans le domaine des biosenseurs.
+        link: En savoir plus
+
+  Data:
+    title: Données
+    description: 'Explorez les ressources pour gérer, analyser et protéger les données des biosenseurs.'
+    dataAnalytics:
+      title: Analyse de données
+      description: Outils et méthodes pour obtenir des informations et prendre des décisions basées sur les données des biosenseurs.
+    dataPrivacy:
+      title: Confidentialité des données
+      description: Comprenez nos politiques et meilleures pratiques pour protéger les données des biosenseurs.
+    phase3:
+      title: Phase 3 - Développement
+      description: Commencez le développement à grande échelle du prototype de biosenseur.
+    phase4:
+      title: Phase 4 - Test
+      description: Effectuez des tests rigoureux sur le biosenseur pour garantir sa fonctionnalité.
+
+  Legal:
+    title: Juridique
+    description: Parcourez les documents juridiques clés et les essentiels de conformité liés aux biosenseurs.
+    items:
+      legalOverview:
+        title: Aperçu juridique
+        description: Un résumé rapide de nos obligations légales et de vos droits en tant qu'utilisateur.
+      dataProtection:
+        title: Protection des données
+        description: Comment nous sécurisons et traitons vos données de biosenseurs en vertu du RGPD et d'autres réglementations.
+      userRights:
+        title: Vos droits
+        description: Comprenez vos droits légaux et comment les exercer facilement.
+      complianceGuidelines:
+        title: Lignes directrices en matière de conformité
+        description: Restez informé des cadres légaux que nous suivons pour garantir la conformité dans les technologies de biosenseurs.
+      researchGrant:
+        title: Subvention de recherche juridique
+        description: Cette subvention soutient la recherche juridique sur les cadres de conformité et les réglementations dans le domaine des biosenseurs.
+        link: Postulez maintenant
+      innovationGrant:
+        title: Subvention pour l'innovation juridique
+        description: Cette subvention soutient les innovations juridiques et les startups dans le domaine des biosenseurs.
+        link: En savoir plus

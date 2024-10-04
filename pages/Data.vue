@@ -17,7 +17,7 @@ useHead({
     </h1>
   </div>
 
-  <div>
+  <div class="max-w-md mx-auto">
     <p class="text-lg mb-8 dark:text-gray-300">
       {{ t('index.Data.description') }}
     </p>
@@ -26,7 +26,7 @@ useHead({
     <div class="Data relative border-l border-gray-200 dark:border-gray-700">
       <div class="mb-1 rounded-lg cursor-pointer cursor-pointer border-transparent border-[0.1px] hover:border-teal/50 ml-6 flex flex-row gap-4 bg-transparent hover:bg-gray/10 p-4">
         <span class="flex items-center justify-center w-12 h-12 bg-blue-100 rounded-lg p-1 -left-4 dark:bg-blue-800 ">
-          <i class="i-carbon-Data text-blue-500 text-2xl" />
+          <i class="i-carbon-db2-database text-blue-500 text-2xl" />
         </span>
         <div class="flex flex-col">
           <h3 class="text-lg font-semibold text-nowrap text-gray-900 dark:text-gray-100">

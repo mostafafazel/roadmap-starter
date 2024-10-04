@@ -4,14 +4,13 @@ global:
 main:
   title: Biosensor Roadmap
 about:
-  title: About Nightrunner
+  title: About Our Biosensor Project
   summary: >-
-    Nightrunner is a simple, fast, and ready-to-use starter template for Nuxt 3.
-    It features the necessary tools to get you started immediately on your next project.
-  features: 'Nightrunner uses the following technologies:'
+    Our biosensor website provides comprehensive and up-to-date information on the development, research, and innovation of biosensor technologies.
+    It features visual roadmaps, detailed guides, and essential resources to help researchers, innovators, and enthusiasts stay ahead in the biosensor field.
+  features: 'Our platform offers the following key features:'
   config: >-
-    On top of that, it contains little helpers to help with localization,
-    color schemes, and even a sensible configuration for ESLint and VSCode.
+    In addition, our platform supports tools to help with localization, color schemes, and user-friendly access to biosensor resources.
 theme:
   dark: Dark
   light: Light
@@ -54,7 +53,7 @@ index:
         link: Link
       rows:
         nuxtGuide:
-          name: Nuxt 3 Guide
+          name: Biosensor Development Guide
           type: Documentation
           link: Visit
         biosensorApi:
@@ -63,7 +62,7 @@ index:
           link: Access
   news:
     title: News
-    description: Stay updated with the latest news and breakthroughs.
+    description: Stay updated with the latest news and breakthroughs in biosensor technology.
     items:
       breakthrough:
         title: New Breakthrough in Biosensor Technology
@@ -73,10 +72,9 @@ index:
         title: Next Generation Biosensors
         description: 'A new generation of biosensors is on the horizon, offering higher sensitivity...'
         link: Learn More
-
   grants:
     title: Grants
-    description: Find out about the latest grant opportunities for research.
+    description: Find out about the latest grant opportunities for biosensor research and innovation.
     items:
       researchGrant:
         title: Research Grant
@@ -89,66 +87,41 @@ index:
 
   Data:
     title: Data
-    description: 'Explore resources for handling, analyzing, and protecting data.'
-    items:
-      dataAnalytics:
-        title: Data Analytics
-        description: Tools and methods for gathering insights and making data-driven decisions.
-        icon: 'carbon:chart-bar'
-        style: card
-        color: '#1A73E8'
-        link: Discover Analytics
-      dataPrivacy:
-        title: Data Privacy
-        description: Understand our policies and best practices for safeguarding user data.
-        icon: 'carbon:data-encryption'
-        style: icon-card
-        color: '#34A853'
-        link: Learn About Privacy
-      dataStorage:
-        title: Data Storage
-        description: How we securely store and manage large volumes of data.
-        icon: 'carbon:cloud-storage'
-        style: box
-        color: '#FBBC05'
-        link: Explore Storage Solutions
-      dataCompliance:
-        title: Data Compliance
-        description: Ensure your data handling processes are compliant with regulations.
-        icon: 'carbon:document-checked'
-        style: border-box
-        color: '#EA4335'
-        link: Check Compliance
+    description: 'Explore resources for handling, analyzing, and protecting biosensor data.'
+    dataAnalytics:
+      title: Data Analytics
+      description: Tools and methods for gathering insights and making data-driven decisions related to biosensors.
+    dataPrivacy:
+      title: Data Privacy
+      description: Understand our policies and best practices for safeguarding biosensor data.
+    phase3:
+      title: Phase 3 - Development
+      description: Begin full-scale development of the biosensor prototype.
+    phase4:
+      title: Phase 4 - Testing
+      description: Perform rigorous testing on the biosensor to ensure functionality.
 
   Legal:
     title: Legal
-    description: Navigate key legal documents and compliance essentials with ease.
+    description: Navigate key legal documents and compliance essentials related to biosensors.
     items:
       legalOverview:
         title: Legal Overview
         description: A quick summary of our legal obligations and your rights as a user.
-        icon: 'carbon:document'
-        style: card
-        color: '#1A73E8'
-        link: Get Started
       dataProtection:
         title: Data Protection
-        description: How we secure and handle your data under GDPR and other regulations.
-        icon: 'carbon:locked'
-        style: icon-card
-        color: '#34A853'
-        link: Explore Protection
+        description: How we secure and handle your biosensor data under GDPR and other regulations.
       userRights:
         title: Your Rights
         description: Understand your legal rights and how to exercise them with ease.
-        icon: 'carbon:scale'
-        style: box
-        color: '#FBBC05'
-        link: Learn Your Rights
       complianceGuidelines:
         title: Compliance Guidelines
-        description: Stay informed about the legal frameworks we follow to ensure compliance.
-        icon: 'carbon:checkmark-outline'
-        style: border-box
-        color: '#EA4335'
-        link: Read Guidelines
+        description: Stay informed about the legal frameworks we follow to ensure compliance in biosensor technologies.
+      researchGrant:
+        title: Legal Research Grant
+        description: This grant supports legal research on compliance and regulatory frameworks in biosensor technology.
+        link: Apply Now
+      innovationGrant:
+        title: Legal Innovation Grant
+        description: This grant supports legal innovations and startups in the biosensor field.
+        link: Learn More

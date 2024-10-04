@@ -1,55 +1,18 @@
-<script lang="ts" setup>
+<script setup>
 defineProps({
-  icon: {
-    type: String,
-    required: true,
-  },
-  title: {
-    type: String,
-    required: true,
-  },
-  description: {
-    type: String,
-    required: true,
-  },
+  icon: String,
+  title: String,
+  description: String,
 })
 </script>
 
 <template>
-  <div class="group hero max-h-64 md:h-28  bg-gray/10 hover:bg-gray/25 transition-scale duration-100 hover:border-teal border-1 border-transparent scale-95 hover:scale-100 cursor-pointer rounded-lg p-4">
-    <div class="hero-icon">
-      <!-- Use dynamic icon class with the `i` directive -->
-      <div :class="icon" class="icon" />
-    </div>
-    <div class="hero-content mx-2">
-      <h2 class="hero-title mb-2">
-        {{ title }}
-      </h2>
-      <p class="hero-description group-hover:text-teal">
-        {{ description }}
-      </p>
+  <div class="group flex items-center gap-4 p-4 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md transition-transform scale-95 border-1 border-transparent hover:border-teal hover:scale-100">
+    <div :class="icon" class="group-hover:text-teal transition-colors duration-300 text-6xl" />
+    <div>
+      <h2 class="font-semibold text-lg">{{ title }}</h2>
+      <p class="text-gray-700 dark:text-gray-300">{{ description }}</p>
     </div>
   </div>
 </template>
 
-  <style scoped>
-  .hero {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .icon {
-    font-size: 40px;
-  }
-
-  .hero-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-
-  .hero-description {
-    font-size: 1rem;
-    color: #666;
-  }
-  </style>

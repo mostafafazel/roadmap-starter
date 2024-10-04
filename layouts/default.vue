@@ -1,13 +1,20 @@
-<script setup>
+<script setup lang="ts">
 // Hook into the locale functionality
-const locale = useLocale()
+const  locale  = useLocale()
 </script>
 
 <template>
-  <div :dir="locale === 'fa' ? 'rtl' : 'ltr'" class="h-screen">
+  <div
+    :dir="locale === 'fa' ? 'rtl' : 'ltr'"
+    class="min-h-screen flex flex-col bg-background dark:bg-dark-background"
+  >
     <NHeader />
-    <div class="h-full flex-center flex-col gap-5 bg-background dark:bg-dark-background">
+    <main class="flex-grow mt-12 mb-12">
       <slot />
-    </div>
+    </main>
+    <!-- Optional Footer -->
+    <!-- <NFooter /> -->
+         <!-- Back button to navigate home -->
+
   </div>
 </template>

@@ -37,7 +37,7 @@ useHead({
       </div>
 
       <div class="cursor-pointer flex items-center space-x-4 p-4 bg-yellow-100 rounded-lg dark:bg-yellow-800 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-        <i class="i-solar-book-mark-bold text-4xl text-yellow-500" />
+        <i class="i-solar-book-bookmark-bold text-4xl text-yellow-500" />
         <div>
           <h3 class="font-semibold text-lg dark:text-white hover:text-yellow-700 dark:hover:text-yellow-400 transition-colors duration-300">
             {{ t('index.resources.items.tutorials.title') }}

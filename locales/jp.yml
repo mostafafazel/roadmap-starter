@@ -1,16 +1,127 @@
 global:
-  about: 詳細
+  about: について
   sample: サンプル
 main:
-  title: ようこそ、Nightrunner
+  title: バイオセンサーのロードマップ
 about:
-  title: Nightrunnerについて
+  title: バイオセンサープロジェクトについて
   summary: >-
-    Nightrunnerは、Nuxt 3用のシンプルで高速、そしてすぐに使えるスターター・テンプレートです。
-    次のプロジェクトをすぐに始めるために必要なツールを備えています。
-  features: 'Nightrunnerでは、以下の技術を使用しています:'
+    私たちのバイオセンサーサイトは、バイオセンサー技術の開発、研究、革新に関する包括的で最新の情報を提供します。
+    ビジュアルロードマップ、詳細なガイド、重要なリソースを提供し、研究者、イノベーター、愛好者がバイオセンサー分野で先を行くためのサポートを行います。
+  features: '私たちのプラットフォームは、以下の主要な機能を提供しています。'
   config: >-
-    さらに、ローカライズに役立つ小さなヘルパーや配色、そしてESLintやVSCodeに適した設定も含まれています。
+    さらに、私たちのプラットフォームは、ローカライズ、カラースキーム、バイオセンサーのリソースへのユーザーフレンドリーなアクセスをサポートするツールを提供します。
 theme:
-  dark: ダークテーマ
-  light: ライトテーマ
+  dark: ダーク
+  light: ライト
+index:
+  roadmap:
+    title: ビジュアルロードマップ
+    description: バイオセンサー開発ロードマップの詳細ガイド。
+    phase1:
+      title: フェーズ1 - 研究
+      description: バイオセンサー技術に関する包括的な研究を行います。
+    phase2:
+      title: フェーズ2 - 設計
+      description: バイオセンサーシステムの初期設計を開発します。
+    phase3:
+      title: フェーズ3 - 開発
+      description: バイオセンサーのプロトタイプを本格的に開発し始めます。
+    phase4:
+      title: フェーズ4 - テスト
+      description: バイオセンサーの機能を確認するために厳密なテストを実施します。
+  resources:
+    title: リソース
+    description: バイオセンサー技術の分野で先を行くための重要なリソースにアクセスできます。
+    items:
+      documentation:
+        title: ドキュメント
+        description: バイオセンサー技術に関する包括的なドキュメント。
+      tutorials:
+        title: チュートリアル
+        description: バイオセンサーの使用に関するステップバイステップのガイド。
+      api:
+        title: API
+        description: バイオセンサー関連のAPIおよびツールへのアクセス。
+      datasets:
+        title: データセット
+        description: 分析のためにバイオセンサーのデータをダウンロードします。
+    table:
+      columns:
+        name: リソース名
+        type: タイプ
+        link: リンク
+      rows:
+        nuxtGuide:
+          name: バイオセンサー開発ガイド
+          type: ドキュメント
+          link: 訪問する
+        biosensorApi:
+          name: バイオセンサーAPI
+          type: API
+          link: アクセス
+  news:
+    title: ニュース
+    description: バイオセンサー技術の最新ニュースとブレイクスルーを確認できます。
+    items:
+      breakthrough:
+        title: バイオセンサー技術の新たなブレイクスルー
+        description: 科学者たちは、バイオセンサーの感度を向上させるためのより迅速な方法を発見しました...
+        link: もっと読む
+      newSensor:
+        title: 次世代バイオセンサー
+        description: 'より高い感度を提供する次世代のバイオセンサーが登場しつつあります...'
+        link: 詳しく知る
+  grants:
+    title: 助成金
+    description: バイオセンサー研究およびイノベーションに関する最新の助成金情報をご覧ください。
+    items:
+      researchGrant:
+        title: 研究助成金
+        description: この助成金は、バイオセンサー技術に関する科学研究を支援します。
+        link: 今すぐ申請
+      innovationGrant:
+        title: イノベーション助成金
+        description: この助成金は、バイオセンサー分野の革新的なスタートアップを支援します。
+        link: 詳しく知る
+
+  Data:
+    title: データ
+    description: 'バイオセンサーデータの処理、分析、保護に関するリソースを探索します。'
+    dataAnalytics:
+      title: データ分析
+      description: バイオセンサーデータに基づいて洞察を得て、データ駆動型の意思決定を行うためのツールと方法。
+    dataPrivacy:
+      title: データプライバシー
+      description: バイオセンサーデータを保護するためのポリシーとベストプラクティスを理解します。
+    phase3:
+      title: フェーズ3 - 開発
+      description: バイオセンサーのプロトタイプを本格的に開発し始めます。
+    phase4:
+      title: フェーズ4 - テスト
+      description: バイオセンサーの機能を確認するために厳密なテストを実施します。
+
+  Legal:
+    title: 法的情報
+    description: バイオセンサーに関連する主要な法的文書およびコンプライアンスの必須事項を確認します。
+    items:
+      legalOverview:
+        title: 法的概要
+        description: 法的義務とユーザーとしての権利の簡単な概要。
+      dataProtection:
+        title: データ保護
+        description: GDPRおよびその他の規制の下で、バイオセンサーデータをどのように保護および管理するか。
+      userRights:
+        title: ユーザーの権利
+        description: 法的権利を理解し、簡単に行使する方法を学びます。
+      complianceGuidelines:
+        title: コンプライアンスガイドライン
+        description: バイオセンサー技術におけるコンプライアンスを確保するために従う法的枠組みについて情報を得ます。
+      researchGrant:
+        title: 法的研究助成金
+        description: この助成金は、バイオセンサー技術におけるコンプライアンスおよび規制の枠組みに関する法的研究を支援します。
+        link: 今すぐ申請
+      innovationGrant:
+        title: 法的イノベーション助成金
+        description: この助成金は、バイオセンサー分野の法的イノベーションやスタートアップを支援します。
+        link: 詳しく知る

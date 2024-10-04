@@ -17,8 +17,8 @@ useHead({
     </h1>
   </div>
 
-  <div>
-    <p class="text-lg mb-8 dark:text-gray-300">
+  <div class="max-w-md mx-auto">
+    <p class="text-lg mb-8 dark:text-gray-300 ">
       {{ t('index.roadmap.description') }}
     </p>
 
