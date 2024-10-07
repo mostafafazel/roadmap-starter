@@ -10,6 +10,7 @@ import {
 
 export default defineConfig({
   shortcuts: [
+    ['prose-container', 'prose prose-lg mx-auto max-w-screen-md'],
     ['title', 'font-extrabold text-6xl mb-3'],
     ['btn', 'px-4 py-1 border rounded-full inline-block hover:text-primary hover:bg-secondary dark:hover:text-secondary dark:hover:bg-primary text-dark dark:text-light cursor-pointer transition duration-200 ease-in-out hover:opacity-100 disabled:cursor-default disabled:bg-muted disabled:opacity-50'],
     ['icon-btn', 'hover:text-primary dark:hover:text-secondary inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100'],
@@ -18,13 +19,28 @@ export default defineConfig({
     ['grid-center', 'grid place-items-center'],
   ],
   presets: [
+    
     presetUno(),
     presetAttributify(),
     presetIcons({
       scale: 1.5,
       warn: true,
     }),
-    presetTypography(),
+    presetTypography({               // Typography preset for markdown
+      cssExtend: {
+        // Optional custom styling for typography elements
+        h1: { color: '#000', fontSize: '20.25em', fontWeight: 'bold' },
+        h2: { color: '#444', fontSize: '1.75em' },
+        blockquote: {
+          color: '#666',
+          fontStyle: 'italic',
+          paddingLeft: '1rem',
+          borderLeft: '3px solid #ccc',
+        },
+        code: { color: '#d63384', fontWeight: '500' }
+      }
+    }),
+
   ],
   transformers: [
     transformerDirectives(),

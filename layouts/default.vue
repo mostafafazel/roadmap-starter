@@ -9,9 +9,9 @@ const  locale  = useLocale()
     class="min-h-screen flex flex-col bg-background dark:bg-dark-background"
   >
     <NHeader />
-    <main class="flex-grow mt-12 mb-12">
+    <div class="flex-grow mt-12 mb-12">
       <slot />
-    </main>
+    </div>
     <!-- Optional Footer -->
     <!-- <NFooter /> -->
          <!-- Back button to navigate home -->

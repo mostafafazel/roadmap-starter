@@ -11,6 +11,7 @@ useHead({
 </script>
 
 <template>
+
   <div class="text-center mb-8">
     <h1 class="title text-4xl font-extrabold mb-6 dark:text-white">
       {{ t('index.grants.title') }}
@@ -64,4 +65,5 @@ useHead({
       </div>
     </div>
   </div>
+
 </template>

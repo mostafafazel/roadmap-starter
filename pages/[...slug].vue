@@ -1,6 +1,9 @@
+<script setup>
+</script>
+
 <template>
-    <main>
-      <ContentDoc />
-    </main>
-  </template>
-  
+  <main class="prose-container">
+    <ContentDoc />
+  </main>
+
+</template>

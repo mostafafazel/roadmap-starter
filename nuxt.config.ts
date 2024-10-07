@@ -90,6 +90,7 @@ export default defineNuxtConfig({
   // uncomment to disable SSR. This will basically make the app a SPA, like a normal Vue app, but with all the Nuxt goodies
   // ssr: false,
 
+  ssr: true,
   // global CSS files
   css: ['@unocss/reset/tailwind.css', '@/assets/css/reset.css'],
 
@@ -104,7 +105,7 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     'nuxt-swiper',
     '@vite-pwa/nuxt',
-    'nuxt-content-assets',
+    // 'nuxt-content-assets',
     '@nuxt/content',
     '@vueuse/motion/nuxt'
   ],
@@ -112,8 +113,9 @@ export default defineNuxtConfig({
   content: {
     api: {
       baseURL: '/api/_my_content'
+    },
+    markdown: {
     }
-    // ... options
   },
 
   swiper: {
