@@ -1,6 +1,7 @@
 <!-- pages/about.vue -->
 <template>
   <ContentDoc path="/en/about" />
+  <br/>
 </template>
 
 <script setup>
