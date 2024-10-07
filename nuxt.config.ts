@@ -107,7 +107,8 @@ export default defineNuxtConfig({
     '@vite-pwa/nuxt',
     // 'nuxt-content-assets',
     '@nuxt/content',
-    '@vueuse/motion/nuxt'
+    '@vueuse/motion/nuxt',
+    // '@nuxt/image',
   ],
 
   content: {
@@ -175,7 +176,7 @@ export default defineNuxtConfig({
   },
 
   devtools: {
-    enabled: true,
+    enabled: false,
   },
 
   pwa: {},

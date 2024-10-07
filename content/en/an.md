@@ -1,9 +1,7 @@
-# Nuxt Content
+::fancy-header
+That text paragraph will be unwrapped.
+::
 
-This page corresponds to the `/` route of your website. You can delete it or create another file in the `content/` directory.
-
-Try to navigate to [/about](/about). These 2 pages are rendered by the `pages/[...slug].vue` component.
-
----
-
-Look at the [Content documentation](https://content.nuxtjs.org/) to learn more.
+::carddd{icon-class="i-carbon-scales" icon-color-class="text-blue-500" title="Legal Overview" description="A comprehensive overview of legal policies." card-link="/legal-overview" button-link="/learn-more" link-text="Learn More"}
+hi
+::

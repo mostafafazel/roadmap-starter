@@ -3,7 +3,7 @@
 
 <template>
   <main class="prose-container">
-    <ContentDoc />
+    <ContentDoc path="/en/an"/>
   </main>
 
 </template>
