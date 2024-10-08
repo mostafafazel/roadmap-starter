@@ -24,26 +24,14 @@ useHead({
 
     <!-- Resource Links with Icons -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-      <div class="cursor-pointer flex items-center space-x-4 p-4 bg-blue-100 rounded-lg dark:bg-blue-800 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-        <i class="tabler-book-2 text-4xl text-blue-500" />
-        <div>
-          <h3 class="font-semibold text-lg dark:text-white hover:text-blue-700 dark:hover:text-blue-400 transition-colors duration-300">
-            {{ t('index.resources.items.documentation.title') }}
-          </h3>
-          <p class="text-gray-500 text-sm dark:text-gray-400 transition-colors duration-300 hover:text-gray-700 dark:hover:text-gray-200">
-            {{ t('index.resources.items.documentation.description') }}
-          </p>
-        </div>
-      </div>
-
       <div class="cursor-pointer flex items-center space-x-4 p-4 bg-yellow-100 rounded-lg dark:bg-yellow-800 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
         <i class="i-solar-book-bookmark-bold text-4xl text-yellow-500" />
         <div>
           <h3 class="font-semibold text-lg dark:text-white hover:text-yellow-700 dark:hover:text-yellow-400 transition-colors duration-300">
-            {{ t('index.resources.items.tutorials.title') }}
+            {{ t('index.resources.items.articles.title') }}
           </h3>
           <p class="text-gray-500 text-sm dark:text-gray-400 transition-colors duration-300 hover:text-gray-700 dark:hover:text-gray-200">
-            {{ t('index.resources.items.tutorials.description') }}
+            {{ t('index.resources.items.articles.description') }}
           </p>
         </div>
       </div>
@@ -52,22 +40,10 @@ useHead({
         <i class="i-solar-layers-bold text-4xl text-green-500" />
         <div>
           <h3 class="font-semibold text-lg dark:text-white hover:text-green-700 dark:hover:text-green-400 transition-colors duration-300">
-            {{ t('index.resources.items.api.title') }}
+            {{ t('index.resources.items.keywords.title') }}
           </h3>
           <p class="text-gray-500 text-sm dark:text-gray-400 transition-colors duration-300 hover:text-gray-700 dark:hover:text-gray-200">
-            {{ t('index.resources.items.api.description') }}
-          </p>
-        </div>
-      </div>
-
-      <div class="cursor-pointer flex items-center space-x-4 p-4 bg-red-100 rounded-lg dark:bg-red-800 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-        <i class="i-solar-cloud-bold text-4xl text-red-500" />
-        <div>
-          <h3 class="font-semibold text-lg dark:text-white hover:text-red-700 dark:hover:text-red-400 transition-colors duration-300">
-            {{ t('index.resources.items.datasets.title') }}
-          </h3>
-          <p class="text-gray-500 text-sm dark:text-gray-400 transition-colors duration-300 hover:text-gray-700 dark:hover:text-gray-200">
-            {{ t('index.resources.items.datasets.description') }}
+            {{ t('index.resources.items.keywords.description') }}
           </p>
         </div>
       </div>
@@ -91,24 +67,24 @@ useHead({
       <tbody>
         <tr class="bg-white border-b cursor-pointer dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors duration-300">
           <td class="py-2 px-4">
-            {{ t('index.resources.table.rows.nuxtGuide.name') }}
+            {{ t('index.resources.table.rows.biosensorGuide.name') }}
           </td>
           <td class="py-2 px-4">
-            {{ t('index.resources.table.rows.nuxtGuide.type') }}
+            {{ t('index.resources.table.rows.biosensorGuide.type') }}
           </td>
           <td class="py-2 px-4">
-            <a href="#" class="text-blue-500 underline hover:text-blue-700 transition-colors duration-300">{{ t('index.resources.table.rows.nuxtGuide.link') }}</a>
+            <a href="#" class="text-blue-500 underline hover:text-blue-700 transition-colors duration-300">{{ t('index.resources.table.rows.biosensorGuide.link') }}</a>
           </td>
         </tr>
         <tr class="bg-gray-50 border-b cursor-pointer dark:bg-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-300">
           <td class="py-2 px-4">
-            {{ t('index.resources.table.rows.biosensorApi.name') }}
+            {{ t('index.resources.table.rows.biosensorKeywords.name') }}
           </td>
           <td class="py-2 px-4">
-            {{ t('index.resources.table.rows.biosensorApi.type') }}
+            {{ t('index.resources.table.rows.biosensorKeywords.type') }}
           </td>
           <td class="py-2 px-4">
-            <a href="#" class="text-blue-500 underline hover:text-blue-700 transition-colors duration-300">{{ t('index.resources.table.rows.biosensorApi.link') }}</a>
+            <a href="#" class="text-blue-500 underline hover:text-blue-700 transition-colors duration-300">{{ t('index.resources.table.rows.biosensorKeywords.link') }}</a>
           </td>
         </tr>
       </tbody>

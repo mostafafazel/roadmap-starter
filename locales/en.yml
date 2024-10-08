@@ -19,47 +19,43 @@ index:
     title: Visual Roadmap
     description: A detailed guide to the biosensor development roadmap.
     phase1:
-      title: Phase 1 - Research
-      description: Conduct comprehensive research on biosensor technologies.
+      title: Visual Roadmap
+      description: A graphical overview of the stages involved in biosensor development.
     phase2:
-      title: Phase 2 - Design
-      description: Develop initial designs for the biosensor system.
+      title: Goals
+      description: Define the objectives and milestones for each phase of biosensor development.
     phase3:
-      title: Phase 3 - Development
-      description: Begin full-scale development of the biosensor prototype.
+      title: Need Assessment
+      description: Evaluate the requirements and potential impact of biosensor technology.
     phase4:
-      title: Phase 4 - Testing
-      description: Perform rigorous testing on the biosensor to ensure functionality.
+      title: feasibility Study
+      description: Assess the technical and practical feasibility of the biosensor project.
+
   resources:
     title: Resources
     description: Access key resources to help you stay ahead in biosensor technology.
     items:
-      documentation:
-        title: Documentation
-        description: Comprehensive docs on biosensor technology.
-      tutorials:
-        title: Tutorials
-        description: Step-by-step guides on using biosensors.
-      api:
-        title: APIs
-        description: Access to biosensor-related APIs and tools.
-      datasets:
-        title: Data Sets
-        description: Download biosensor data for analysis.
+      articles:
+        title: Articles
+        description: In-depth articles on biosensor technology and usage.
+      keywords:
+        title: Key Terminology
+        description: Key terms and tools related to biosensor technology.
     table:
       columns:
         name: Resource Name
         type: Type
         link: Link
       rows:
-        nuxtGuide:
+        biosensorGuide:
           name: Biosensor Development Guide
-          type: Documentation
+          type: Article
           link: Visit
-        biosensorApi:
-          name: Biosensor API
-          type: API
+        biosensorKeywords:
+          name: Biosensor Key Terminology
+          type: Keywords
           link: Access
+
   news:
     title: News
     description: Stay updated with the latest news and breakthroughs in biosensor technology.
@@ -77,29 +73,33 @@ index:
     description: Find out about the latest grant opportunities for biosensor research and innovation.
     items:
       researchGrant:
-        title: Research Grant
+        title: Companies
         description: This grant supports scientific research on biosensor technology.
-        link: Apply Now
+        link: Learn More
       innovationGrant:
-        title: Innovation Grant
+        title: Enroll Grants
         description: This grant supports innovative startups in the biosensor field.
         link: Learn More
 
   Data:
     title: Data
-    description: 'Explore resources for handling, analyzing, and protecting biosensor data.'
-    dataAnalytics:
-      title: Data Analytics
-      description: Tools and methods for gathering insights and making data-driven decisions related to biosensors.
-    dataPrivacy:
-      title: Data Privacy
-      description: Understand our policies and best practices for safeguarding biosensor data.
-    phase3:
-      title: Phase 3 - Development
-      description: Begin full-scale development of the biosensor prototype.
-    phase4:
-      title: Phase 4 - Testing
-      description: Perform rigorous testing on the biosensor to ensure functionality.
+    description: 'Discover how biosensors work and transform biological signals into data.'
+    
+    whatIsBiosensor:
+      title: What is a Biosensor?
+      description: 'Learn about biosensors, their working principles, and how they convert biological responses into measurable signals.'
+
+    historyAndEvolution:
+      title: History and Evolution of Biosensors
+      description: 'Explore the historical development of biosensors, from their early beginnings to the advanced systems used today.'
+
+    typesOfBiosensors:
+      title: Types of Biosensors
+      description: 'Discover the different types of biosensors, including electrochemical, optical, and thermal sensors, each designed for specific applications.'
+
+    applications:
+      title: Applications of Biosensors
+      description: 'Understand the wide range of applications for biosensors, from medical diagnostics and environmental monitoring to food safety and biotechnology.'
 
   Legal:
     title: Legal
@@ -125,3 +125,5 @@ index:
         title: Legal Innovation Grant
         description: This grant supports legal innovations and startups in the biosensor field.
         link: Learn More
+  
+  

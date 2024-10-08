@@ -14,9 +14,18 @@ useHead({
 
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
 
-    <Cardd cardLink="/fuzz"  linkText="bezan ro0m" description="دسکریپشن" iconClass="i-carbon-accessibility-color-filled" title="عنوان" iconColorClass="text-red-700"></Cardd>
+    <Cardd 
+      cardLink="/en/legal/privacy"
+      linkText="bezan ro0m" 
+      description="دسکریپشن" 
+      iconClass="i-carbon-map" 
+      title="عنوان" 
+      iconColorClass="text-green-500">
+    </Cardd>
     
-    <Cardd
+
+    <Cardd 
+      cardLink="/en/index"
       iconClass="i-carbon-scales"
       iconColorClass="text-blue-500"
       :title="t('index.Legal.items.legalOverview.title')"
@@ -47,7 +56,8 @@ useHead({
       :description="t('index.Legal.items.researchGrant.description')"
       link="#"
       linkText="Learn More"
-    />
+      />
+
     <Cardd
       iconClass="i-tabler-bulb"
       iconColorClass="text-green-500"
