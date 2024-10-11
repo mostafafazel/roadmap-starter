@@ -21,14 +21,15 @@ useHead({
     </p>
   </div>
 
+  
   <!-- Grant Opportunities Section -->
-  <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-10">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 lg:gap-4">
     <!-- Research Grant -->
     <div
-      class="transition transform hover:scale-105 p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl dark:bg-gray-800 dark:text-white"
+      class="transition transform hover:scale-105 p-2 bg-white rounded-xl  dark:bg-gray-800 dark:text-white"
     >
       <div class="flex flex-col items-center">
-        <i class="i-solar-wallet-money-bold text-6xl text-blue-500 mb-4" />
+        <i class="i-solar-wallet-money-bold text-6xl text-blue-500" />
         <h3 class="font-semibold text-xl mb-3 text-center">
           {{ t('index.grants.items.researchGrant.title') }}
         </h3>
@@ -43,13 +44,13 @@ useHead({
         </a>
       </div>
     </div>
-
+    <hr class="border-white/25 m-0 p-0"/>
     <!-- Innovation Grant -->
     <div
-      class="transition transform hover:scale-105 p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl dark:bg-gray-800 dark:text-white"
+      class="transition transform hover:scale-105 p-2 bg-white rounded-xl  dark:bg-gray-800 dark:text-white"
     >
       <div class="flex flex-col items-center">
-        <i class="i-carbon-money text-6xl text-green-500 mb-4" />
+        <i class="i-carbon-money text-6xl text-green-500" />
         <h3 class="font-semibold text-xl mb-3 text-center">
           {{ t('index.grants.items.innovationGrant.title') }}
         </h3>

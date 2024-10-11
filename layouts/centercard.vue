@@ -55,11 +55,11 @@ onBeforeUnmount(() => {
 <template>
   <div :dir="locale === 'fa' ? 'rtl' : 'ltr'" class="min-h-screen flex flex-col">
     <!-- Header with reference -->
-    <NHeader ref="headerRef" />
+    <!-- <NHeader ref="headerRef" /> -->
 
     <!-- Modal content -->
-    <div class="flex-grow flex items-center justify-center p-4 w-screen">
-      <div ref="modalContent" class="bg-white dark:bg-gray-800 rounded-lg  p-6 w-full max-w-full mx-8">
+    <div class="flex-grow flex items-center justify-center w-screen">
+      <div ref="modalContent" class="bg-white dark:bg-gray-800 rounded-lg h-max min-h-screen p-6 w-full max-w-full mx-0">
         <slot />
       </div>
     </div>

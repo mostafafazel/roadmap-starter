@@ -32,7 +32,7 @@ useHead({
           <h3 class="text-lg font-semibold text-nowrap text-gray-900 dark:text-gray-100">
             {{ t('index.Data.whatIsBiosensor.title') }}
           </h3>
-          <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+          <p class="text-sm font-normal text-gray-500 dark:text-gray-400">
             {{ t('index.Data.whatIsBiosensor.description') }}
           </p>
         </div>
@@ -46,7 +46,7 @@ useHead({
           <h3 class="text-lg font-semibold text-nowrap text-gray-900 dark:text-gray-100">
             {{ t('index.Data.historyAndEvolution.title') }}
           </h3>
-          <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+          <p class="text-sm font-normal text-gray-500 dark:text-gray-400">
             {{ t('index.Data.historyAndEvolution.description') }}
           </p>
         </div>
@@ -60,7 +60,7 @@ useHead({
           <h3 class="text-lg font-semibold text-nowrap text-gray-900 dark:text-gray-100">
             {{ t('index.Data.typesOfBiosensors.title') }}
           </h3>
-          <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+          <p class="text-sm font-normal text-gray-500 dark:text-gray-400">
             {{ t('index.Data.typesOfBiosensors.description') }}
           </p>
         </div>
@@ -74,7 +74,7 @@ useHead({
           <h3 class="text-lg font-semibold text-nowrap text-gray-900 dark:text-gray-100">
             {{ t('index.Data.applications.title') }}
           </h3>
-          <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+          <p class="text-sm font-normal text-gray-500 dark:text-gray-400">
             {{ t('index.Data.applications.description') }}
           </p>
         </div>

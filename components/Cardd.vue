@@ -1,16 +1,18 @@
 <template>
   <NuxtLink v-if="cardLink" :to="cardLink" class="block">
-    <div class="transition transform hover:scale-105 p-4 bg-white rounded-lg shadow-md hover:shadow-lg dark:bg-gray-800 dark:text-white">
+    <div class="transition transform hover:scale-105 p-1 bg-white rounded-lg  dark:bg-gray-800 dark:text-white">
       <div class="flex flex-col items-center">
-        <i :class="`${iconClass} text-4xl mb-2 ${iconColorClass}`" />
+        <div class="flex flex-row-reverse w-full items-center justify-between ">
+          <i :class="`${iconClass} text-4xl mb-2 ${iconColorClass}`" />
         
         <!-- Title Slot -->
         <h3 class="font-semibold text-lg mb-2 text-center">
           <slot name="title">{{ title }}</slot>
         </h3>
+      </div>
         
         <!-- Description Slot -->
-        <p class="text-gray-600 text-xs text-center dark:text-gray-400">
+        <p class="text-gray-600 text-xs text-start dark:text-gray-400">
           <slot name="description">{{ description }}</slot>
         </p>
         
@@ -27,17 +29,19 @@
   </NuxtLink>
 
   <!-- Fallback without NuxtLink wrapper if no cardLink is provided -->
-  <div v-else class="transition transform hover:scale-105 p-4 bg-white rounded-lg shadow-md hover:shadow-lg dark:bg-gray-800 dark:text-white">
+  <div v-else class="transition transform hover:scale-105 p-1 bg-white rounded-lg  dark:bg-gray-800 dark:text-white">
     <div class="flex flex-col items-center">
+      <div class="flex flex-row-reverse w-full items-center justify-between ">
+
       <i :class="`${iconClass} text-4xl mb-2 ${iconColorClass}`" />
 
       <!-- Title Slot -->
       <h3 class="font-semibold text-lg mb-2 text-center">
         <slot name="title">{{ title }}</slot>
       </h3>
-
+</div>
       <!-- Description Slot -->
-      <p class="text-gray-600 text-xs text-center dark:text-gray-400">
+      <p class="text-gray-600 text-xs text-start dark:text-gray-400">
         <slot name="description">{{ description }}</slot>
       </p>
 

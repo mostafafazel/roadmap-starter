@@ -12,9 +12,9 @@ useHead({
 <template>
   <Headerr :title="t('index.Legal.title')" :description="t('index.Legal.description')" />
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 lg:gap-4">
 
-    <Cardd 
+    <!-- <Cardd 
       cardLink="/en/legal/privacy"
       linkText="bezan ro0m" 
       description="دسکریپشن" 
@@ -30,25 +30,32 @@ useHead({
       iconColorClass="text-blue-500"
       :title="t('index.Legal.items.legalOverview.title')"
       :description="t('index.Legal.items.legalOverview.description')"
-    />
+    /> -->
+    
     <Cardd
       iconClass="i-solar-safe-square-bold"
       iconColorClass="text-green-500"
       :title="t('index.Legal.items.dataProtection.title')"
       :description="t('index.Legal.items.dataProtection.description')"
     />
+    <hr class="border-white/25 m-0 p-0"/>
+
     <Cardd
       iconClass="i-tabler-hand-stop"
       iconColorClass="text-yellow-500"
       :title="t('index.Legal.items.userRights.title')"
       :description="t('index.Legal.items.userRights.description')"
     />
+    <hr class="border-white/25 m-0 p-0"/>
+
     <Cardd
       iconClass="i-carbon-checkmark-outline"
       iconColorClass="text-red-500"
       :title="t('index.Legal.items.complianceGuidelines.title')"
       :description="t('index.Legal.items.complianceGuidelines.description')"
     />
+    <hr class="border-white/25 m-0 p-0"/>
+
     <Cardd
       iconClass="i-solar-document-bold"
       iconColorClass="text-purple-500"
@@ -57,6 +64,7 @@ useHead({
       link="#"
       linkText="Learn More"
       />
+      <hr class="border-white/25 m-0 p-0"/>
 
     <Cardd
       iconClass="i-tabler-bulb"
@@ -66,5 +74,6 @@ useHead({
       link="#"
       linkText="Learn More"
     />
+    <div class="mb-18"></div>
   </div>
 </template>

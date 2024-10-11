@@ -32,7 +32,7 @@ useHead({
           <h3 class="text-lg font-semibold text-nowrap text-gray-900 dark:text-gray-100">
             {{ t('index.roadmap.phase1.title') }}
           </h3>
-          <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+          <p class="font-normal text-sm text-gray-500 dark:text-gray-400">
             {{ t('index.roadmap.phase1.description') }}
           </p>
         </div>
@@ -45,7 +45,7 @@ useHead({
           <h3 class="text-lg font-semibold text-nowrap text-gray-900 dark:text-gray-100">
             {{ t('index.roadmap.phase2.title') }}
           </h3>
-          <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+          <p class="font-normal text-sm text-gray-500 dark:text-gray-400">
             {{ t('index.roadmap.phase2.description') }}
           </p>
         </div>
@@ -58,7 +58,7 @@ useHead({
           <h3 class="text-lg font-semibold text-nowrap text-gray-900 dark:text-gray-100">
             {{ t('index.roadmap.phase3.title') }}
           </h3>
-          <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+          <p class="font-normal text-sm text-gray-500 dark:text-gray-400">
             {{ t('index.roadmap.phase3.description') }}
           </p>
         </div>
@@ -71,7 +71,7 @@ useHead({
           <h3 class="text-lg font-semibold text-nowrap text-gray-900 dark:text-gray-100">
             {{ t('index.roadmap.phase4.title') }}
           </h3>
-          <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+          <p class="font-normal text-sm text-gray-500 dark:text-gray-400">
             {{ t('index.roadmap.phase4.description') }}
           </p>
         </div>
