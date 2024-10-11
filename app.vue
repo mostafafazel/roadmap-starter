@@ -7,6 +7,12 @@ const locale = useLocale()
 tryOnBeforeMount(() => {
   router.replace(switchLocalePath(locale.value))
 })
+
+onMounted(() => {
+    document.addEventListener('gesturestart', function (e) {
+      e.preventDefault();
+    });
+})
 </script>
 
 <template>
@@ -17,3 +23,14 @@ tryOnBeforeMount(() => {
     </NuxtLayout>
   </div>
 </template>
+
+
+
+
+
+
+<style>
+html, body {
+  touch-action: pan-x pan-y;
+}
+</style>

@@ -12,7 +12,7 @@ useHead({
 <template>
   <Headerr :title="t('index.Legal.title')" :description="t('index.Legal.description')" />
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 lg:gap-4">
+  <div class="grid grid-cols-1 sm:grid-cols-1 gap-2 lg:gap-4 md:mx-28">
 
     <!-- <Cardd 
       cardLink="/en/legal/privacy"

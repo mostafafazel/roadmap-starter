@@ -11,57 +11,85 @@ useHead({
 </script>
 
 <template>
-  <div class="text-center mb-8">
-    <h1 class="title text-4xl font-extrabold mb-6 dark:text-white">
-      {{ t('index.news.title') }}
-    </h1>
-    <p class="text-lg mb-10 max-w-3xl mx-auto dark:text-gray-300">
-      {{ t('index.news.description') }}
-    </p>
-  </div>
-
-  <!-- News Section -->
-  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 lg:gap-4">
-    <!-- Breakthrough News -->
-    <div
-      class="transition transform hover:scale-105 p-4 bg-white rounded-xl  dark:bg-gray-800 dark:text-white"
-    >
-      <div class="flex flex-col items-center">
-        <i class="i-tabler-news text-6xl text-blue-500 "></i>
-        <h3 class="font-semibold text-xl mb-3 text-center">
-          {{ t('index.news.items.breakthrough.title') }}
-        </h3>
-        <p class="text-gray-600 text-sm text-center mb-5 dark:text-gray-400">
-          {{ t('index.news.items.breakthrough.description') }}
-        </p>
-        <a
-          href="#"
-          class="bg-blue-500 text-white font-semibold px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300"
-        >
-          {{ t('index.news.items.breakthrough.link') }}
-        </a>
-      </div>
+  <div class="min-h-[80vh] flex flex-col justify-start items-center p-4 md:space-y-10 lg:h-[90vh] lg:px-20">
+    
+    <!-- Header Section -->
+    <div class="text-center space-y-4 mb-8 lg:mb-12">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-800 dark:text-white">
+        {{ t('index.news.title') }}
+      </h1>
+      <p class="text-xs sm:text-sm md:text-lg lg:text-xl text-teal-600 dark:text-teal-300 max-w-3xl mx-auto">
+        {{ t('index.news.description') }}
+      </p>
     </div>
-<hr class="border-white/25 m-0 p-0"/>
-    <!-- New Sensor News -->
-    <div
-      class="transition transform hover:scale-105 p-4 bg-white rounded-xl  dark:bg-gray-800 dark:text-white"
-    >
-      <div class="flex flex-col items-center">
-        <i class="i-tabler-cube text-6xl text-green-500 "></i>
-        <h3 class="font-semibold text-xl mb-3 text-center">
-          {{ t('index.news.items.newSensor.title') }}
-        </h3>
-        <p class="text-gray-600 text-sm text-center mb-5 dark:text-gray-400">
-          {{ t('index.news.items.newSensor.description') }}
-        </p>
-        <a
-          href="#"
-          class="bg-green-500 text-white font-semibold px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300"
-        >
-          {{ t('index.news.items.newSensor.link') }}
-        </a>
+
+    <!-- News Section -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 w-full lg:w-3/4">
+      
+      <!-- Breakthrough News Card -->
+      <div class="group max-w-xs sm:max-w-sm mx-auto p-4 rounded-xl bg-white dark:bg-gray-800 transform transition-all duration-300 hover:scale-105 ">
+        <div class="flex flex-col items-center gap-2 md:gap-4">
+          <i class="i-tabler-news text-6xl text-blue-500 group-hover:text-blue-600 transition duration-500 ease-out"></i>
+          <h3 class="text-nowrap text-xl md:text-2xl font-semibold text-center dark:text-white">
+            {{ t('index.news.items.breakthrough.title') }}
+          </h3>
+          <p class="w-full text-justify text-xs md:text-sm lg:text-base text-gray-600 dark:text-gray-400">
+            {{ t('index.news.items.breakthrough.description') }}
+          </p>
+          <a href="#" class="mt-2 px-5 py-2 group-hover:bg-blue-500/80 text-white rounded-lg font-medium transition-colors duration-300 hover:bg-blue-600">
+            {{ t('index.news.items.breakthrough.link') }}
+          </a>
+        </div>
+      </div>
+
+      <!-- Divider for mobile view -->
+      <div class="block lg:hidden h-px w-3/4 mx-auto bg-gray-300/30 my-4"></div>
+
+      <!-- New Sensor News Card -->
+      <div class="group max-w-xs sm:max-w-sm mx-auto p-4 rounded-xl bg-white dark:bg-gray-800 transform transition-all duration-300 hover:scale-105 ">
+        <div class="flex flex-col items-center gap-2 md:gap-4">
+          <i class="i-tabler-cube text-6xl text-green-500 group-hover:text-green-600 transition duration-500 ease-out"></i>
+          <h3 class="text-nowrap text-xl md:text-2xl font-semibold text-center dark:text-white">
+            {{ t('index.news.items.newSensor.title') }}
+          </h3>
+          <p class="w-full text-justify text-xs md:text-sm lg:text-base text-gray-600 dark:text-gray-400">
+            {{ t('index.news.items.newSensor.description') }}
+          </p>
+          <a href="#" class="mt-2 px-5 py-2 group-hover:bg-green-500/80 text-white rounded-lg font-medium transition-colors duration-300 hover:bg-green-600">
+            {{ t('index.news.items.newSensor.link') }}
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+/* Rotate and scale keyframes */
+@keyframes rotateScale {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  100% {
+    transform: rotate(12deg) scale(1.1);
+  }
+}
+
+@keyframes pulseAlt {
+  0%, 100% {
+    transform: rotate(12deg) scale(1.1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Hover animation effects */
+.group:hover .i-tabler-news,
+.group:hover .i-tabler-cube {
+  animation: rotateScale 0.5s ease-out forwards, pulseAlt 1.2s ease infinite;
+  animation-delay: 0s, 0.5s;
+  animation-fill-mode: forwards;
+  transition: transform 0.5s ease-out;
+}
+</style>
