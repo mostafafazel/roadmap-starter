@@ -84,7 +84,7 @@ useHead({
             {{ t('index.resources.table.rows.biosensorKeywords.type') }}
           </td>
           <td class="py-2 px-4">
-            <a href="#" class="text-blue-500 underline hover:text-blue-700 transition-colors duration-300">{{ t('index.resources.table.rows.biosensorKeywords.link') }}</a>
+            <a href="/en/resources/terminology" class="text-blue-500 underline hover:text-blue-700 transition-colors duration-300">{{ t('index.resources.table.rows.biosensorKeywords.link') }}</a>
           </td>
         </tr>
       </tbody>

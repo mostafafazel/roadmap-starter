@@ -2,7 +2,7 @@ global:
   about: About
   sample: Sample
 main:
-  title: Biosensor Roadmap
+  title: Biosensors
 about:
   title: About Our Biosensor Project
   summary: >-
@@ -61,7 +61,7 @@ index:
     description: Stay updated with the latest news and breakthroughs in biosensor technology.
     items:
       breakthrough:
-        title: New Breakthrough in Biosensor Technology
+        title: New Breakthrough in Biosensor 
         description: Scientists have discovered a faster way to enhance biosensor sensitivity...
         link: Read More
       newSensor:
@@ -104,26 +104,12 @@ index:
   Legal:
     title: Legal
     description: Navigate key legal documents and compliance essentials related to biosensors.
-    items:
-      legalOverview:
-        title: Legal Overview
-        description: A quick summary of our legal obligations and your rights as a user.
-      dataProtection:
-        title: Data Protection
-        description: How we secure and handle your biosensor data under GDPR and other regulations.
-      userRights:
-        title: Your Rights
-        description: Understand your legal rights and how to exercise them with ease.
-      complianceGuidelines:
-        title: Compliance Guidelines
-        description: Stay informed about the legal frameworks we follow to ensure compliance in biosensor technologies.
-      researchGrant:
-        title: Legal Research Grant
-        description: This grant supports legal research on compliance and regulatory frameworks in biosensor technology.
-        link: Apply Now
-      innovationGrant:
-        title: Legal Innovation Grant
-        description: This grant supports legal innovations and startups in the biosensor field.
+    
+    domesticRules:
+        title: Domestic Rules
+        description: Overview of national legal obligations, compliance standards, and data protection for biosensor technologies.
         link: Learn More
-  
-  
+    internationalRules:
+        title: International Rules
+        description: Guidelines on global regulatory frameworks and compliance standards impacting biosensor technology across borders.
+        link: Learn More

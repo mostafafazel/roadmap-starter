@@ -10,70 +10,84 @@ useHead({
 </script>
 
 <template>
-  <Headerr :title="t('index.Legal.title')" :description="t('index.Legal.description')" />
+  <!-- Header Section -->
+  <div class="min-h-[80vh] flex flex-col justify-start items-center p-4 md:space-y-10 lg:h-[90vh] lg:px-20">
+    <div class="text-center space-y-4 mb-8 lg:mb-12">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-800 dark:text-white">
+        {{ t('index.Legal.title') }}
+      </h1>
+      <p class="text-xs sm:text-sm md:text-lg lg:text-xl text-teal-600 dark:text-teal-300 max-w-3xl mx-auto">
+        {{ t('index.Legal.description') }}
+      </p>
+    </div>
 
-  <div class="grid grid-cols-1 sm:grid-cols-1 gap-2 lg:gap-4 md:mx-28">
+    <!-- Legal Cards Section -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 w-full lg:w-3/4">
+      
+      <!-- Domestic Rules Card -->
+      <div class="group max-w-xs sm:max-w-sm mx-auto p-4 rounded-xl bg-white dark:bg-gray-800 transform transition-all duration-300 hover:scale-105">
+        <div class="flex flex-col items-center gap-2 md:gap-4">
+          <i class="i-carbon-scales text-6xl text-green-500 group-hover:text-green-600 transition duration-500 ease-out"></i>
+          <h3 class="text-nowrap text-xl md:text-2xl font-semibold text-center dark:text-white">
+            {{ t('index.Legal.domesticRules.title') }}
+          </h3>
+          <p class="w-full text-justify text-xs md:text-sm lg:text-base text-gray-600 dark:text-gray-400">
+            {{ t('index.Legal.domesticRules.description') }}
+          </p>
+          <a href="/en/legal/domestic" class="mt-2 px-5 py-2 group-hover:bg-green-500/80 text-white rounded-lg font-medium transition-colors duration-300 hover:bg-green-600">
+            {{ t('index.Legal.domesticRules.link') }}
+          </a>
+        </div>
+      </div>
 
-    <!-- <Cardd 
-      cardLink="/en/legal/privacy"
-      linkText="bezan ro0m" 
-      description="دسکریپشن" 
-      iconClass="i-carbon-map" 
-      title="عنوان" 
-      iconColorClass="text-green-500">
-    </Cardd>
-    
+      <!-- Divider for mobile view -->
+      <div class="block lg:hidden h-px w-3/4 mx-auto bg-gray-300/30 my-4"></div>
 
-    <Cardd 
-      cardLink="/en/index"
-      iconClass="i-carbon-scales"
-      iconColorClass="text-blue-500"
-      :title="t('index.Legal.items.legalOverview.title')"
-      :description="t('index.Legal.items.legalOverview.description')"
-    /> -->
-    
-    <Cardd
-      iconClass="i-solar-safe-square-bold"
-      iconColorClass="text-green-500"
-      :title="t('index.Legal.items.dataProtection.title')"
-      :description="t('index.Legal.items.dataProtection.description')"
-    />
-    <hr class="border-white/25 m-0 p-0"/>
-
-    <Cardd
-      iconClass="i-tabler-hand-stop"
-      iconColorClass="text-yellow-500"
-      :title="t('index.Legal.items.userRights.title')"
-      :description="t('index.Legal.items.userRights.description')"
-    />
-    <hr class="border-white/25 m-0 p-0"/>
-
-    <Cardd
-      iconClass="i-carbon-checkmark-outline"
-      iconColorClass="text-red-500"
-      :title="t('index.Legal.items.complianceGuidelines.title')"
-      :description="t('index.Legal.items.complianceGuidelines.description')"
-    />
-    <hr class="border-white/25 m-0 p-0"/>
-
-    <Cardd
-      iconClass="i-solar-document-bold"
-      iconColorClass="text-purple-500"
-      :title="t('index.Legal.items.researchGrant.title')"
-      :description="t('index.Legal.items.researchGrant.description')"
-      link="#"
-      linkText="Learn More"
-      />
-      <hr class="border-white/25 m-0 p-0"/>
-
-    <Cardd
-      iconClass="i-tabler-bulb"
-      iconColorClass="text-green-500"
-      :title="t('index.Legal.items.innovationGrant.title')"
-      :description="t('index.Legal.items.innovationGrant.description')"
-      link="#"
-      linkText="Learn More"
-    />
-    <div class="mb-18"></div>
+      <!-- International Rules Card -->
+      <div class="group max-w-xs sm:max-w-sm mx-auto p-4 rounded-xl bg-white dark:bg-gray-800 transform transition-all duration-300 hover:scale-105">
+        <div class="flex flex-col items-center gap-2 md:gap-4">
+          <i class="i-carbon-globe text-6xl text-blue-500 group-hover:text-blue-600 transition duration-500 ease-out"></i>
+          <h3 class="text-nowrap text-xl md:text-2xl font-semibold text-center dark:text-white">
+            {{ t('index.Legal.internationalRules.title') }}
+          </h3>
+          <p class="w-full text-justify text-xs md:text-sm lg:text-base text-gray-600 dark:text-gray-400">
+            {{ t('index.Legal.internationalRules.description') }}
+          </p>
+          <a href="/en/legal/international" class="mt-2 px-5 py-2 group-hover:bg-blue-500/80 text-white rounded-lg font-medium transition-colors duration-300 hover:bg-blue-600">
+            {{ t('index.Legal.internationalRules.link') }}
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
+
+<style scoped>
+/* Rotate and scale keyframes */
+@keyframes rotateScale {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  100% {
+    transform: rotate(12deg) scale(1.1);
+  }
+}
+
+@keyframes pulseAlt {
+  0%, 100% {
+    transform: rotate(12deg) scale(1.1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Hover animation effects */
+.group:hover .i-carbon-scales,
+.group:hover .i-carbon-globe {
+  animation: rotateScale 0.5s ease-out forwards, pulseAlt 1.2s ease infinite;
+  animation-delay: 0s, 0.5s;
+  animation-fill-mode: forwards;
+  transition: transform 0.5s ease-out;
+}
+</style>

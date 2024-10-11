@@ -1,8 +1,3 @@
----
-title: "About Us"
-description: "Discover our mission, vision, team, and the innovative technologies that drive our biosensor research and development."
----
-
 # About Us
 
 Welcome to our Nuxt.js-powered website! We are thrilled to have you here. This page is dedicated to giving you insights into who we are, what we do, and how we can help you.

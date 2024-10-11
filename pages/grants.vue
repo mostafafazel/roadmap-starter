@@ -36,7 +36,7 @@ useHead({
           <p class="w-full text-justify text-xs md:text-sm lg:text-base text-gray-600 dark:text-gray-400">
             {{ t('index.grants.items.researchGrant.description') }}
           </p>
-          <a href="#" class="mt-2 px-5 py-2 group-hover:bg-blue-500/80 text-white rounded-lg font-medium transition-colors duration-300 hover:bg-blue-600">
+          <a href="/en/grants/company" class="mt-2 px-5 py-2 group-hover:bg-blue-500/80 text-white rounded-lg font-medium transition-colors duration-300 hover:bg-blue-600">
             {{ t('index.grants.items.researchGrant.link') }}
           </a>
         </div>
@@ -55,7 +55,7 @@ useHead({
           <p class="w-full text-justify text-xs md:text-sm lg:text-base text-gray-600 dark:text-gray-400">
             {{ t('index.grants.items.innovationGrant.description') }}
           </p>
-          <a href="#" class="mt-2 px-5 py-2 group-hover:bg-green-500/80 text-white rounded-lg font-medium transition-colors duration-300 hover:bg-green-600">
+          <a href="/en/grants/grant" class="mt-2 px-5 py-2 group-hover:bg-green-500/80 text-white rounded-lg font-medium transition-colors duration-300 hover:bg-green-600">
             {{ t('index.grants.items.innovationGrant.link') }}
           </a>
         </div>
