@@ -1,6 +1,11 @@
 <script setup lang="ts">
+// import { useRoute } from 'vue-router';
+
 // Hook into the locale functionality
-const  locale  = useLocale()
+const locale = useLocale();
+
+// Get the current route
+const route = useRoute();
 </script>
 
 <template>
@@ -14,9 +19,8 @@ const  locale  = useLocale()
     </div>
     <!-- Optional Footer -->
     <!-- <NFooter /> -->
-         <!-- Back button to navigate home -->
-
+    
+    <!-- Back button to navigate home, render only if not on the main page -->
+    <arrow v-if="route.path !== '/'" />
   </div>
 </template>
-
-

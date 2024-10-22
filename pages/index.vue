@@ -3,6 +3,8 @@ const { t, locale } = useCustomI18n()
 
 function localizedPath(path: string) {
   return locale.value === 'fa' ? path : `/${locale.value}${path}`
+  // return `/${locale.value}${path}`;
+
 }
 
 const links = [

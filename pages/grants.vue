@@ -24,7 +24,7 @@ useHead({
     </div>
 
     <!-- Grants Section -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 w-full lg:w-3/4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 lg:gap-6 w-full lg:w-3/4">
       
       <!-- Research Grant Card -->
       <div class="group max-w-xs sm:max-w-sm mx-auto p-4 rounded-xl bg-white dark:bg-gray-800 transform transition-all duration-300 hover:scale-105">
@@ -36,7 +36,7 @@ useHead({
           <p class="w-full text-justify text-xs md:text-sm lg:text-base text-gray-600 dark:text-gray-400">
             {{ t('index.grants.items.researchGrant.description') }}
           </p>
-          <a href="/en/grants/company" class="mt-2 px-5 py-2 group-hover:bg-blue-500/80 text-white rounded-lg font-medium transition-colors duration-300 hover:bg-blue-600">
+          <a href="/grants/company" class="mt-2 px-5 py-2 group-hover:bg-blue-500/80 text-white rounded-lg font-medium transition-colors duration-300 hover:bg-blue-600">
             {{ t('index.grants.items.researchGrant.link') }}
           </a>
         </div>
@@ -55,7 +55,7 @@ useHead({
           <p class="w-full text-justify text-xs md:text-sm lg:text-base text-gray-600 dark:text-gray-400">
             {{ t('index.grants.items.innovationGrant.description') }}
           </p>
-          <a href="/en/grants/grant" class="mt-2 px-5 py-2 group-hover:bg-green-500/80 text-white rounded-lg font-medium transition-colors duration-300 hover:bg-green-600">
+          <a href="/grants/grant" class="mt-2 px-5 py-2 group-hover:bg-green-500/80 text-white rounded-lg font-medium transition-colors duration-300 hover:bg-green-600">
             {{ t('index.grants.items.innovationGrant.link') }}
           </a>
         </div>

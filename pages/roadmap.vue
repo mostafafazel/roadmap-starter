@@ -17,9 +17,9 @@ useHead({
     </h1>
   </div>
 
-  <div class="grid grid-cols-1 sm:grid-cols-1 gap-2 lg:gap-4 md:mx-28">
+  <div class="grid grid-cols-1 sm:grid-cols-1 gap-2 lg:gap-4 max-w-[500px] mx-auto md:mt-18">
     <Cardd 
-      cardLink="/en/roadmap/visuals/diagrams"
+      cardLink="/roadmap/visuals/diagrams"
       iconClass="i-carbon-roadmap" 
       iconColorClass="text-blue-500" 
       :title="t('index.roadmap.phase1.title')" 
@@ -27,7 +27,7 @@ useHead({
     />
 
     <Cardd 
-      cardLink="/en/roadmap/goals"
+      cardLink="/roadmap/goals"
       iconClass="i-carbon-cics-sit-overrides" 
       iconColorClass="text-yellow-500" 
       :title="t('index.roadmap.phase2.title')" 
@@ -35,7 +35,7 @@ useHead({
     />
 
     <Cardd 
-      cardLink="/en/roadmap/need"
+      cardLink="/roadmap/need"
       iconClass="i-carbon-development" 
       iconColorClass="text-green-500" 
       :title="t('index.roadmap.phase3.title')" 
@@ -43,7 +43,7 @@ useHead({
     />
 
     <Cardd 
-      cardLink="/en/roadmap/feasibility"
+      cardLink="/roadmap/feasibility"
       iconClass="i-carbon-test-tool" 
       iconColorClass="text-red-500" 
       :title="t('index.roadmap.phase4.title')" 

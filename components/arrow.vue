@@ -1,8 +1,12 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+// import { ref } from 'vue';
+// import { useRouter } from 'vue-router';
 
 // Reference for the arrow element
 const anaghaRef = ref(null);
+
+// Get the router instance
+const router = useRouter();
 
 // Function to handle the click and move the arrow out
 function handleArrowClick() {
@@ -11,6 +15,9 @@ function handleArrowClick() {
     element.style.transform = 'translateX(-10px)'; // Move it out
     element.style.opacity = '0%'; // Make it invisible
   }
+  
+  // Navigate back in history
+  router.back();
 }
 </script>
 

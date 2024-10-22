@@ -22,7 +22,7 @@ useHead({
     </div>
 
     <!-- Legal Cards Section -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 w-full lg:w-3/4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 lg:gap-6 w-full lg:w-3/4">
       
       <!-- Domestic Rules Card -->
       <div class="group max-w-xs sm:max-w-sm mx-auto p-4 rounded-xl bg-white dark:bg-gray-800 transform transition-all duration-300 hover:scale-105">
@@ -34,7 +34,7 @@ useHead({
           <p class="w-full text-justify text-xs md:text-sm lg:text-base text-gray-600 dark:text-gray-400">
             {{ t('index.Legal.domesticRules.description') }}
           </p>
-          <a href="/en/legal/domestic" class="mt-2 px-5 py-2 group-hover:bg-green-500/80 text-white rounded-lg font-medium transition-colors duration-300 hover:bg-green-600">
+          <a href="/legal/domestic" class="mt-2 px-5 py-2 group-hover:bg-green-500/80 text-white rounded-lg font-medium transition-colors duration-300 hover:bg-green-600">
             {{ t('index.Legal.domesticRules.link') }}
           </a>
         </div>
@@ -53,7 +53,7 @@ useHead({
           <p class="w-full text-justify text-xs md:text-sm lg:text-base text-gray-600 dark:text-gray-400">
             {{ t('index.Legal.internationalRules.description') }}
           </p>
-          <a href="/en/legal/international" class="mt-2 px-5 py-2 group-hover:bg-blue-500/80 text-white rounded-lg font-medium transition-colors duration-300 hover:bg-blue-600">
+          <a href="/legal/international" class="mt-2 px-5 py-2 group-hover:bg-blue-500/80 text-white rounded-lg font-medium transition-colors duration-300 hover:bg-blue-600">
             {{ t('index.Legal.internationalRules.link') }}
           </a>
         </div>

@@ -14,6 +14,8 @@ const router = useRouter();
 // Function to get the correct navigation URL based on locale
 function getTargetUrl() {
   return locale.value === 'fa' ? '/' : `/${locale.value}`;
+  // return  `/${locale.value}`;
+
 }
 
 // Function to handle navigation with a delay to allow animation

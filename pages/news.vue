@@ -24,7 +24,7 @@ useHead({
     </div>
 
     <!-- News Section -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 w-full lg:w-3/4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 lg:gap-6 w-full lg:w-3/4">
       
       <!-- Breakthrough News Card -->
       <div class="group max-w-xs sm:max-w-sm mx-auto p-4 rounded-xl bg-white dark:bg-gray-800 transform transition-all duration-300 hover:scale-105 ">

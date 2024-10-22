@@ -23,7 +23,7 @@ useHead({
     </p>
 
     <!-- Resource Links with Icons -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:gap-6 mb-10">
       <div class="cursor-pointer flex items-center space-x-4 p-4 bg-yellow-100 rounded-lg dark:bg-yellow-800 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
         <i class="i-solar-book-bookmark-bold text-4xl text-yellow-500" />
         <div>
@@ -84,7 +84,7 @@ useHead({
             {{ t('index.resources.table.rows.biosensorKeywords.type') }}
           </td>
           <td class="py-2 px-4">
-            <a href="/en/resources/terminology" class="text-blue-500 underline hover:text-blue-700 transition-colors duration-300">{{ t('index.resources.table.rows.biosensorKeywords.link') }}</a>
+            <a href="/resources/terminology" class="text-blue-500 underline hover:text-blue-700 transition-colors duration-300">{{ t('index.resources.table.rows.biosensorKeywords.link') }}</a>
           </td>
         </tr>
       </tbody>

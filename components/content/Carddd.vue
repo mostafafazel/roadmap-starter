@@ -1,6 +1,5 @@
 <template>
-  <!-- Card link wrapper if cardLink is provided -->
-  <NuxtLink v-if="cardLink" :to="cardLink" class="block">
+  <NuxtLink v-if="cardLink" :to="localizedCardLink" class="block">
     <div class="card-wrapper">
       <div class="flex flex-col items-center">
         <slot name="icon">
@@ -12,10 +11,9 @@
         <slot name="description">
           <p class="text-gray-600 text-xs text-center dark:text-gray-400">{{ description }}</p>
         </slot>
-        <!-- Separate button link within the card -->
         <NuxtLink
           v-if="buttonLink && linkText"
-          :to="buttonLink"
+          :to="localizedButtonLink"
           class="button-link"
         >
           {{ linkText }}
@@ -23,20 +21,30 @@
       </div>
     </div>
   </NuxtLink>
-
 </template>
 
 <script lang="ts" setup>
+// import { useRoute, useI18n } from 'vue-i18n'
 
 const props = defineProps<{
   iconClass: string
-  iconColorClass: string // Tailwind classes for icon color
+  iconColorClass: string
   title: string
   description: string
-  cardLink?: string // Link for the entire card
-  buttonLink?: string // Separate link for the button within the card
-  linkText?: string // Text for the button
+  cardLink?: string
+  buttonLink?: string
+  linkText?: string
 }>()
+
+const { locale } = useI18n()
+
+const localizedCardLink = computed(() => {
+  return props.cardLink ? `/${locale.value}${props.cardLink}` : ''
+})
+
+const localizedButtonLink = computed(() => {
+  return props.buttonLink ? `/${locale.value}${props.buttonLink}` : ''
+})
 </script>
 
 <style scoped>

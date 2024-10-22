@@ -13,10 +13,10 @@ useHead({
 <template>
   <Headerr :title="t('index.Data.title')" :description="t('index.Data.description')" />
 
-  <div class="grid grid-cols-1 sm:grid-cols-1 gap-2 lg:gap-4 md:mx-28">
+  <div class="grid grid-cols-1 sm:grid-cols-1 gap-2 lg:gap-4 max-w-[500px] mx-auto md:mt-18">
 
     <Cardd 
-      cardLink="/en/data/whatis"
+      cardLink="/data/whatis"
       iconClass="i-carbon-information" 
       iconColorClass="text-blue-500" 
       :title="t('index.Data.whatIsBiosensor.title')" 
@@ -24,7 +24,7 @@ useHead({
    />
 
     <Cardd 
-      cardLink="/en/data/history"
+      cardLink="/data/history"
       iconClass="i-carbon-timer" 
       iconColorClass="text-yellow-500" 
       :title="t('index.Data.historyAndEvolution.title')" 
@@ -32,7 +32,7 @@ useHead({
     />
 
     <Cardd 
-      cardLink="/en/data/types"
+      cardLink="/data/types"
       iconClass="i-carbon-tree-view-alt" 
       iconColorClass="text-green-500" 
       :title="t('index.Data.typesOfBiosensors.title')" 
@@ -40,7 +40,7 @@ useHead({
     />
 
     <Cardd
-      cardLink="/en/data/applications"
+      cardLink="/data/applications"
       iconClass="i-carbon-collaborate" 
       iconColorClass="text-red-500" 
       :title="t('index.Data.applications.title')" 
