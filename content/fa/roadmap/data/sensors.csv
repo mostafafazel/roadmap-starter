@@ -1,0 +1,4 @@
+Sensor Type,Detection Method,Sensitivity,Specificity
+Electrochemical,Enzyme-based,High,Moderate
+Optical,Fluorescence,Very High,High
+Piezoelectric,Mass Change,Moderate,High

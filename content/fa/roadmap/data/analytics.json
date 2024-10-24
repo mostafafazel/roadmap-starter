@@ -1,0 +1,10 @@
+{
+  "totalSensors": 150,
+  "successfulTests": 125,
+  "failedTests": 25,
+  "developmentPhases": [
+    { "phase": "Research", "progress": 100 },
+    { "phase": "Prototyping", "progress": 75 },
+    { "phase": "Commercialization", "progress": 50 }
+  ]
+}

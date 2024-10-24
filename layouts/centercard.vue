@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onClickOutside } from '@vueuse/core';
+// import { onClickOutside } from '@vueuse/core';
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import { useRouter } from 'vue-router';
 
@@ -26,16 +26,16 @@ function navigateHomeWithDelay() {
 }
 
 // Handle clicks outside modal, except when clicking on the header
-onClickOutside(modalContent, (event) => {
-  const headerElement = headerRef.value?.$el || headerRef.value;
+// onClickOutside(modalContent, (event) => {
+//   const headerElement = headerRef.value?.$el || headerRef.value;
 
-  // Check if click is inside the header DOM element, prevent navigation if true
-  if (headerElement && headerElement.contains(event.target)) {
-    return;
-  }
+//   // Check if click is inside the header DOM element, prevent navigation if true
+//   if (headerElement && headerElement.contains(event.target)) {
+//     return;
+//   }
 
-  navigateHomeWithDelay();
-});
+//   navigateHomeWithDelay();
+// });
 
 // Handle Escape key press to close the modal
 function handleEscapeKey(event: KeyboardEvent) {
@@ -52,19 +52,42 @@ onMounted(() => {
 onBeforeUnmount(() => {
   window.removeEventListener('keydown', handleEscapeKey);
 });
+
+
+const head = useLocaleHead({
+  addDirAttribute: true,
+  identifierAttribute: 'id',
+  addSeoAttributes: true
+})
+
 </script>
 
 <template>
-  <div :dir="locale === 'fa' ? 'rtl' : 'ltr'" class="min-h-screen flex flex-col">
-    <!-- Header with reference -->
-    <!-- <NHeader ref="headerRef" /> -->
+  <div class="min-h-screen flex flex-col">
+    <Html :lang="head.htmlAttrs.lang" :dir="head.htmlAttrs.dir">
 
-    <!-- Modal content -->
-    <div class="flex-grow flex items-center justify-center w-screen">
-      <div ref="modalContent" class="bg-white dark:bg-gray-800 rounded-lg h-max min-h-screen p-6 w-full max-w-full mx-0">
-        <slot />
+    <Head>
+      <!-- <Title>{{ title }}</Title> -->
+      <template v-for="link in head.link" :key="link.id">
+        <Link :id="link.id" :rel="link.rel" :href="link.href" :hreflang="link.hreflang" />
+      </template>
+      <template v-for="meta in head.meta" :key="meta.id">
+        <Meta :id="meta.id" :property="meta.property" :content="meta.content" />
+      </template>
+    </Head>
+
+    <Body>
+      <NHeader ref="headerRef"/>
+      <div class="flex-grow flex items-center justify-center w-screen">
+        <div ref="modalContent"
+          class="bg-white dark:bg-gray-800 rounded-lg h-max min-h-screen p-6 w-full max-w-full mx-0">
+          <slot />
+        </div>
       </div>
-    </div>
-    <arrow></arrow>
+      <arrow></arrow>
+
+    </Body>
+
+    </Html>
   </div>
 </template>

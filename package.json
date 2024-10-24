@@ -47,6 +47,7 @@
     "sortablejs": "^1.15.3",
     "unocss": "^0.63.1",
     "uuid": "^10.0.0",
+    "vue-json-pretty": "^2.4.0",
     "vuedraggable": "^4.1.0"
   },
   "devDependencies": {

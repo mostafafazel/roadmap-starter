@@ -1,9 +1,7 @@
-import fs from 'node:fs'
+import { getLocales } from './locales.config';
+// Get the list of locales
+const locales = getLocales('locales');
 
-const locales = fs.readdirSync('locales').map(file => ({
-  code: file.replace(/\.(yml|yaml|json)$/, ''),
-  file,
-}))
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -134,7 +132,11 @@ export default defineNuxtConfig({
     langDir: 'locales',
     defaultLocale: 'fa',
     locales,
+    lazy: false
+    // vueI18n: './i18n.config.ts' // if you are using custom path, default 
+
   },
+
 
   colorMode: {
     preference: 'system',

@@ -1,25 +1,36 @@
 <script setup lang="ts">
-// import { useRouter, useSwitchLocalePath, useLocale } from 'vue-i18n';
-// import { onMounted } from 'vue';
 
-// Switch to preferred locale on load
+// Switch to preferred locale on load (client-side only)
 const router = useRouter();
 const switchLocalePath = useSwitchLocalePath();
 const locale = useLocale();
 
-// Set the locale class based on the current locale
-const localeClass = computed(() => (locale.value === 'fa' ? 'font-farsi' : 'font-english'));
+// Locale class applied only on the client
+const localeClass = ref('');
 
-tryOnBeforeMount(() => {
-  router.replace(switchLocalePath(locale.value));
-});
+// Update localeClass based on the current locale
+const updateLocaleClass = () => {
+  localeClass.value = locale.value === 'fa' ? 'font-farsi' : 'font-english';
+};
 
+// Initial setup and client-only logic
 onMounted(() => {
+  // Set the locale class on initial load
+  updateLocaleClass();
+
+  // Redirect to the preferred locale path
+  router.replace(switchLocalePath(locale.value));
+
+  // Prevent gesture zooming
   document.addEventListener('gesturestart', function (e) {
     e.preventDefault();
   });
 });
+
+// Watch for locale changes and update localeClass accordingly
+watch(locale, updateLocaleClass);
 </script>
+
 
 <template>
   <div :class="localeClass">

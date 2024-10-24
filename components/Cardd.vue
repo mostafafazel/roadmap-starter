@@ -72,12 +72,12 @@ const props = defineProps({
 })
 
 const { locale } = useI18n()
-
+const LocalePath = useLocalePath()
 const localizedCardLink = computed(() => {
-  return props.cardLink ? `/${locale.value}${props.cardLink}` : ''
+  return LocalePath(props.cardLink);
 })
 
 const localizedButtonLink = computed(() => {
-  return props.buttonLink ? `/${locale.value}${props.buttonLink}` : ''
+  return LocalePath(props.buttonLink);
 })
 </script>

@@ -14,4 +14,22 @@
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
+li::marker {
+  /* color: hotpink !important; */
+  content: '✦'; /* Custom bullet symbol */
+}
 
+/* Adjust the space between bullet and text */
+li {
+  margin-inline: 1.5em; /* Adjust this value for more or less space */
+  text-indent: 0.4em;   /* Align text properly after the bullet */
+}
+
+/* Strong text styling */
+strong {
+  @apply text-purple-700 dark:text-purple-300;
+}
+
+a{
+  @apply text-dark dark:text-light;
+}

@@ -11,7 +11,7 @@ useHead({
 
 <template>
   <!-- Header Section -->
-  <div class="min-h-[80vh] flex flex-col justify-start items-center p-4 md:space-y-10 lg:h-[90vh] lg:px-20">
+  <div class="min-h-[80vh] flex flex-col justify-around items-center p-4 md:space-y-10 lg:h-[90vh] lg:px-20">
     <div class="text-center space-y-4 mb-8 lg:mb-12">
       <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-800 dark:text-white">
         {{ t('index.Legal.title') }}
@@ -28,7 +28,7 @@ useHead({
       <div class="group max-w-xs sm:max-w-sm mx-auto p-4 rounded-xl bg-white dark:bg-gray-800 transform transition-all duration-300 hover:scale-105">
         <div class="flex flex-col items-center gap-2 md:gap-4">
           <i class="i-carbon-scales text-6xl text-green-500 group-hover:text-green-600 transition duration-500 ease-out"></i>
-          <h3 class="text-nowrap text-xl md:text-2xl font-semibold text-center dark:text-white">
+          <h3 class="text-lg md:text-xl font-semibold text-center dark:text-white">
             {{ t('index.Legal.domesticRules.title') }}
           </h3>
           <p class="w-full text-justify text-xs md:text-sm lg:text-base text-gray-600 dark:text-gray-400">
@@ -47,7 +47,7 @@ useHead({
       <div class="group max-w-xs sm:max-w-sm mx-auto p-4 rounded-xl bg-white dark:bg-gray-800 transform transition-all duration-300 hover:scale-105">
         <div class="flex flex-col items-center gap-2 md:gap-4">
           <i class="i-carbon-globe text-6xl text-blue-500 group-hover:text-blue-600 transition duration-500 ease-out"></i>
-          <h3 class="text-nowrap text-xl md:text-2xl font-semibold text-center dark:text-white">
+          <h3 class="text-lg md:text-xl font-semibold text-center dark:text-white">
             {{ t('index.Legal.internationalRules.title') }}
           </h3>
           <p class="w-full text-justify text-xs md:text-sm lg:text-base text-gray-600 dark:text-gray-400">

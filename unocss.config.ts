@@ -11,7 +11,7 @@ import {
 export default defineConfig({
   shortcuts: [
     // ['prose-container', 'prose prose-lg mx-auto max-w-screen-md'],
-    ['prose-container', 'prose prose-lg mx-auto max-w-3xl'],
+    ['prose-container', 'prose mx-auto max-w-3xl'],
     ['title', 'font-extrabold text-6xl mb-3'],
     [
       'btn',
@@ -56,7 +56,7 @@ export default defineConfig({
         p: { 
          
           "margin-bottom": '1em',
-          "text-indent": '1.5em'
+          // "text-indent": '1.5em'
         },
         pre: { 
           
@@ -69,8 +69,8 @@ export default defineConfig({
         li: { 
         
           "margin-bottom": '0.5em',
-          "list-style-type": 'disc',
-          "padding-left": '1.5em'
+          // "list-style-type": 'disc',
+          // "padding-left": '1.5em'
         },
         blockquote: {
        
@@ -89,15 +89,14 @@ export default defineConfig({
           "border-radius": '0.25em'
         },
         a: {
-          "text-decoration": 'underline',
-          "color": '#0066cc',
+          "text-decoration": 'none',
           "transition": 'color 0.3s ease',
         },
         hr: {
           "border": 'none',
           "border-top": '1px solid #ccc',
           "margin": '2em 0'
-        }
+        },
       },
     }),
 

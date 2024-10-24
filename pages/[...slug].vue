@@ -10,7 +10,10 @@
 
 const route = useRoute();
 const { locale } = useI18n();
+// const localePath = useLocalePath();
+const slug = route.params['slug'].join('/') || '';
+// const contentPath = localePath(slug);
+// const contentPath = locale.value === 'fa' ? `/${slug}` : `/${locale.value}/${slug}`
+const contentPath = `/${locale.value}/${slug}`
 
-const slug = route.params.slug?.join('/') || '';
-const contentPath = `/${locale.value}/${slug}`;
 </script>

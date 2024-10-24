@@ -1,8 +1,4 @@
 <script setup lang="ts">
-// import { ref } from 'vue';
-// import { useRouter } from 'vue-router';
-
-// Reference for the arrow element
 const anaghaRef = ref(null);
 
 // Get the router instance
