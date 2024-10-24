@@ -1,18 +1,9 @@
-::fancy-header
-Hello
-::
+---
+title: "About Us"
+description: "Discover our mission, vision, team, and the innovative technologies that drive our biosensor research and development."
+---
 
-::carddd{icon-class="i-carbon-scales" icon-color-class="text-blue-500" title="Legal Overview" description="A comprehensive overview of legal policies." card-link="/en/fuzz" button-link="/learn-more" link-text="Learn More"}
-hi
-::
-
-[![GitHub tag](/assets/new.svg)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
-
-::carddd
-salam
-::
-
-# fffim
+# About Us
 
 ## Who We Are
 
@@ -102,5 +93,3 @@ We believe that the future of biosensors requires collaboration across multiple 
 For more information on how to get involved, contact us at [info@nightrunner.com](mailto:info@nightrunner.com).
 
 ---
-
-
