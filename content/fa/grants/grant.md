@@ -1,82 +1,82 @@
-# Major Companies and Projects in Biosensor Development
+# شرکت‌های بزرگ و پروژه‌های کلیدی در توسعه حسگرهای زیستی
 
-Here’s a comprehensive overview of leading companies in the biosensor industry, detailing their primary focus areas, recent projects, and relevant links for further exploration.
+در اینجا مرور جامعی بر شرکت‌های پیشرو در صنعت حسگرهای زیستی ارائه شده است که زمینه‌های تمرکز اصلی، پروژه‌های اخیر و لینک‌های مرتبط برای کاوش بیشتر را شامل می‌شود.
 
 ---
 
 1. **[Dexcom (US)](https://www.dexcom.com)**
-   - **Focus**: Dexcom specializes in continuous glucose monitoring (CGM) systems, primarily for diabetes management.
-   - **Key Projects**: Dexcom recently launched **Stelo**, the first FDA-approved over-the-counter CGM for people with Type 2 diabetes and prediabetes. Additionally, they received FDA Breakthrough Device Designation for a hospital-focused CGM system to improve glycemic management.
-   - **Project Links**: [Dexcom Stelo](https://www.dexcom.com) | [FDA Breakthrough Device](https://www.dexcom.com/about)
+   - **تمرکز**: Dexcom متخصص در سیستم‌های پایش پیوسته گلوکز (CGM) است، به‌ویژه برای مدیریت دیابت.
+   - **پروژه‌های کلیدی**: Dexcom به تازگی **Stelo**، اولین CGM تایید شده توسط FDA برای استفاده بدون نسخه برای افراد مبتلا به دیابت نوع 2 و پیش‌دیابت را راه‌اندازی کرده است. همچنین تاییدیه دستگاه پیشرفت‌یافته FDA را برای سیستم CGM بیمارستانی جهت بهبود مدیریت گلیسمیک دریافت کرده است.
+   - **لینک پروژه‌ها**: [Dexcom Stelo](https://www.dexcom.com) | [FDA Breakthrough Device](https://www.dexcom.com/about)
 
 2. **[Abbott (US)](https://www.abbott.com)**
-   - **Focus**: Abbott is known for its FreeStyle Libre system, a CGM solution for diabetes. Abbott also created a **glucose biosensor specifically for athletes**, enabling them to monitor glucose levels during exercise to optimize performance.
-   - **Key Projects**: Abbott’s Glucose Sport Biosensor, launched in several European countries, allows real-time monitoring tailored for athletes.
-   - **Project Link**: [Glucose Sport Biosensor](https://www.abbott.com)
+   - **تمرکز**: Abbott به‌خاطر سیستم FreeStyle Libre که یک راه‌حل CGM برای دیابت است، شناخته می‌شود. این شرکت همچنین یک **حسگر زیستی گلوکز برای ورزشکاران** طراحی کرده که به آنها امکان می‌دهد سطح گلوکز را در حین تمرین برای بهینه‌سازی عملکرد رصد کنند.
+   - **پروژه‌های کلیدی**: حسگر ورزشی گلوکز Abbott که در چندین کشور اروپایی عرضه شده، امکان پایش بلادرنگ برای ورزشکاران را فراهم می‌کند.
+   - **لینک پروژه**: [Glucose Sport Biosensor](https://www.abbott.com)
 
 3. **[Medtronic (Ireland)](https://www.medtronic.com)**
-   - **Focus**: Medtronic offers CGM solutions for diabetes management, such as the Guardian Connect, which integrates with insulin pumps to provide a closed-loop system.
-   - **Key Projects**: Medtronic is focused on expanding compatibility and accessibility of its CGMs, enhancing insulin delivery automation, and ensuring accuracy in real-time monitoring for diabetes patients.
+   - **تمرکز**: Medtronic ارائه‌دهنده راه‌حل‌های CGM برای مدیریت دیابت، از جمله Guardian Connect است که با پمپ‌های انسولین یکپارچه شده و یک سیستم حلقه بسته را فراهم می‌کند.
+   - **پروژه‌های کلیدی**: Medtronic بر گسترش سازگاری و دسترسی CGM‌های خود، بهبود اتوماسیون تحویل انسولین و اطمینان از دقت در پایش بلادرنگ برای بیماران دیابتی تمرکز دارد.
 
 4. **[Roche (Switzerland)](https://www.roche.com)**
-   - **Focus**: Roche is active in clinical diagnostics with a particular focus on biosensors for diabetes and lab-based diagnostics for cancer and infectious diseases.
-   - **Key Projects**: Roche is developing a CGM system with 14-day glucose tracking capabilities, targeting both personal and high-throughput lab applications.
+   - **تمرکز**: Roche در تشخیص‌های بالینی با تمرکز ویژه بر حسگرهای زیستی برای دیابت و تشخیص‌های آزمایشگاهی برای سرطان و بیماری‌های عفونی فعالیت می‌کند.
+   - **پروژه‌های کلیدی**: Roche در حال توسعه یک سیستم CGM با قابلیت ردیابی ۱۴ روزه گلوکز است که هم برای استفاده شخصی و هم در محیط‌های آزمایشگاهی با حجم بالا مناسب است.
 
 5. **[Biosensors International Group (Singapore)](https://www.biosensors.com)**
-   - **Focus**: This company specializes in cardiovascular health, producing **drug-eluting stents** that integrate biosensor technology to monitor and treat patients with heart conditions.
-   - **Key Projects**: Biosensors International’s drug-eluting stents release medication to prevent artery blockages, supporting post-surgery monitoring for heart patients.
+   - **تمرکز**: این شرکت در حوزه سلامت قلبی تخصص دارد و **استنت‌های دارویی** تولید می‌کند که از فناوری حسگر زیستی برای پایش و درمان بیماران قلبی بهره می‌برد.
+   - **پروژه‌های کلیدی**: استنت‌های دارویی Biosensors International با انتشار دارو به جلوگیری از انسداد شریان‌ها کمک کرده و از پایش بعد از جراحی برای بیماران قلبی پشتیبانی می‌کند.
 
 6. **[EarlySense (Israel)](https://www.earlysense.com)**
-   - **Focus**: EarlySense develops contact-free biosensors for monitoring heart rate, respiratory rate, and movement, primarily for hospitals and home care settings.
-   - **Key Projects**: EarlySense’s non-contact monitoring systems are used for continuous tracking of vital signs, improving patient outcomes in critical care and remote patient monitoring.
+   - **تمرکز**: EarlySense حسگرهای زیستی بدون تماس برای پایش ضربان قلب، نرخ تنفس و حرکات، عمدتاً برای بیمارستان‌ها و مراقبت‌های خانگی توسعه می‌دهد.
+   - **پروژه‌های کلیدی**: سیستم‌های پایش غیرتماسی EarlySense برای پیگیری پیوسته علائم حیاتی به کار می‌روند و نتایج بهتری در مراقبت‌های بحرانی و پایش از راه دور بیماران ایجاد می‌کنند.
 
 7. **[Cardea Bio (US)](https://www.cardeabio.com)**
-   - **Focus**: Cardea Bio uses graphene-based biosensors for molecular detection, particularly useful in genomics and personalized medicine.
-   - **Key Projects**: Cardea’s biosensors offer rapid detection of DNA, RNA, and proteins, allowing for highly sensitive biomolecular sensing applications.
-   - **Project Link**: [Cardea Bio](https://www.cardeabio.com)
+   - **تمرکز**: Cardea Bio از حسگرهای زیستی مبتنی بر گرافن برای شناسایی مولکولی استفاده می‌کند که در ژنومیک و پزشکی شخصی کاربرد دارد.
+   - **پروژه‌های کلیدی**: حسگرهای زیستی Cardea قابلیت تشخیص سریع DNA، RNA و پروتئین‌ها را ارائه می‌دهند که امکان سنجش‌های بیومولکولی با حساسیت بالا را فراهم می‌کنند.
+   - **لینک پروژه**: [Cardea Bio](https://www.cardeabio.com)
 
 8. **[LifeSignals (US)](https://www.lifesignals.com)**
-   - **Focus**: LifeSignals produces wearable biosensor patches for continuous monitoring of vital signs in outpatient and remote healthcare.
-   - **Key Projects**: Their single-use biosensor patches are designed for real-time monitoring of physiological data, enhancing remote healthcare and outpatient monitoring capabilities.
-   - **Project Link**: [LifeSignals Biosensors](https://www.lifesignals.com)
+   - **تمرکز**: LifeSignals حسگرهای زیستی پوشیدنی برای پایش پیوسته علائم حیاتی در مراقبت‌های از راه دور و بیمارستانی تولید می‌کند.
+   - **پروژه‌های کلیدی**: حسگرهای پوشیدنی یکبار مصرف آنها برای پایش بلادرنگ داده‌های فیزیولوژیکی طراحی شده‌اند و قابلیت پایش از راه دور و مراقبت‌های خارج از بیمارستان را بهبود می‌بخشند.
+   - **لینک پروژه**: [LifeSignals Biosensors](https://www.lifesignals.com)
 
 9. **[Xsensio (Switzerland)](https://www.xsensio.com)**
-   - **Focus**: Xsensio specializes in wearable biosensors that analyze sweat biomarkers for real-time monitoring of hydration, electrolyte balance, and stress.
-   - **Key Projects**: Xsensio's wearable biosensors provide insights into health and wellness, targeted for athletic and personal health monitoring.
-   - **Project Link**: [Xsensio Wearables](https://www.xsensio.com)
+   - **تمرکز**: Xsensio در حسگرهای زیستی پوشیدنی که بیومارکرهای عرق را برای پایش بلادرنگ تعادل الکترولیت، هیدراتاسیون و استرس تحلیل می‌کنند، تخصص دارد.
+   - **پروژه‌های کلیدی**: حسگرهای پوشیدنی Xsensio اطلاعاتی در مورد سلامتی و تندرستی ارائه می‌دهند که برای پایش سلامتی ورزشی و شخصی هدف‌گذاری شده‌اند.
+   - **لینک پروژه**: [Xsensio Wearables](https://www.xsensio.com)
 
 10. **[Universal Biosensors (Australia)](https://www.universalbiosensors.com)**
-    - **Focus**: This company develops handheld biosensors for rapid, point-of-care diagnostics in glucose and coagulation testing.
-    - **Key Projects**: Universal Biosensors’ technology provides immediate diagnostic results, widely used in outpatient and chronic care settings.
-    - **Project Link**: [Universal Biosensors](https://www.universalbiosensors.com)
+    - **تمرکز**: این شرکت حسگرهای زیستی دستی برای تشخیص سریع و نقطه‌ای در آزمایش قند و لخته شدن خون توسعه می‌دهد.
+    - **پروژه‌های کلیدی**: فناوری Universal Biosensors نتایج تشخیصی فوری ارائه می‌دهد که به‌طور گسترده در محیط‌های خارج از بیمارستان و مراقبت‌های مزمن استفاده می‌شود.
+    - **لینک پروژه**: [Universal Biosensors](https://www.universalbiosensors.com)
 
 
-# Major Iranian Companies and Research Centers in Biosensor Technology
+# شرکت‌ها و مراکز تحقیقاتی اصلی ایرانی در فناوری حسگر زیستی
 
-This document provides an overview of notable Iranian organizations involved in biosensor technology development, including their focus areas, key projects, and relevant links.
+این سند مروری بر سازمان‌های برجسته ایرانی درگیر در توسعه فناوری حسگر زیستی ارائه می‌دهد، از جمله زمینه‌های تمرکز، پروژه‌های کلیدی و لینک‌های مرتبط.
 
 ---
 
 1. **[ریز زیست تراشه فناوران (Riz Zist Tracheh Fanavaran)](http://www.rztfco.com)**
-   - **Focus**: This company specializes in the development of diagnostic kits and biosensors for detecting drugs, heavy metals, biological toxins, cancer cells, and food contaminants. Known for creating aptasensors, these biosensors use aptamers for highly selective detection.
-   - **Key Projects**: The company has produced several research publications on electrochemical aptasensors, targeting substances like cocaine, highlighting its expertise in the precise and sensitive detection of various harmful agents.
+   - **تمرکز**: این شرکت در توسعه کیت‌های تشخیصی و حسگرهای زیستی برای شناسایی داروها، فلزات سنگین، سموم بیولوژیکی، سلول‌های سرطانی و آلاینده‌های غذایی تخصص دارد. با تولید اپتاسنسورها که از آپتامرها برای شناسایی بسیار انتخابی استفاده می‌کنند، شناخته شده است.
+   - **پروژه‌های کلیدی**: این شرکت چندین مقاله پژوهشی در زمینه اپتاسنسورهای الکتروشیمیایی تولید کرده که هدف آن‌ها مواد نظیر کوکائین است و تخصص آن در شناسایی دقیق و حساس عوامل مضر را نشان می‌دهد.
 
 2. **[ستاد توسعه زیست‌فناوری معاونت علمی و فناوری ریاست جمهوری (Biotechnology Development Headquarters)](https://isti.ir)**
-   - **Focus**: Dedicated to supporting innovation in biosensor technology, particularly nanobiosensors for rapid diagnostics, through national competitions and grants. They promote the development of point-of-care and microfluidic biosensors ideal for quick diagnostic responses.
-   - **Key Projects**: The headquarters hosted a national event to encourage the design and development of biosensors for rapid diagnostics, aiming to find innovative teams capable of bringing laboratory-tested prototypes to commercial production.
+   - **تمرکز**: این ستاد از نوآوری در فناوری حسگر زیستی، به‌ویژه نانوبیوسنسورها برای تشخیص سریع، از طریق مسابقات ملی و اعطای کمک‌های مالی حمایت می‌کند. آن‌ها توسعه حسگرهای زیستی نقطه‌ای و میکروفلوئیدیکی را ترویج می‌دهند که برای پاسخ‌های تشخیصی سریع مناسب هستند.
+   - **پروژه‌های کلیدی**: این ستاد یک رویداد ملی برای تشویق طراحی و توسعه حسگرهای زیستی برای تشخیص سریع برگزار کرده، با هدف یافتن تیم‌های نوآور که قادر به تجاری‌سازی نمونه‌های آزمایشگاهی باشند.
 
 3. **[پژوهشگاه صنعت نفت (Research Institute of Petroleum Industry)](https://www.ripi.ir)**
-   - **Focus**: This research institute has developed biosensors for environmental monitoring, especially targeting pollutants in air, soil, and water. Their biosensors provide high accuracy measurements for pollutants, making them suitable for industrial and environmental applications.
-   - **Key Projects**: They have developed 17 types of biosensors specifically tailored for environmental applications, aiding in pollution control and monitoring industrial health.
+   - **تمرکز**: این پژوهشگاه حسگرهای زیستی برای پایش محیط زیست، به ویژه برای آلاینده‌های هوا، خاک و آب توسعه داده است. حسگرهای آن‌ها دقت بالایی در اندازه‌گیری آلاینده‌ها ارائه می‌دهند و برای کاربردهای صنعتی و زیست‌محیطی مناسب هستند.
+   - **پروژه‌های کلیدی**: این پژوهشگاه ۱۷ نوع حسگر زیستی به طور خاص برای کاربردهای زیست‌محیطی توسعه داده است که به کنترل آلودگی و پایش سلامت صنعتی کمک می‌کنند.
 
 4. **[گروه‌های دانش‌بنیان زیست‌فناوری در ایران (Iranian Biotechnology Startups)](https://ana.ir)**
-   - **Focus**: A variety of biotech startups in Iran are working on biosensor applications in healthcare, agriculture, and environmental protection, supported by government incentives to foster innovation in rapid diagnostics and environmental monitoring.
-   - **Key Initiatives**: These startups are integrating biosensor technology with artificial intelligence for enhanced data analysis and diagnostic capabilities, positioning themselves as essential contributors to the future of healthcare applications in Iran.
+   - **تمرکز**: استارتاپ‌های زیست‌فناوری ایران در حال کار بر روی کاربردهای حسگرهای زیستی در حوزه‌های بهداشت، کشاورزی و حفاظت از محیط زیست هستند. دولت با حمایت‌های مالی از این نوآوری‌ها برای تشخیص سریع و پایش محیط زیست پشتیبانی می‌کند.
+   - **اقدامات کلیدی**: این استارتاپ‌ها با ادغام فناوری حسگر زیستی و هوش مصنوعی برای بهبود تجزیه و تحلیل داده‌ها و قابلیت‌های تشخیصی، نقش مهمی در آینده کاربردهای بهداشتی در ایران دارند.
 
 ---
 
-These Iranian companies and research institutions are advancing biosensor technology by leveraging government support, nanotechnology, and innovative approaches to address significant health, environmental, and industrial challenges in Iran.
+این شرکت‌ها و مؤسسات تحقیقاتی ایرانی در حال پیشبرد فناوری حسگر زیستی هستند و با بهره‌گیری از حمایت دولت، نانوتکنولوژی و رویکردهای نوآورانه برای رفع چالش‌های عمده بهداشتی، محیط زیستی و صنعتی در ایران تلاش می‌کنند.
 
 ---
 
-These companies are leading advancements in biosensor technology, ranging from diabetes management and cardiovascular health to genomic analysis and athletic performance enhancement. Their projects demonstrate the potential of biosensors across healthcare and wellness sectors, expanding the scope of real-time health monitoring and diagnostics.
+این شرکت‌ها پیشرو در پیشرفت‌های فناوری حسگر زیستی هستند که از مدیریت دیابت و سلامت قلبی تا تحلیل ژنومی و بهبود عملکرد ورزشی را در بر می‌گیرد. پروژه‌های آن‌ها قابلیت‌های حسگرهای زیستی را در بخش‌های مختلف سلامت و تندرستی نشان می‌دهد و دامنه پایش بلادرنگ سلامت و تشخیص‌ها را گسترش می‌دهد.
