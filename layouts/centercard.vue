@@ -80,7 +80,7 @@ const head = useLocaleHead({
       <NHeader ref="headerRef"/>
       <div class="flex-grow flex items-center justify-center w-screen">
         <div ref="modalContent"
-          class="bg-white dark:bg-gray-800 rounded-lg h-max min-h-screen p-6 w-full max-w-full mx-0">
+          class="bg-white dark:bg-gray-800 rounded-lg h-screen p-6 w-full max-w-full mx-0">
           <slot />
         </div>
       </div>

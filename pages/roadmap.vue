@@ -1,49 +1,74 @@
 <script lang="ts" setup>
-const { t } = useI18n()
+import { ref } from 'vue';
+const { t } = useI18n();
 
 definePageMeta({
   layout: 'centercard',
-})
+});
 
 useHead({
   title: `${t('index.roadmap.title')} • Nightrunner`,
-})
+});
+
+// State to track which card is open
+const isOpen = ref(0); // Default to the first card being open
+
+// Function to toggle the open state of the cards
+const toggleCard = (index: number) => {
+  isOpen.value = isOpen.value === index ? -1 : index; // Toggle the card, only one is open at a time
+};
 </script>
 
 <template>
-  <div class="text-center mb-5">
+  <div class="text-center my-18">
     <h1 class="title text-4xl font-bold mb-8 dark:text-white">
       {{ t('index.roadmap.title') }}
     </h1>
   </div>
 
   <div class="grid grid-cols-1 sm:grid-cols-1 gap-2 lg:gap-4 max-w-[500px] mx-auto md:mt-18">
+    <!-- Phase 1 -->
     <Cardd 
-      cardLink="/roadmap/visuals/diagrams"
+      :index="0"
+      :isOpen="isOpen" 
+      :toggleCard="toggleCard" 
+      buttonLink="/roadmap/visuals/diagrams"
       iconClass="i-carbon-roadmap" 
       iconColorClass="text-blue-500" 
       :title="t('index.roadmap.phase1.title')" 
       :description="t('index.roadmap.phase1.description')"
     />
 
+    <!-- Phase 2 -->
     <Cardd 
-      cardLink="/roadmap/goals"
+      :index="1"
+      :isOpen="isOpen" 
+      :toggleCard="toggleCard" 
+      buttonLink="/roadmap/goals"
       iconClass="i-carbon-cics-sit-overrides" 
       iconColorClass="text-yellow-500" 
       :title="t('index.roadmap.phase2.title')" 
       :description="t('index.roadmap.phase2.description')"
     />
 
+    <!-- Phase 3 -->
     <Cardd 
-      cardLink="/roadmap/need"
+      :index="2"
+      :isOpen="isOpen" 
+      :toggleCard="toggleCard" 
+      buttonLink="/roadmap/need"
       iconClass="i-carbon-development" 
       iconColorClass="text-green-500" 
       :title="t('index.roadmap.phase3.title')" 
       :description="t('index.roadmap.phase3.description')"
     />
 
+    <!-- Phase 4 -->
     <Cardd 
-      cardLink="/roadmap/feasibility"
+      :index="3"
+      :isOpen="isOpen" 
+      :toggleCard="toggleCard" 
+      buttonLink="/roadmap/feasibility"
       iconClass="i-carbon-test-tool" 
       iconColorClass="text-red-500" 
       :title="t('index.roadmap.phase4.title')" 

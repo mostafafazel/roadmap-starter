@@ -3,7 +3,7 @@
       <div
         v-for="(easing, index) in easings"
         :key="index"
-        class="group flex flex-col items-center justify-center transform duration-300 hover:bg-blue-500 rounded-lg p-4"
+        class="group flex flex-col items-center justify-around transform duration-300 hover:bg-blue-500 rounded-lg p-4"
       >
         <div  :style="{ animationTimingFunction: easing.value }"
         class="group-hover:animate-state-running animate-state-paused  animate-item w-16 h-16 bg-white rounded-full"></div>

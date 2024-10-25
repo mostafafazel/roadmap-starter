@@ -1,6 +1,7 @@
 global:
   about: About
   sample: Sample
+  readMore: Read more...
 main:
   title: Biosensors
 about:

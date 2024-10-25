@@ -21,7 +21,7 @@ li::marker {
 
 /* Adjust the space between bullet and text */
 li {
-  margin-inline: 1.5em; /* Adjust this value for more or less space */
+  /* margin-inline: 1.5em;  */
   text-indent: 0.4em;   /* Align text properly after the bullet */
 }
 

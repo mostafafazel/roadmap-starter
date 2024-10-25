@@ -8,19 +8,23 @@ const router = useRouter();
 function handleArrowClick() {
   const element = anaghaRef.value;
   if (element) {
-    element.style.transform = 'translateX(-10px)'; // Move it out
-    element.style.opacity = '0%'; // Make it invisible
+      // Move it back
+      element.style.transform = 'translateX(-10px)'; // Move it out
+      element.style.opacity = '0%'; // Make it invisible
   }
-  
+  //sleep for 1000 msec
+  setTimeout(() => {
+    router.back();
+
+  },100)
   // Navigate back in history
-  router.back();
 }
 </script>
 
 <template>
   <div
     ref="anaghaRef"
-    class="fixed bottom-10 left-10 w-16 h-16 rounded-full cursor-pointer transition-all duration-100 hover:bg-teal active:translate-x-2 hover:translate-x-1"
+    class="fixed bottom-3 left-5 w-12 h-12 rounded-full cursor-pointer transition-all duration-100 hover:bg-teal active:translate-x-2 hover:translate-x-1"
     i="tabler-arrow-left"
     @click="handleArrowClick"
   >
