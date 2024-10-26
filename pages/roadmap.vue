@@ -20,7 +20,7 @@ const toggleCard = (index: number) => {
 </script>
 
 <template>
-  <div class="text-center my-18">
+  <div class="text-center">
     <h1 class="title text-4xl font-bold mb-8 dark:text-white">
       {{ t('index.roadmap.title') }}
     </h1>

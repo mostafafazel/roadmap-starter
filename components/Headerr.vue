@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center my-10">
+    <div class="text-center">
       <h1 class="title text-3xl font-bold mb-2 md:mb-4 dark:text-white">
         {{ title }}
       </h1>

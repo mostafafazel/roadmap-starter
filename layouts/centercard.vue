@@ -65,29 +65,35 @@ const head = useLocaleHead({
 <template>
   <div class="min-h-screen flex flex-col">
     <Html :lang="head.htmlAttrs.lang" :dir="head.htmlAttrs.dir">
-
-    <Head>
-      <!-- <Title>{{ title }}</Title> -->
-      <template v-for="link in head.link" :key="link.id">
-        <Link :id="link.id" :rel="link.rel" :href="link.href" :hreflang="link.hreflang" />
-      </template>
-      <template v-for="meta in head.meta" :key="meta.id">
-        <Meta :id="meta.id" :property="meta.property" :content="meta.content" />
-      </template>
-    </Head>
-
-    <Body>
-      <NHeader ref="headerRef"/>
-      <div class="flex-grow flex items-center justify-center w-screen">
-        <div ref="modalContent"
-          class="bg-white dark:bg-gray-800 rounded-lg h-screen p-6 w-full max-w-full mx-0">
-          <slot />
+      <Head>
+        <template v-for="link in head.link" :key="link.id">
+          <Link :id="link.id" :rel="link.rel" :href="link.href" :hreflang="link.hreflang" />
+        </template>
+        <template v-for="meta in head.meta" :key="meta.id">
+          <Meta :id="meta.id" :property="meta.property" :content="meta.content" />
+        </template>
+      </Head>
+      
+      <Body class="min-h-screen flex flex-col bg-gray-100 dark:bg-gray-900">
+        <NHeader ref="headerRef"/>
+        <div class="flex-grow flex items-start pt-[75px] justify-center w-full">
+          <div ref="modalContent" class="modal bg-gray-100 dark:bg-gray-900 rounded-lg p-6 mx-auto">
+            <slot />
+          </div>
         </div>
-      </div>
-      <arrow></arrow>
-
-    </Body>
-
+        <arrow />
+      </Body>
     </Html>
   </div>
 </template>
+
+<style scoped>
+.modal {
+  width: 120vh;
+  /* max-width: 90%; */
+  margin-top: 0px;
+  height: 120%;
+  /* max-height: 80vh; */
+  overflow-y: auto;
+}
+</style>

@@ -12,7 +12,7 @@ useHead({
 <template>
   <!-- Header Section -->
   <div class="flex flex-col max-h-screen items-center justify-around h-full  p-1 md:p-4 space-y-8 md:space-y-12 lg:px-10 lg:py-16 overflow-hidden">
-    <div class="text-center space-y-4 mb-8 lg:mb-12">
+    <div class="text-center space-y-4 ">
       <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-800 dark:text-white">
         {{ t('index.Legal.title') }}
       </h1>

@@ -11,7 +11,7 @@ useHead({
 </script>
 
 <template>
-  <div class="text-center mt-12 mb-5">
+  <div class="text-center">
     <h1 class="title text-4xl font-bold mb-8 dark:text-white transition-colors duration-300 hover:text-blue-500 dark:hover:text-blue-300">
       {{ t('index.resources.title') }}
     </h1>
