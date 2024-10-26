@@ -10,10 +10,11 @@ defineProps({
 
 <template>
   <!-- Use span to ensure inline behavior and apply class dynamically -->
-  <span :class="classs" style="display:block; transform: translatey(-79px) ;left:10px; width: 6vw;  height:6vh; position: absolute;"/>
+  <span :class="classs" style="display: block;transform: translateY(-20px);right: 30px;width: 20%;opacity: 20%;height: 20%;position: absolute;"/>
 </template>
 
 <style scoped>
 .icon {
+  
 }
 </style>

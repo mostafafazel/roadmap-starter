@@ -10,7 +10,7 @@ A **biosensor** is a device that combines a biological component with a physicoc
 ## Components of a Biosensor
 ::iconmd
 ---
-class: i-carbon:chemistry
+class: i-openmoji:test-tube
 ---
 ::
 
@@ -23,7 +23,7 @@ A typical biosensor consists of three main components:
 ## How Does a Biosensor Work?
 ::iconmd
 ---
-class: i-carbon:wave-height
+class: i-openmoji:ocean-wave
 ---
 ::
 
@@ -34,7 +34,7 @@ class: i-carbon:wave-height
 ## Types of Biosensors
 ::iconmd
 ---
-class: i-carbon:stacked-scatterplot-alt
+class: i-openmoji:bar-chart
 ---
 ::
 
@@ -48,7 +48,7 @@ Biosensors are classified based on the type of bioreceptor or transducer used:
 ## Applications of Biosensors
 ::iconmd
 ---
-class: i-carbon:analyze
+class: i-openmoji:microscope
 ---
 ::
 
@@ -62,7 +62,7 @@ Biosensors have a wide range of applications, including:
 ## Advantages of Biosensors
 ::iconmd
 ---
-class: i-carbon:increase-level
+class: i-openmoji:chart-increasing
 ---
 ::
 
@@ -74,7 +74,7 @@ class: i-carbon:increase-level
 ## Limitations of Biosensors
 ::iconmd
 ---
-class: i-carbon:warning-alt
+class: i-openmoji:warning
 ---
 ::
 
@@ -85,7 +85,7 @@ class: i-carbon:warning-alt
 ## Future of Biosensors
 ::iconmd
 ---
-class: i-carbon:launch
+class: i-openmoji:rocket
 ---
 ::
 
