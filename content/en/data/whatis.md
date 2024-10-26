@@ -1,8 +1,18 @@
-# What is a Biosensor?
+## What is a Biosensor?
+::iconmd
+---
+class: i-openmoji:hamburger
+---
+::
 
 A **biosensor** is a device that combines a biological component with a physicochemical detector to measure and analyze chemical substances or biological reactions. Often small and portable, biosensors play a critical role in fields such as healthcare, environmental monitoring, food safety, and biotechnology.
 
 ## Components of a Biosensor
+::iconmd
+---
+class: i-carbon:chemistry
+---
+::
 
 A typical biosensor consists of three main components:
 
@@ -11,12 +21,22 @@ A typical biosensor consists of three main components:
 3. **Signal Processor**: Interprets the signal and converts it into readable data, often displayed in digital form.
 
 ## How Does a Biosensor Work?
+::iconmd
+---
+class: i-carbon:wave-height
+---
+::
 
 1. **Recognition**: The bioreceptor specifically binds to the analyte (the substance being measured), initiating a biochemical reaction.
 2. **Transduction**: The reaction generates a physical change, like a change in pH or electron transfer, which the transducer converts into an electrical signal.
 3. **Signal Processing**: The electrical signal is amplified, processed, and displayed, allowing for the quantitative or qualitative measurement of the analyte.
 
 ## Types of Biosensors
+::iconmd
+---
+class: i-carbon:stacked-scatterplot-alt
+---
+::
 
 Biosensors are classified based on the type of bioreceptor or transducer used:
 
@@ -26,6 +46,11 @@ Biosensors are classified based on the type of bioreceptor or transducer used:
 - **Cell-Based Biosensors**: Utilize whole cells to detect toxic substances or environmental pollutants.
 
 ## Applications of Biosensors
+::iconmd
+---
+class: i-carbon:analyze
+---
+::
 
 Biosensors have a wide range of applications, including:
 
@@ -35,6 +60,11 @@ Biosensors have a wide range of applications, including:
 - **Biotechnology Research**: Assists in drug development, genomics, and proteomics.
 
 ## Advantages of Biosensors
+::iconmd
+---
+class: i-carbon:increase-level
+---
+::
 
 - **High Sensitivity**: Can detect low concentrations of analytes.
 - **Rapid Response**: Provides real-time or near real-time analysis.
@@ -42,15 +72,21 @@ Biosensors have a wide range of applications, including:
 - **Cost-Effective**: Reduces the need for costly lab-based testing.
 
 ## Limitations of Biosensors
+::iconmd
+---
+class: i-carbon:warning-alt
+---
+::
 
 - **Limited Shelf Life**: Biological elements may degrade over time.
 - **Complex Sample Matrices**: Certain samples may interfere with accuracy.
 - **Calibration Requirements**: Frequent calibration may be needed to maintain accuracy.
 
 ## Future of Biosensors
+::iconmd
+---
+class: i-carbon:launch
+---
+::
 
 With advancements in nanotechnology, materials science, and biotechnology, the next generation of biosensors promises even greater sensitivity, faster response times, and wider application in personalized medicine, environmental sustainability, and wearable health tech.
-
----
-
-Biosensors continue to transform industries by providing precise, accessible, and real-time data for decision-making, making them a cornerstone technology in the modern era.
