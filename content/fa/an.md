@@ -1,8 +1,8 @@
 ::fancy-header
-Hello
+سلام
 ::
 
-::carddd{icon-class="i-carbon-scales" icon-color-class="text-blue-500" title="Legal Overview" description="A comprehensive overview of legal policies." card-link="/en/fuzz" button-link="/learn-more" link-text="Learn More"}
+::carddd{icon-class="i-carbon-scales" icon-color-class="text-blue-500" title="Legal Overview" description="A comprehensive overview of legal policies." card-link="/fuzz" button-link="/learn-more" link-text="Learn More"}
 hi
 ::
 

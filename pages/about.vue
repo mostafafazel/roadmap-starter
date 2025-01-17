@@ -1,6 +1,6 @@
 <!-- pages/about.vue -->
 <template>
-  <ContentDoc path="/en/about" />
+  <ContentDoc path="/about" />
   <br/>
 </template>
 
