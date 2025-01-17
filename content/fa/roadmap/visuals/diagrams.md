@@ -3,8 +3,7 @@ title: "نمودارهای فنی"
 description: "نمودارهای مرتبط با توسعه حسگرهای زیستی"
 ---
 
-# نقشه راه فناوری حسگرهای زیستی
-
+# مدل مفهومی
 در اینجا نموداری فنی مرتبط با فرآیند توسعه حسگرهای زیستی ارائه شده است:
 
 [![GitHub tag](/assets/new.svg)](https://GitHub.com/MichaelCurrin/jekyll-blog-demo/tags/)
