@@ -8,6 +8,10 @@ class: i-openmoji:hamburger
 A **biosensor** is a device that combines a biological component with a physicochemical detector to measure and analyze chemical substances or biological reactions. Often small and portable, biosensors play a critical role in fields such as healthcare, environmental monitoring, food safety, and biotechnology.
 
 ## Components of a Biosensor
+
+::image-container{src="/assets/biosensor.jpg"  width="100%"}
+::
+
 ::iconmd
 ---
 class: i-openmoji:test-tube

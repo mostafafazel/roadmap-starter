@@ -1,5 +1,9 @@
 # Applications of Biosensors
 
+::image-container{src="/assets/application.jpg"  width="100%"}
+::
+
+
 ## 1. Applications of Biosensors in Food and Agriculture
 Biosensors play a vital role in the food and agriculture industries by enabling rapid and accurate monitoring of safety, quality, and authenticity of food products.
 

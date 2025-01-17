@@ -1,4 +1,9 @@
 # History of Biosensors
+::image-container{src="/assets/history1.jpg"  width="100%"}
+::
+
+::image-container{src="/assets/history2.jpg"  width="100%"}
+::
 
 ## 1962: Invention of the First Enzyme Electrode
 
