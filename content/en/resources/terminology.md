@@ -3,7 +3,7 @@
 Biosensors are complex devices that integrate biological and technological components for detecting specific biological substances. Here’s an overview of essential terminology in the field of biosensors.
 
 ---
-![Biosensor Terminology Network Map](/public/assets/keyt.png)
+![Biosensor Terminology Network Map](/assets/keyt.png)
 
 ### 1. **Bioreceptor**
    - The bioreceptor is the biological recognition element in a biosensor, responsible for specifically interacting with the target analyte. Common bioreceptors include enzymes, antibodies, nucleic acids, cells, and aptamers, enabling selective identification of specific biological molecules.
