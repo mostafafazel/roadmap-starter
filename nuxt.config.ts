@@ -7,7 +7,7 @@ const locales = getLocales('locales');
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'Nightrunner',
+      title: 'Biosensors',
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         {

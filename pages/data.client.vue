@@ -7,7 +7,7 @@ definePageMeta({
 })
 
 useHead({
-  title: `${t('index.Data.title')} • Nightrunner`,
+  title: `${t('index.Data.title')} • Biosensors`,
 })
 
 // Retrieve the value from localStorage if it exists, otherwise default to the first card

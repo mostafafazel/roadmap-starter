@@ -7,7 +7,7 @@ definePageMeta({
 });
 
 useHead({
-  title: `${t('index.roadmap.title')} • Nightrunner`,
+  title: `${t('index.roadmap.title')} • Biosensors`,
 });
 
 // State to track which card is open

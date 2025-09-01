@@ -6,7 +6,7 @@ definePageMeta({
 })
 
 useHead({
-  title: `${t('index.resources.title')} • Nightrunner`,
+  title: `${t('index.resources.title')} • Biosensors`,
 })
 </script>
 

@@ -90,6 +90,6 @@ Our upcoming projects focus on expanding the reach and capability of biosensors 
 
 We believe that the future of biosensors requires collaboration across multiple sectors. Whether you are a researcher, investor, healthcare provider, or policy-maker, we invite you to join us in this exciting journey. Together, we can drive forward a future where technology and biology converge to improve life for all.
 
-For more information on how to get involved, contact us at [info@nightrunner.com](mailto:info@nightrunner.com).
+For more information on how to get involved, contact us at [info@Biosensors.com](mailto:info@Biosensors.com).
 
 ---
