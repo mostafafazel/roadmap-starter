@@ -1,15 +1,6 @@
 <script lang="ts" setup>
 const { t, locale } = useCustomI18n()
 
-useHead({
-  meta: [
-    {
-      name: "google-site-verification",
-      content: "kM6i4LlCIT4EHtZKdWSnDAVjPds09TxZUYS8pvzwxWc",
-    },
-  ],
-});
-
 
 function localizedPath(path: string) {
   return locale.value === 'fa' ? path : `/${locale.value}${path}`
